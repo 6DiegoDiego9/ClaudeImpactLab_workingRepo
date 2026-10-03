@@ -1,0 +1,325 @@
+Laboratorio: Servizi di Milano più accessibili con l’AI 
+
+2026-10-03 09:38:49 
+
+In Italia il sabato mattina si riescono a fare questi eventi. Quando vado all’estero godo del sabato con gli hackathon sul tappo e non farlo a Milano tipicamente è un insuccesso, ma non per Milano, ma per il fatto che è difficile portare la gente fuori dalla zona di comfort nel weekend. Veramente doppio grazie per questo da parte mia. Mi chiamo Alexio Cassani e sono ambassador per la città di Milano. Siamo in tre in Italia in questo momento. Io sono entrato nel programma degli Ambassador un anno fa. 
+
+Prima ancora che ci fosse il programma degli Ambassador, eravamo molto pochi, adesso stanno iniziando a crescere. 
+
+E quello di cui vi parlo oggi è effettivamente il che Antropic chiama Impact Club. L’Impact Club è effettivamente assomiglia a un hackathon moderna, nel senso che per chi di voi ha fatto hackathon in passato, erano quelle attività che duravano tre giorni. 
+
+E la notte non si dormiva, si lavorava, si sviluppava. Viviamo nel 2026 dove c’è chi al posto nostro lavora alla velocità della luce, cioè le AI, le agenti AI e quindi le hackathon si stanno comprimendo. Io da sempre volevo fare un hackathon in una singola giornata e questo è il formato concettualmente, è questo qua. Poi perché si chiama Impact Club? Si chiama Impact Club perché l’idea è di trovare idee o comunque soluzioni che abbiano un impatto reale. Per le persone e tipicamente questo viene fatto 
+
+Almeno per adesso, sempre in partnership con la Pubblica Amministrazione oppure con delle ONLUS particolari, quindi il Comune di Milano in questo caso, che comunque ringrazio anche l’AILA in particolare. Non ci conosciamo da un po’ di anni per esperienze precedenti, però è stata dopo anni che non ci sentivamo. È stato oggettivamente un gran piacere anche che ci fosse stata questa reattività nel riuscire a organizzarla in relativamente poco tempo. Ricordo che la prima volta con gli Antropic era fine aprile e mi avevano detto: magari riusciamo a fare un hackathon course con un impact. L’altra volta ho detto devo dire Impact Club. 
+
+Un Impact Club con il Comune di Milano entro fine maggio. Ragazzi, ma state scherzando? Io sono entro il Quino Reggio, spero di riuscire a parlare con qualcuno del Comune di Milano, invece l’Aila m’ha risposto dopo due giorni. Però noi ce l’abbiamo fatta, qui a fine maggio era giustamente sfidante, a metterla in primis in realtà a questo punto. Quindi di cosa stiamo parlando? 
+
+Innanzitutto vediamo se la tecnologia vecchio stile funziona. 
+
+Come arriviamo ad oggi? Arriviamo con un percorso che è nato il 9 settembre, quindi poche settimane fa. Alcuni di voi c’erano, che si chiamava Cloud Conversations. Questo è un nuovo format che Anthropic sta lanciando per fare questo tipo di iniziative con la community, perché appunto uno degli Impact Club che è quello sicuramente più impegnativo e anche più impattante probabilmente di quello che produciamo. Poi ci sono le Conversation, che invece sono attività di co-design, se mi passate il termine. Quindi persone che si uniscono e non necessariamente esperti di settore. 
+
+Proprio persone che interagiscono con le AI, che ne sono spaventati, ne sono affascinati e che quindi l’obiettivo è cercare di demistificarla e renderla utile. Durante il Code Conversation sono usciti delle idee che stiamo portando oggi dentro l’Impact Club, un po’ le accennava prima rapidamente Laila, poi adesso abbiamo un ulteriore approfondimento e poi l’obiettivo è quello. Se riusciamo, e io sono convinto che qualcosa di buono, veramente molto, riusciremo a tirar fuori, ma se qualcosa di queste cose potrà veramente diventare utile per il Comune 
+
+La vedremo andare in funzione nei prossimi settimane e mesi, quando sarà, penso che sia un orgoglio un po’ per tutti quelli che oggi sono qua. 
+
+Come stavamo dicendo, l’obiettivo è rendere 
+
+Come dire, i servizi della città di Milano ancora più accessibili di come sono oggi. Con accessibilità inteso nell’ampio, nel più ampio concetto possibile, che quindi va da stranieri che arrivano 
+
+Anziani che hanno difficoltà a interagire o muoversi, piuttosto che persone con disabilità che devono in qualche modo interagire con il comune. Vi faccio un esempio: io sono cittadino milanese, sono come sentite dalla dove parlo 
+
+Sono italiano. Volevo chiedere, tutti capiscono? So che ci sono anche degli stranieri, tutti capite l’italiano o preferite parlare in inglese? Ok, nessuno si muove. Mio figlio è nato in Francia. Io ho la famiglia e vivo tra Milano e Francia. Sono cittadino Milanese, però residente a Milano, ma di nuovo avanti e indietro con la Francia. E effettivamente, già soltanto da cittadino italiano con compagna francese, quindi Comunità Europea, far emettere il codice fiscale per mio figlio è stata ripresa. 
+
+Impegnativa, ho dovuto interagire con mail e PDF scansionati con l’Agenzia delle Entrate di Imperia e sperare che in qualche modo mi rispondessero. Poi da lì ho dovuto inserire questa roba nel portale per avere il congedo parentale per quando è nato mio figlio, un altro cinema, perché comunque il fatto che c’era l’amico è nato in Francia e quindi il certificato di nascita in francese, quindi di un altro procedimento che si è aperto. 
+
+Mi sono dimenticato di tutto questo, mio figlio a tre anni, di fare l’iscrizione all’AIR o. E quindi vedo già chiedere aiuto se dovesse andar male questo prossimo step della mia vita. 
+
+E quindi tre giorni fa con Claude ho detto: “C’è il significato di far sta roba?” E allora Claude è partito, ha iniziato a scansionare il sito del Comune e mi ha detto, non mi ha detto che ci sono problemi, spero non ce ne siano, però mi ha detto cosa avrei dovuto fare. “Sì, hai ragione, in effetti devi fare questo passaggio, devi andare all’anagrafe, devi portare il certificato di nascita.” “Aspetta però così non va bene, se vuoi te lo traduco in italiano.” Ecco. 
+
+Se non ci fosse stata Claude in quel momento, probabilmente mio figlio aspettava altri tre anni prima che lo iscrivessi, perché ora che mi ricordo che devo andare, trovare il tempo, capire dove andare, soprattutto interagire, è come dire, è un tema, no? Quindi questo esempio, non dico che dovete risolvermelo voi oggi, penso spero di uscirne da solo con gli strumenti che ci sono, però è un esempio che in qualche modo dovrebbe far capire come il tema dell’accessibilità impatta potenzialmente tutti noi, perché io effettivamente non avevo problema di avere un figlio che nasceva in Francia con una compagna francese quando mi sono trasferito a Milano. 
+
+Quindi, queste sono un po’ le idee che sono emerse durante quella serata. Le abbiamo un po’ riviste e, passatemi in termini certificati, le abbiamo condivise con il Comune di Milano e con l’AIL su TIM per capire se avessero senso. Vedete che proprio a livello di tag… 
+
+La città proattiva ha un unico punto d’accesso, fare onboarding di Newcom, quindi gente che arriva nella città di Milano e che può essere appunto il bambino di tre anni che parla ancora ed è francese, piuttosto che la persona che arriva dall’Asia, piuttosto che arriva dagli Stati Uniti e che mette i piedi qua per la prima volta, non c’è lo SPID, non c’è niente, dice vuoi che mi dica da che parte inizio? 
+
+OK, quindi parlando italiano, quindi c’è tutto un tema su che ovviamente adesso non sono l’ultima cosa che sono io esperto di pubblica amministrazione, però mi aspetto che uno degli obiettivi di un comune sia quello di attrarre. Fare e far tostare residenze nel proprio comune, no? Quello di solito è quello è l’obiettivo. Quindi se si cambia qualcosa, passatemi il tecnicismo, abbiamo un problema 
+
+Ok? Piuttosto che come la città può adattarsi imparando da quello che succede, questo a Milano secondo me è messo bene, però questo è un problema in generale, non solo italiano, molto europeo, sicuramente della burocrazia. 
+
+Che ci Osanna e poi il tema della mobilità e del parcheggio, probabilmente c’erano un paio che hanno preso nel mutuo, erano fastidiosi e quindi hanno deciso di far salire e di sponsorizzare quello che infatti esiste, però è un po’ meno presente. Io sulle idee e le tracce che abbiamo identificato, poi chiederò il supporto all’Ailap. Io ho alcuni suggerimenti che il Comune, come dicevo, come lo sapete e come non sapete, perché poi ci sono delle cose che stanno per arrivare e ovviamente non possiamo conoscerle, però rispetto a quello che non c’è. 
+
+Benissimo, però rispetto a quello che c’è, che è già tanto ed è migliorabile, possiamo considerarlo come base di partenza. A meno che non vogliate fare foto a me e metterle su Twitter o LinkedIn, queste slide ve le do, ok? Però vedo sempre un sacco di foto che si alzano. 
+
+Quindi l’obiettivo è capire, cioè il mio suggerimento è, e poi come dire caldeggiato un po’ da anche le persone del Comune che sono qua oggi, non reinventarsi da zero tutto, Ma provare a partire da cose che esistono e aumentarle, come si dice con l’ai, e quindi identificare dove ci sono possibili aree di miglioramento e proporle alcune di queste, come dicevo prima, ma diciamo non lo sappiamo noi, lo sanno le persone del comune. Chiaramente il comune non è fermo che aspetta noi, sta producendo cose. Nel frattempo, però, anche se sta producendo cose, 
+
+Possono emergere durante la giornata di oggi spunti che magari raddrizzano all’interno quello che sta nascendo. Quindi questo è un po’ il suggerimento che mi viene da dire. 
+
+A questo punto abbiamo provato a identificare queste 
+
+Facendo sintesi e rielaborandole insieme al team di Layla, abbiamo provato a identificare queste tre aree di idee che sono, appunto, la Welcome Journey, quindi come possiamo assistere chi arriva a Milano per la prima volta e ha bisogno di accedere a servizi offerti dal Comune. Piuttosto che come in generale andare a semplificare la burocrazia, piuttosto che come aiutare con l’AI le persone che lavorano all’interno del Comune di Milano a supportare il cittadino che ovviamente 
+
+Mi permetto di dire 
+
+Noi americani siamo un non shot, noi non sappiamo come lavorano le persone nel Comune di Milano, però ci possiamo immaginare che ci siano dei processi che possono essere migliorati. Da sportello migliorati, faccio anche qua un esempio stupido, gli AirPods nuovi traducono direttamente in qualunque lingua, adesso dico di andare tutti gli AirPods perché il Comune di Milano tracollo, visto quanto costano, però diciamo questa è una tipologia di servizio, io quello che vi suggerisco e poi lascio la palla alla Highlight, abbiamo delle slide che scrivono quelle una per una, è eventualmente pensare a quella come l’altra parte della medaglia di queste due 
+
+Quando si crea un servizio per il cittadino, probabilmente dietro le quinte c’è qualcosa che deve essere dato in mano all’operatore. Che sia esattamente quello che stiamo immaginando, magari no, però come al solito hai uno spunto eventualmente per capire come poi andarlo ad integrare. 
+
+Quindi, lascio la prima, quindi la parte di Welcome Journey, Layla, se hai il piacere di raccontarla. 
+
+Sì, magari faccio un’ulteriore breve premessa: due issues 
+
+Perché non sono, diciamo, uno non è un pain point, ma sicuramente una issue. 
+
+Probabilmente noi come comune di Milano non comunichiamo abbastanza le cose che facciamo e quindi lo dico perché appunto questa giornata probabilmente vi servirà anche facendo un po’ di scraping e vedendo un po’ che cosa c’è scoprirete che ci sono tanti servizi. Devo dire che sono già up running ma che non abbiamo sufficientemente comunicato o adeguatamente comunicato. 
+
+Fare comunicazione per un’azienda come il Comune di Milano vi assicuro che è come dire un casino per dirla in francese, appunto perché sono tante le iniziative, sono tante le cose da comunicare. Poi noi siamo milanesi anche un po’ brianzoli e sapete come sono fatti i milanesi e brianzoli: prima si fa e poi forse si racconta. 
+
+Stiamo vivendo in un’epoca dove non dico che dobbiamo andare dall’altra parte perché ovviamente siamo sovrastati da informazioni che spesso ci fanno perdere proprio il focus su cose importanti ma sicuramente dovremmo fare uno sforzo in più. L’altra cosa che vorrei dirvi è che forse non tutti sapete che l’anno scorso abbiamo pubblicato il manifesto per l’utilizzo dell’intelligenza artificiale del Comune di Milano. Vedo un collega che vi considero oggi tutti i colleghi che fa cenno di no. Infatti è come dire la prova provata di quello che stavo dicendo un secondo fa: non riusciamo a comunicare abbastanza le cose che facciamo. L’abbiamo presentato alla Milano Digital Week è una. 
+
+Di valori, una dichiarazione di intenti e un’assunzione di responsabilità, dichiarando i valori che ci accompagnano nel momento in cui utilizziamo la tecnologia in generale. Ovviamente stiamo parlando di AI, quindi temi legati all’inclusione, alla trasparenza, alla partecipazione e alla Human in the loop, cioè la persona che è l’ultima a dover dare l’okay a una azione. 
+
+L’etica, tutto questo perché il comune inevitabilmente deve lavorare per il bene comune, come si suol dire. Non è scontato che una pubblica amministrazione, credo che sia la prima che prende una decisione di questo genere, dichiari apertamente come utilizzerà. Abbiamo poi creato anche delle linee guida. 
+
+Per l’implementazione dell’AI, Comune di Milano e tutte le aziende partecipate da ATM, Amat, A2A, AMM e abbiamo anche pubblicato 45 use case perché siamo andati a chiedere ai nostri colleghi nelle varie direzioni nostre. 
+
+Perché anche qui non è scontato, sono 14.000 persone, Comune di Milano. Ma soprattutto alle società partecipate se, dove, come, quando e perché stavano utilizzando AI nelle sue più svariate espressioni, quindi da computer vision a machine learning, a generativa, piuttosto che i primi passi nella direzione dell’agendica, ovviamente. E abbiamo ricevuto 45, se non ricordo errato, 44, 45 gli schemi. 
+
+Metà di questi sono. 
+
+Pilot, sperimentazione, l’altra metà sono up running, in gergo 
+
+L’abbiamo fatto proprio perché crediamo che la cosa migliore, intanto per abbassare il livello di ansia quando si parla di AI, perché non c’è cosa peggiore di una cosa che tu non conosci e quindi l’immaginario collettivo è. 
+
+Spazia da momenti di grande ottimismo, soprattutto per gli addetti ai lavori, a grandi momenti di pessimismo. Perché poi solo l’altro giorno c’era stata una dichiarazione che tutti conoscete, per cui probabilmente nel 2030 non saremo più tutti qui. Io non ci credo, nel senso che poi ho avuto la fortuna di vivere l’era di internet dall’inizio. 
+
+Ho capito poi bastava anche studiare un po’ quello che è successo nella rivoluzione industriale di un secolo e mezzo fa, arrivano queste ondate rivoluzionarie, arriva la disruption, adesso la chiamiamo così. 
+
+Ovviamente ci sono dei momenti di 
+
+Come dire assestamento. 
+
+Ci sono ovviamente, per dirla in maniera un po’ truce, morti e feriti perché chiaramente ci sono delle professioni che nel tempo sono sparite. Ma di questo dobbiamo un po’ farcene tutti una ragione. Lo dicevamo anche ieri sera con Fabio Famoso, che ringrazio, che fa parte del team del Comune e che ha aiutato proprio anche a organizzare la Milano Digital Week. Innegabilmente ci sono delle professioni che sono sparite e che spariranno, ma quante sono? 
+
+Le job, le professioni che abbiamo visto nascere negli ultimi vent’anni, senza andare troppo in là 
+
+Tantissime. Si parla di circa 70.000 posti di lavoro creati con stretch. Non c’erano. 
+
+Quindi si tratta di capire qual è il balance. Anche qui, il World Economic Forum dice che il balance è positivo. Basterebbe anche un po’ guardare i dati o comunque cercare di guardare i dati che ci fanno ben sperare, piuttosto che ai catastrofismi che come sempre è successo. Io non so quanti di voi c’erano all’inizio degli anni 2000, siete molto giovani, ma c’erano grandi titoli di testate quotidiane. Internet è morta quando c’è stato lo sbando in borsa al Nasdaq. Internet è morta, sembrava che tutto ogni 3 anni finisse e siamo dove siamo. Questo per dire che davvero iniziative come queste sono fondamentali. Tornando a noi, scusate, anzi chiamo subito Silvia che mi dà sicuramente una mano perché c’è un tema anche di dati che vengono messi a disposizione. 
+
+Vi presento Silvia Castellanza, che è Chief Data Officer. La prima dei dati. 
+
+Provo a declinare le slide, così ti lascio integrare. La prima, il primo track è come facciamo, come possiamo dare il benvenuto a chi arriva da fuori Milano e che quindi deve iniziare a orientarsi con i vari livelli di difficoltà, appunto, barriere linguistiche, culturali, eccetera. 
+
+Sì, scusa, aggiungo solo una cosa: noi abbiamo, non so anche qui se lo conoscete, ma ci interessa comunque un momento di comunicazione anche per noi. Yes Milano. Chi è che conosce Yes Milano? Alza la mano, Fabio, tu non puoi alzare la mano. 
+
+Ecco, non tutti. Ancora una volta Yes Milano è un sito. 
+
+Una testata, una community, un portale, chiamatelo come volete, dove ci sono tantissime informazioni, tantissimi contenuti relativamente a Milano. È il portale dell’accoglienza. Milano e partners è l’agenzia di promozione turistica, di attrazione del talento, degli investimenti. 
+
+Del venture capital che vorremmo sempre più arrivasse, almeno a Milano, per far sì che gli investimenti nel mondo delle startup italiane possano crescere. Yes Milano è quell’area, quel luogo virtuale, ma non solo, perché creiamo community, collaboriamo con le aziende e con le università. Chiaramente gli studenti e i tafosi, talenti che speriamo arrivino qui a Milano, o perché rientrano o perché scelgono Milano, con le sue 8. 
+
+Fra le migliori università, sicuramente italiane se non del mondo, possono stare arrivare e stare. Il grande tema milanese è venire a studiare e poi andarsene da un’altra parte a lavorare. Questo è un tema, e sicuramente il tema dei giovani, ma non solo dei giovani, dei turisti, anche dei siti user che arrivano e hanno bisogno di un sacco di informazioni per sapere come muoversi e come fare. Sicuramente il tema è come arrivare a Milano, devo chiedere la residenza e sono no di Singapore, per dire. Questo è sicuramente un tema, non parlo italiano qui, ovviamente per fortuna la generativa ci sta dando una gran mano. Che altro dire da questo punto di vista? Sicuramente è una parte dove tutti i dati, poi appunto Silvia vi dirà cosa possiamo mettere a disposizione. 
+
+Tanti contenuti, tante informazioni. Se ci sono delle domande, siamo a disposizione. Non siamo solo noi, magari ci presentiamo anche con le altre persone che sono qui insieme a voi oggi. 
+
+Aggiungo grazie Antonella che ci dà gli spunti e contributi. 
+
+Esatto, è stato utilissimo. 
+
+Di sicuro noi siamo abituati in un mondo che 
+
+Nella nostra bolla italiana e milanese, che abbiamo uno SPID e che inquadriamo un QR Code, non è detto che questo ce l’abbia la persona di Singapore che arriva, che anzi deve capire che cosa deve fare, devi conoscere eccetera. 
+
+Quindi anche lì ci sono delle cose puntuali, come si diceva una volta, ‘crack the code’; se si riescono a crackare, sbloccano poi tutta una serie di. 
+
+Non dico che uscirà da qui lo SPID 2, però magari ci vengono in mente degli spunti. Un filone è proprio questo qua, che è molto sentito, infatti è il primo che elenchiamo. 
+
+Un altro filone, anche qua lo traduco in maniera più generica, è generalmente nel momento in cui devo interagire con qualche processo che richiede un qualunque passaggio burocratico, come l’AI ci può aiutare. Anche qui esempi, giusto perché quando c’è da compilare il modulo ISA per chi è un libero professionista sa di cosa sto parlando, è un PDF tipo l’F24 pieno di quadratini che uno deve prendere le fatture, inserire dentro le percentuali eccetera. Lavoro tipicamente in un giorno avanti e indietro col commercialista a luglio ho preso le mie fatture. 
+
+Le ho buttate su Cloud, ho buttato sul modulo Isaac, fai tutto tu, me l’ha compilato perfettamente, io ho perso zero. Il commercialista contento, io contento, quindi tutti contenti, no? Quindi ecco questo tipo di. 
+
+Il commercialista continui a pagarlo quanto lo paghi normalmente? Perché questo è. 
+
+Il mio caso particolare perché anche commercialista della startup e quindi c’è una specie di accordo quadro per cui mi sollecitano i pagamenti a me come libro professionista. 
+
+No, però effettivamente questo è un tema che si ribalta in opportunità dai commercialisti, perché quando vedo un commercialista che lavora, è un altro tema con quei gestionali devastanti. Tanto guardi, non ci posso credere, ma qua c’è spazio, migliora tutto e non l’ho mai visto lavorare altre realtà. 
+
+Quindi sicuramente c’è un tema che ci tocca più da vicino, perché magari il welcome, se siamo privi, dire che l’avete già superato? Ricordatevi che siete figli all’estero, potreste comunque avere esperienze di new welcome future. 
+
+Invece questo qua ci intercetta tutti i giorni, potenzialmente, nel momento in cui devono interagire col Comune per qualunque tipo di motivazione. E qua, appunto, come l’AI ci può aiutare, come dicevo prima, a leggere documenti, compilare documenti 
+
+Saltare la parte dei documenti, come si parlava di IES Milano. Non voglio entrare troppo tecnico, però già io su IES Milano mi creo un bel SP server. Giusto per chi sa di cui sto parlando, perché è effettivamente un modo per agganciarlo direttamente a tutti gli agenti, piuttosto che andare a aiutarmi a capire come orientarmi all’interno del sito. Ma questo lo uso io come shortcut da fuori. Se questa cosa la inizia ad avere il sito del Comune di Milano, piuttosto che del Comune di Milano, permettono già di avere internamente questo tipo di intelligenza. 
+
+Non so se, diciamo rendo, vedo tutti attenti, fatto in simple, sto dicendo cose che hanno senso. 
+
+Lo so, qua se vuoi aggiungere qualcosa Layla. 
+
+Ci siamo. 
+
+Terzo track, come dicevo prima, è sicuramente quello meno su cui possiamo creare un impatto meno evidente, emerso, quindi lo portiamo, perché noi applichiamo censure emerse durante la conversation. Sicuramente non sappiamo come lavorano le persone all’interno del Comune di Milano, quindi è difficile riuscire a fare delle proposte migliorative. Però se lo vediamo come integrato eventualmente a una soluzione dei primi due capitoli, in realtà può avere senso fare delle ipotesi. OK, facciamo delle ipotesi, assumiamo che ci immaginiamo che si lavori così. 
+
+Poi, come ce l’hai le persone oggi del comune che però non rappresentano tutte le 14.000 persone. In comune si possono magari far domande per chiedere, però dobbiamo un po’ immaginarci come potrebbe essere il modo di interagire adesso, come potrebbe essere con le altre. Sicuramente è quello più indiretto in termini di impatto, passami il termine perché in realtà è ovvio che nel momento in cui facciamo aumentiamo il personale del Comune di Milano, in realtà non stiamo dando un servizio perché aumentato con le AI. Come dicevo prima, se io potessi alle 11 di sera del venerdì, che mi ricordo che in quel momento devo registrare mio figlio in Italia, farlo direttamente in quel momento con le AI sarebbe molto bello. Quindi se invece devo aspettare lunedì mattina, si ha per esempio lo scenario dove devo trovare spazio per andarci. 
+
+E direi adesso andiamo anche sul tema dei dati. 
+
+Volevo distinguere una parte che lo dico qua, poi lo ribadiremo. 
+
+Voi oggi utilizzerete l’AI per costruire la soluzione e quindi benissimo, tant’è vero che molti di voi hanno l’abbonamento a Claude, potreste avere abbonamenti anche ad altri tool, poi ci chiedete voi come organizzarvi. Però è ovvio che utilizzare l’AI per costruire ci permette di fare un hackathon in poche ore. Ma è importante usare l’AI dentro la soluzione che noi stiamo integrando. Ok, non è tanto oggi da dimostrare che riusciamo a rifare ES Milano in una giornata, perché ce l’ha Giacomo di Milano ES Milano. 
+
+Non ci frega di avere un altro ES Milano, giusto? Scusate anche qua, facciamo lo slang. Quello che ci interessa è mettere l’AI dentro il servizio, quindi un conto è utilizzare l’AI per costruire il servizio e un conto è usare l’AI per erogare il servizio. A noi ci interessa molto quella parte lì, diamo un po’ per scontata questa, poi qua ci sono vi introduco anche le persone del del mio team che vi possono dare una mano se avete problemi o vi serve il supporto di temperatura, però dobbiamo concentrarci su quella parte qui andrei avanti. Ecco qui lascio la palla con grande piacere a Silvia perché qua si parla dei dati. 
+
+Qui ci sono degli spunti che mi sono resa la libertà di inserire. Alcuni di questi sono più strutturati, altri meno, che possono essere dati in pasto per creare i vostri servizi. 
+
+Buongiorno a tutti, vedo perfetto, i link sono questi. 
+
+Il primo è il portale del dato, un portale unico su cui potete accedere liberamente. Sono tutti dataset open, circa duemila dataset su temi di vario tipo, in formati aperti come JSON, GeoJSON e anche API direttamente prodotti dal sistema basato su tecnologia Sican, perché può essere utile come informazione. 
+
+Per altre attività che potreste fare, abbiamo di tutto. Il comune si occupa di temi che vanno dalla mobilità al verde, alle risorse umane, al bilancio, all’educazione, ai miti, scuole materne, formazione e chi più ne ha più ne metta. Noi non abbiamo a me piace molto quando si incontrano anche alcuni fornitori. L’ambito bancario, secondo me, è quello. Noi davvero ci occupiamo di tutti i temi. Ovviamente non possiamo essere tutt’oggi qui dentro. Trovate tantissimi ambiti. La classificazione vi cito uno standard europeo riportato poi in Italia, che è di CAT. Sono mi sembra nove ambiti tipo mobilità, ambiente, economia. Poi sicuramente non vi devo dire come entrare anche in modo rapido in questo portale. Avete tantissime informazioni che secondo me possono essere utili. Oggi come contesto, vi danno un’idea delle dimensioni della città. 
+
+Si parla di anziani, andate a vedere gli anziani perché è un tema molto importante. Il SPID va benissimo, ma anche la persona anziana, se non ha il nipote, il figlio o qualcuno che lo segue, è in difficoltà. La popolazione di Milano è una popolazione come tutte le grandi città, una popolazione che ha un elevato numero anche di grandi anziani, che sono gli over 85. Qui dentro trovate dati anche sulla mobilità e sui trasporti. 
+
+Noi da questo portale facciamo harvesting su altri portali, tipo il portale di Regione Lombardia, sempre open data, che ha ovviamente su scala regionale. Faccendo harvesting, noi ci portiamo a casa già i dataset open a livello comunale, comune di Milano. Quindi trovate di tutto lì. Trovate anche una serie di sezioni con dei progetti speciali. C’è una parte redazionale molto interessante. 
+
+Essendo una platea di tecnici l’ho un po’ bypassata. Però, se volete, anche leggere o tirar fuori dei contenuti essenziali sulla tipologia di popolazione, sul turismo, i dati del turismo che arrivavano e che abbiamo a disposizione. Secondo me può essere utile. Poi ci sono una serie di speciali, e in particolare Milano statistica, il portale Lod Milano statistica. 
+
+È la possibilità di creare dei piccoli ipercubi direttamente che vanno a elaborare i dati della parte demografica, perché il Comune di Milano, come tutti i comuni grandi, ha un ambito statistico che è un’emanazione di Istat e produce tutta una serie di dati delle statistiche ufficiali. 
+
+E quindi è utile, appunto, per il tema di prima del contesto. Lì trovate tantissimi documenti anche sulla parte, ad esempio sul verde, sui trasporti, mobilità, tante informazioni ed è la parte. 
+
+Statistiche ufficiali non che il portale del dato e gli altri dataset non lo siano, però ovviamente sono. 
+
+Allora ecco, stava arrivando lì. C’è anche il portale Lord. All’interno del portale del dato trovate la parte di ontologie. Noi da qualche anno anche qui tutta la parte semantica ha avuto il suo momento di grande fulgore anni fa, un po’. 
+
+Si è un po’ persa, è un po’ per addetti ai lavori, per chi apprezza queste ontologie. 
+
+Vi sono i linked open data. 
+
+Sono strutture ontologiche, quindi strutture relazionabili che relazionano diversi dataset su degli oggetti. Lì dentro abbiamo biblioteche. 
+
+Puoi chiedere a Salvatore perché viene fatto sulle biblioteche. 
+
+Gli impianti sportivi ARC sono delle deutologie realizzate in un sistema che consente di relazionare tutto ciò, tutti i dati, i dataset open relativi ad esempio agli impianti sportivi che trovate là dentro. Anche IES Milano utilizza dei LOD sul progetto Vetniche e i percorsi letterari, li trovate lì nel portale. Il portale LOD raccoglie un po’ tutte le esperienze che noi abbiamo fatto. 
+
+Se avete poi necessità di chiarimenti, eccetera, noi ci siamo. Ci sono tanti dati in giro, tantissimi. Il patrimonio informativo come di Milano è immenso, ma anche le altre pubbliche amministrazioni. I dataset open sono dati aperti che hanno un valore notevole. Qui poi è aperta anche una discussione sul senso del quale è il valore aggiunto dell’open data. 
+
+Per noi sarebbe importante avere anche da voi, informalmente, un riscontro su che cosa servirebbe in più. Attenzione, i dati aperti non sono solo dati personali. Il tema è questo: noi internamente usiamo anche dati con una parte personale, poi li minimizziamo e facciamo tutta una serie di data preparation. Però quello che esce è dato aperto. Magari a voi vengono altre idee, anzi sicuramente. 
+
+Farete notare che ci servono altre informazioni, magari i dati più vicini al tema del Real Time, che è un tema importante. Noi come comune di Milano abbiamo dei dati Real Time, che però non è un problema tecnologico, perché proprio la tecnologia ormai ci consente di fare qualunque cosa. È un tema proprio di opportunità e di business, anche legato alle nostre partecipanti. Grazie mille. 
+
+La prima cosa che farei è prendere Claude e scatenarlo su tutti questi per andare a capire cosa tirar fuori. Per intenderci, come dicevano poco fa, è vero che stiamo investendo e secondo me è molto prezioso questo momento. Due settimane fa a Barcellona abbiamo fatto un altro Impact Lab con gli Ambassador. Purtroppo in quella situazione, che diciamo io ho partecipato come staff e non c’era presente il comune, sono uscite delle cose molto interessanti. Però oggettivamente un po’ più autoreferenzianti perché non avevano effettivamente un impatto. Io ringrazio ancora Layla e Silvia, sono tutte le persone oggi che sono qua a darci una mano. Perché come dico sempre, e qui scusatemi quando vado in aula e faccio queste attività di training, per chi sa cos’è il prompt engineering è morto, esiste solo il context engineering. Cioè con gli agenti è importante dargli contesto. Se gli si dà il contesto si crea qualcosa di sensato. Se non gli si dà il contesto si crea qualcosa, si crea sempre perché non lo creano sempre però creano cose che magari nessuno sa. 
+
+Quindi grazie mille. 
+
+Ora andiamo un po’ in chiusura di questa prima parte, andremo a creare dei team di indicativamente quattro o cinque persone. Adesso capiamo come vi auto-assemblate e eventualmente la proposta sarà quella di unirvi e trovarvi per idea. Perché abbiamo visto che ci sono tre truck possibili, poi chiaramente quelle guidano. Dopodiché, lì all’interno ci sono diverse idee che si possono andare a creare. 
+
+Provate a incontrarvi nell’altra sala. Adesso vi dirò cosa vuol dire altra sala. A parte che l’avete vista, ve lo dico fra poco. Arrivo alla parte logistica e da lì andremo a dividere in team di 4 o 5 persone. Quello che viene prodotto deve essere open, quindi verrà messo sul repository GitHub, disponibile poi per la fruizione da parte di tutti. 
+
+Utilizzo di dati pubblici, quelli che sono stati presentati, ne trovati altri che possono essere utili per i vostri benissimo. L’importante è che siano dati che siano licenziati correttamente e possano essere utilizzati. 
+
+E poi ci sarà una submission, ci arrivo dopo per le quattro del pomeriggio, indicativamente adesso arriviamo anche sulla parte di agenda. C’è una scaletta di un criterio di valutazione per cui la giuria emetterà il proprio verdetto che va a valorizzare l’impatto che può avere ovviamente la vostra proposta, l’utilizzo delle AI all’interno della vostra proposta. Quindi sono i due driver principali: l’utilizzo di dati da parte di execution. Quindi se il prodotto funziona, se quello che state realizzando è un prototipo non funzionante statico oppure siete riusciti a creare qualcosa che già inizia a avere una sua interazione e poi anche come viene interessato. Ok, quindi su questi criteri. 
+
+Poi la giuria si riunirà dopo le 4 e metterà il proprio verdetto. 
+
+Da un punto di vista di risultato, quello che dovete sottoporre è appunto un repository, poi ci sono le istruzioni, repository con un file readme e un video di 2 minuti. Il video di 2 minuti secondo me è utile sempre, vi dico che cosa intendo, anche perché in base al numero di persone che stanno valutando se fare e poi vi confermiamo la cosa, se farvi fare dei pitch oppure far arrivare dei video e poi valutare su quello. 
+
+In realtà penso che riusciamo a fare anche dei pitch, però il video è sempre utile da questo punto di vista, perché durante il pitch si utilizza il video. Ok, per spiegare cosa stiamo un po’. Ora siamo un po’ in ritardo, ma non così tanto. 
+
+L’idea è che appena vi libero da qua, tra pochi minuti, potete muovervi tutti e andare all’interno della sala che c’è in fondo a destra, che secondo me occuperemo solo quella. C’è un’altra saletta di sfogo a fianco della macchina del caffè che ha dentro due o tre scrivanie e lì potete iniziare a lavorare. Ok, quindi in maniera produttiva su queste che sono le idee. Prima formeremo i gruppi, poi andremo a definire note. I gruppi potete sedervi e iniziare a lavorare. Ci sarà immediatamente alle una la possibilità di prendere un pranzo. Che se non mi sono confrontato prima e non vorrei dire una cavolata io, ma probabilmente sarà veramente un sacco che potete portarvi al tavolo e mangiare direttamente lì. 
+
+E poi ci sarà appunto la sottomissione del giuria che lavora e i premi. C’è un premio in palio in questo momento perché Intropi dà un premio al primo classificato, che dà un abbonamento in un mese da 20x, che è quello che costa circa 200 euro come costo. Quindi c’è questo premio per il primo classificato. 
+
+Va bene 
+
+Questa qui è la parte D. Ora, Code Moment, detto che queste cose ve le do fra poco nelle slide, però se volete potete selezionare. 
+
+Ci sono un po’ di QR code. Il primo è quello dei crediti, perché indipendentemente dal primo premio, ognuno di voi ha diritto a, se non ricordo male, 100 $, che dovrebbero essere 100 $ di crediti sul portale Antropic da utilizzare. Ma come vengono utilizzati questi? Vengono utilizzati come benzina per la vostra idea, nel senso che voi potete e poi noi adesso chiedo il. 
+
+Ragazzi, vi scaldo già perché poi vi voglio fare un secondo qua con me, così ci riconoscono tutto lo staff che sta lavorando e che potete chiedere supporto, perché si devono creare dentro il portale Anthropic, dentro console. Antropic. Com e poi lì dentro si possono utilizzare. Cosa vuol dire? Che se avete l’abbonamento Anthropic e andate su Cloud AI e quindi avete l’app Cloud Desktop, lì non potete utilizzarli. 
+
+Ho indicato anche nella form di arrivare con almeno un abbonamento lì dentro, perché senza quello non potete usare Cloud Code, non potete usare nulla. In realtà, questi crediti li potreste usare con Cloud Code, però il mio suggerimento è di non farlo, nel senso che l’abbonamento è molto più vantaggioso in termini di produttività. Se collegate questi crediti lì, ve li bruciate nel giro di due ore. 
+
+Quindi il mio suggerimento è: provate a utilizzarli per il soltanto per. 
+
+Il motore della vostra idea ve ne avanzeranno e li potete usare nel tempo dopo. 
+
+Resistete dalla tentazione di far circolare questo QR Code al di fuori di questa stanza perché sono in numero limitato. Quindi, se vengono consumati da amici, parenti o altro, non li avete più voi. Potete in qualche modo tenerveli. Oltre al fatto che Antropic ha messo, sostiene di aver creato un layer di protezione perché in passato c’è successo che ha studiato tutte le cose, una sorta di layer di protezione per evitare che. 
+
+Ci sono dei claim multipli fatti in maniera, quindi per favore, uno per uno e non fateli circolare. 
+
+Questo anche per lo staff. Sono disponibili anche per lo staff, nel senso magnanimi oggi, visto che già scansionavate, quindi gli dico di chiederlo. 
+
+Altro repo, questo non è ancora aperto, ve lo apro dopo questo momento qua, ma anche questo c’è nella slide che tra poco rimando. Questo qui è dove ci sono tutto, ho creato un repo che ha dentro tutte le regole, istruzioni, eccetera, ma soprattutto avete la possibilità lì dentro di fare la submission. Quindi ci sarà tra le varie istruzioni, vi spiega dove cliccare per aprire una form. Questa form è dentro GitHub. Lì dentro dovete uploadare tutte le vostro repo. 
+
+Il video, la descrizione, bla così noi lo recepiamo e lo usiamo per fare poi valutazioni. Detto che, come dicevo, probabilmente faremo comunque l’aumento di pitch visto che il numero lo permette e quindi faremo la presentazione. Così quindi qui trovate quello. Se cliccate adesso vi darà errore perché è ancora arrivato. Ok, quindi lo farete e lo apro tra poco. Ultima cosa. 
+
+Prima di andare a chiudere, vi dico già, in questo momento io quello che farei, rapidamente, poi dopodiché per chi ha bisogno di supporto in termini di ispirazione su come lavorare alla valle di questo, vi trovate di là, magari facendo un gruppetto se avete bisogno. 
+
+Altrimenti no, io quello che farei è utilizzare l’AI in ogni parte di un unico step che non ho messo, che in realtà secondo me finisce qua in un tempistamente, cioè agganciare a tutti i link che vi ha raccontato Silvia Claude e dire ‘vai dentro e spazzola tutto’. 
+
+Detto questo, però, spazzola tutto per spazzolare è un po’ utile. Quindi io prima andrei a fare identificare quali sono i cittadini o comunque le tipologie di cittadino che voi volete andare a servire con il vostro prodotto e questo potete fare proprio un’interazione insieme a Claude. Non voglio togliere il piacere di fare Co-Design, semplicemente vi dico mettete in mezzo anche lo strumento che vi dà una mano nel trovare spunti. Il brainstorming lo potete fare anche questo insieme alle AI, tra cui appunto, quando vi viene in mente l’idea di supportare i bambini che nascono in Francia e devono essere registrati in Italia, che magari qualcuno troverà la soluzione. 
+
+Magari direte a questo punto andate a vedere sui dati del comune per capire se c’è. IES Milano è una fonte molto ampia e ricca di informazioni per chi arriva da fuori, però è statica, cioè nel senso che non è un’attività interattiva che riconosce e si personalizza. È un’ottima fonte per apprendere, quindi potrebbe essere agganciabile da un’idea e utilizzata. 
+
+Vi suggerisco, per il prototipo va bene anche copiare i dati e duplicarli, però vi suggerisco di pensare a una cosa per cui se agganciate YASP Milano come sorgente, tutti i dati di YASP Milano sono lì, quindi non che continuate a duplicare dati che magari trovate anche soluzioni che siano un attimo eleganti. Scusatemi, tanto l’ingegnere informatico che a me esce fuori, quindi passate pazienza. 
+
+Poi da LIS vado a definire le User Stories, quindi le specifiche. 
+
+Che voi volete dare dentro, avete identificato le personas, quindi il target, i dati ci sono, avete un’idea del servizio, andate a fare cosa si fa nel mondo dei software: si definiscono le specifiche funzionali, si chiamano user stories, si chiamano specifiche funzionali, chiamatele come volete. Se lo dite e fate supportare da Cloud, vi dà una mano a creare anche queste. Tutte queste le potete inserire ad esempio dentro Cloud Design per chi di voi ha accesso a Cloud Design. Per chi non ha accesso al Cloud Design esiste Open Design che lo potete scaricare e agganciare a qualunque tipo di harvest, cioè qualunque tipo di. 
+
+Strumenti di coding, gli passate brutalmente gli User Stories, tutto su cui avete lavorato e gli chiedete di creare un mockup. Sul mockup iniziate a interagire e magari il mockup 
+
+Per chi in quel momento sarà intorno al Comune di Milano, può anche essere già visionato per vedere se è una cosa che può avere senso o meno, perché con quello si comunica molto più velocemente che con tutto il resto. 
+
+Ve lo fate esportare in un unico file HTML e poi tutto quello che avete prodotto fino a quel momento lo caricate dentro Cloud Code e ditegli di aiutarvi a sviluppare la soluzione. Io non sono un medico, non sono una ricetta, non sto dicendo che quello che dico io debba essere seguito. Di solito qua conto io di fare alcune due cose, avranno dei workflow differenti. Questo è utile magari per chi non ha un workflow e quindi per accelerare. Vi do un ultimo spunto: esistono dentro Cloud la possibilità di creare artefatti HTML. Ormai l’ho fatto quasi in maniera nativa. Adesso io riutilizzo da qualche mese, all’inizio verso maggio, così non era proprio dobbiamo un po’ insistere per fargli creare. Adesso lo fa quasi sempre. 
+
+Gli altri fatti HTML sono molto potenti anche in fase di brainstorming 
+
+Perché voi potete dire, ad esempio 
+
+Se hai delle domande da farmi, non farmele nella chat. Chiedo di leggermi tutta la chat, scrivimi, mettile nell’HTML, che io ti rispondo lì dentro e poi ti copio i risultati e li metto dentro nella chat. Questo velocizza molto il brainstorming. L’HTML può essere molto visivo, chiedo ai figli di scrivere poco e disegnare tanto, e questo aiuta a essere ancora più veloci. 
+
+E questo è un primo suggerimento. 
+
+Utilizzare Cloud Design non solo per la parte Open Design, ma anche per la generazione del mockup e per la presentazione del pitch. Questo pitch l’ho fatto con Cloud Desktop, che da qualche settimana, non per tutti ma quasi tutti, perché stanno facendo rilasci incrementali, permette di mettere come output la presentazione. Lui crea una presentazione che si scarica e diventa PowerPoint o Google. 
+
+Drive, eccetera. Per fare questa, ovviamente gli ho dato in pasto il template Anthropic, altre informazioni emerse durante la conversation, tutti i transcript delle call fatte con l’Aida, il team comune, eccetera. Mi ha aiutato a creare questa cosa mentre guardavo l’Italia che finalmente mi è tornata voglia di vedere la partita della Nazionale. Poi ieri sera era un po’ incompleto l’Italia però è andata bene. È stata una vittoria per me. 
+
+Non è il caso. Infine 
+
+Da Opus 5.5, non so quanti di voi l’hanno già sperimentato, è molto bravo a fare video. Se voi gli dite ‘fammi un video’, tipicamente io ho una società, una startup che crea un prodotto basato sul software per creare quelli che si chiamano ‘second brain’. Quindi per Software Factor una roba che tipicamente è abbastanza complessa da spiegare. Poi quando si spiega uno capisce subito il valore. Cosa ho fatto? Io ho preso direttamente nel repository software del prodotto e gli ho detto a Claude. 
+
+Cerca di capire quello che fa e creami un video promozionale e leggi un quarto d’ora. Hanno fatto un video di 30 secondi eccezionale, che ho usato anche ai miei soci, tanto per intenderci. “È questo che stiamo dicendo? Sto scherzando, perché sennò sarebbe un problema dopo un mese che stiamo lavorando.” 
+
+Però vi suggerisco di farlo, quando avete intenzione di creare il video. Come fate il video? Io lo farei così: andrei direttamente nel repository in cui avete creato l’idea, con tutte e due le storie, e darei a Cloud un prompt tipo: a partire dalle informazioni che trovi qua dentro, creami un video di 30 secondi che mi permetta di promuovere questo come un pitch all’interno di una competizione, bla. E vedete cosa vi produce. 
+
+Ok? Poi lo gestite, però in qualche modo questo è. Ok. Questo è lo scan per prendersi il deck. Questo è l’unico importante perché se non lo fate qua 
+
+Poi ci inseguirete per tutta la vita. Perché è l’unico punto in cui riuscite a scaricarlo. 
+
+Intanto chiedo per piacere. 
+
+Luca, Giulio, ci raggiungete un po’ tutti qua sul palco, così a parte che vi do un ringraziamento ufficiale per il supporto che mi state dando, che altrimenti ovviamente io parlo qua, non faccio un lavoro come vedete di nutrito. Grazie ragazzi di essere in supporto. Dopo è un momento di gloria. Il motivo per cui ve li mostro è perché poi dopo voi non li conoscete. 
+
+Perché i cappellini che vedete qua li troverete anche per voi, quindi poi saremo tutti. Mettiamoci magari. Siamo davanti al corano. Pensavo di farci la foto, io in realtà, bellissima foto. 
+
+Sono simpatici, ma ovviamente il mio ego anche il sabato mattina non ha riposo, no? 
+
+Il mio rito è uno 
+
+Però adesso noi ci giriamo e facciamo un selfie con loro. Assolutamente. Io non c’ho più il telefono perché sono l’hai fatto anch’io. 
+
+Ne facciamo tre. Agitate qualcosa. Ci manca un Luca. 
+
+Vieni. 
+
+Un po’ di entusiasmo a tutti. 
+
+Un po’ di più di entusiasmo. 
+
+Dunque, come dico spesso, con l’AI le foto sono overrated. Tanto così la passiamo dentro Claude e a tenere tutte le mani siamo tutti completissimi. Non preoccupatevi. 
+
+Ora, andiamo a costruire. 
+
+Penso di avervi dato tutte le informazioni, quindi con quel QR Code vi scaricate la presentazione che avete qua. Adesso il mio suggerimento è, mentre caffè tutto il giorno, quindi se vi serve, e non avete problemi di ipertensione, ovviamente io non ho mai avuto, quindi non so assolutamente cosa vuol dire prendere il caffè con ipertensione, e potete andare di là nell’altra sala, noi veniamo con voi, lì ci sono dei tavoli. Il mio suggerimento è provare intanto a creare fra di voi, magari già vi conoscete, dei micro gruppi per iniziare a ragionare sui tavoli. Noi veniamo lì a darvi una mano. 
+
+L’obiettivo è arrivare ad avere un gruppo di almeno 3-4 persone. Mi vien da dire che lavori. A un’idea, sì, guarda, facendo il conto, se riusciamo a fare squadre da quattro o cinque persone, ne vengono fuori otto. E subito cazziate, sapevo fare i conti e no. Infatti, come dicevo prima, poi tutta la parte organizzativa, quattro o cinque persone non solo Builder, eccetera. Per piacere, che in realtà è un momento in cui si potrebbe anche essere solo Builder, però l’obiettivo di oggi è collaborare e stare insieme e condividersi poi la giornata.
