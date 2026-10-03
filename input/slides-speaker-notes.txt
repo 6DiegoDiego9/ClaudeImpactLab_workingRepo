@@ -1,0 +1,311 @@
+CITYLAB MILANO · 3 OCTOBER 2026
+Claude Impact Lab
+Milano
+One day to build AI that makes the City's services easier to reach.
+Milano Digital Week · with Comune di Milano · Claude Community Italia
+Apertura dopo il saluto istituzionale del Comune. Benvenuti, presentarsi in una riga: Alexio, Claude Community Ambassador per l'Italia.
+1
+
+THE JOURNEY
+Today we build on what you told us in September
+9 SEPTEMBER
+Claude Conversation
+At Fabbrica del Vapore, nine mixed tables answered one question and wrote down where Milan should start.
+TODAY · 3 OCTOBER
+Claude Impact Lab
+Here at CityLab, teams of 4 or 5 people turn those ideas into working prototypes in one day.
+AFTER TODAY
+Into the City
+The code is open source and goes to the Comune. The winners meet the departments that could adopt it.
+Collegare al 9 settembre: il brief di oggi non l'abbiamo scritto noi, lo hanno scritto i tavoli. Sottolineare che tutto il codice è open source e donato al Comune (regola dell'Impact Lab).
+2
+
+THE QUESTION
+How can AI make the City of Milan's services more accessible?
+For people with disabilities, older people, people who don't speak Italian and people with low vision.
+Stessa domanda del 9 settembre, volutamente. Accessibilità in senso ampio: non solo barriere fisiche ma accesso a informazioni, servizi, procedure.
+3
+
+WHAT THE TABLES TOLD US · 9 WORKSHEETS
+Six recurring themes
+6/9
+A proactive City
+Reminders before fines, alerts on deadlines
+6/9
+One point of access
+One place that knows you and sends you to the right desk
+5/9
+Onboarding newcomers
+Students and foreigners: tax code, housing, registry
+4/9
+A City that learns
+Train staff, listen to the people at the counter
+3/9
+Less bureaucracy
+Stuck permits, appointments impossible to find
+2/9
+Mobility and parking
+Permits, area passes, lifts on public transport
+Fears they named: privacy and consent, wrong answers, a wider digital divide, losing empathy.
+Numeri dalle 9 schede del 9 settembre. I primi tre temi convergono: è da lì che nascono i filoni. Citare le paure: sono i vincoli che rispettiamo oggi (nessun dato personale, l'umano decide).
+4
+
+WHAT THE CITY TOLD US
+Build on what the City already has
+Already there
+Automatic emails for new residents and address changes
+16 of the 22 most-requested certificates are already online
+A TARI (waste tax) pilot at an advanced stage
+An information path for international students on YesMilano
+Still open
+How do we know someone has just arrived?
+Agents need clean data and reliable connectors
+Fragmented systems that don't talk to each other
+Feedback dalla call col Comune del 25 settembre. Messaggio: non rifate ciò che esiste già, estendetelo. Una giuria comunale riconosce subito un doppione.
+5
+
+THE CHALLENGE
+Three tracks.
+Pick one.
+01 · Welcome journey
+For people arriving in Milan
+02 · Assisted procedure
+One procedure, from first question to submission
+03 · From inside City Hall
+Tools for the people at the counter
+Tre filoni nati dalle schede. Sono track, non recinti: dentro ogni track il team porta la sua idea. Ogni team ne sceglie uno, così la giuria confronta soluzioni comparabili.
+6
+
+TRACK 01 · 4 OF 9 TABLES
+Welcome journey for people arriving in Milan
+For whom. New residents, international students, people who don't speak Italian.
+The job. Tax code, residency, housing, waste tax, transport: what to do, in which order, with which City source.
+Build on. The City's existing welcome emails and the YesMilano student path.
+Claude at work
+An agent that talks or chats in the newcomer's language, reasons over City rules and builds their personal checklist.
+Watch out
+Without identity data it can become a smarter FAQ. Show what data the next version would need.
+Filone raccomandato nel seed deck: unisce onboarding, proattività e accesso unico. Persona pilota concreta. V1 solo conoscenza pubblica. Punto debole: senza dati del cittadino il "proattivo" resta una promessa.
+7
+
+TRACK 02 · 2 OF 9 TABLES
+One procedure, assisted from start to submission
+For whom. Citizens and professionals filing with the City.
+The job. Pick one frequent procedure (a SCIA, a parking permit, a certificate) and take it apart: fields, attachments, typical errors, reasons for rejection.
+Measure it. Time and errors with and without the assistant.
+Claude at work
+Reads documents and photos, asks only what is missing, pre-fills and checks before submission.
+Watch out
+A wrong pre-fill falls on the citizen. Claude fills in, the person checks and signs.
+Impatto misurabile e caso ripetibile: se funziona su una pratica si estende alle altre. Le schede citavano oltre 12 mila SCIA ferme. Nessun dato personale reale: casi anonimi o inventati.
+8
+
+TRACK 03 · 2 OF 9 TABLES
+From inside City Hall: the people at the counter
+For whom. City staff at service desks and back offices, and through them, every citizen they serve.
+The job. Repeated questions, manual hand-offs, requests that land in the wrong office.
+Why bother. The tables named inertia, culture and missing skills as the biggest brakes. This track works on those directly.
+Claude at work
+Triages incoming requests, routes them, drafts answers with sources for the officer to approve.
+Watch out
+The benefit to citizens is indirect. Make it visible in your demo.
+Crea i promotori interni che servono per portare avanti gli altri filoni. Se in sala ci sono dipendenti del Comune, sono i domain expert ideali per questi team.
+9
+
+TODAY'S MAIN RULE
+Claude builds it, and Claude runs it
+BUILT WITH CLAUDE
+Claude writes your app
+With Claude Code, Cowork or Claude Design you can prototype in hours. Every team will do this, so it won't set you apart.
+RUNS ON CLAUDE
+Claude does the work, every time
+When a citizen or an officer uses your solution, Claude reads the request, applies the City's rules and fills in or routes what it can. It runs through the API, as an agent or behind an MCP server.
+Slide chiave. Il messaggio: non vogliamo una web app costruita con Claude e poi statica. Vogliamo soluzioni in cui l'AI è il motore. Per questo c'è un criterio di giudizio dedicato e un requisito nel README. I crediti API servono esattamente a questo.
+10
+
+THE TEST
+Switch the AI off. What's left?
+Track
+Runs on Claude
+Not enough on its own
+01 · Welcome journey
+An agent answers in your language and builds your checklist from City sources
+A static page of links and FAQs
+02 · Assisted procedure
+Reads your documents, asks what is missing, pre-fills and checks the form
+A nicer-looking form
+03 · Inside City Hall
+Classifies and routes requests, drafts sourced replies for the officer
+A dashboard of request counts
+If the right-hand column is all that's left, the solution doesn't run on AI yet.
+Un test semplice per i team: se spengo l'AI resta solo la colonna di destra? Allora non è ancora una soluzione AI. Usare questa slide anche durante il giro tra i tavoli.
+11
+
+DATA
+Structured or not, Claude can read it
+City open data portal
+Open datasets with an API, from population to transport to service quality surveys
+dati.comune.milano.it/web/portale-del-dato
+MilanoStatistica · Linked Open Data
+Population, economy and territory statistics, plus semantic data on the city
+milanostatistica.comune.milano.it
+portalelod.comune.milano.it
+Public service pages
+How-to pages of the Comune, YesMilano, transport accessibility info. Unstructured, still usable
+comune.milano.it · yesmilano.it
+What you know
+Ask the people in your team, and any City staff in the room, where citizens get stuck
+The full catalogue with links is in the repo. Use public data only, and no personal data.
+Il catalogo completo è nel repo. Ricordare: niente dati personali nei prototipi, solo fonti pubbliche, rispettare i termini d'uso dei siti.
+12
+
+HOUSE RULES
+Four rules for the day
+01
+Teams of 4 or 5
+Mix design, code and domain knowledge
+02
+Open source
+On GitHub, donated to the Comune
+03
+Public data only
+No personal data in any prototype
+04
+One submission
+Per team, before 16:00
+Regole dall'Handbook Impact Lab, adattate. La 03 risponde alla paura emersa il 9 settembre sulla privacy.
+13
+
+HOW WE JUDGE · EACH CRITERION 0 TO 5
+Impact and AI at work count double
+×2
+Day-one impact
+Could the City use it tomorrow? Would it make a real difference?
+×2
+AI at work
+Does Claude do the work while it runs, not only while it was built?
+×1
+City data and sources
+Does it use the City's data and knowledge in a meaningful way?
+×1
+Product and execution
+Does it work? Do users get it on the first try?
+×1
+Pitch
+What it is, for whom, and why it matters, in two minutes
+Jury: Riccardo Colombo (Anthropic), Silvia Castellanza and Sara Belli (Comune di Milano)
+Pesi proposti: impatto dal primo giorno x2 (dall'Handbook), AI al lavoro x2 (il nostro criterio chiave). Punteggio massimo 35. Giuria confermata da Fabio Famoso (mail del 1 ottobre): per il Comune Silvia Castellanza (presente tutto il giorno) e Sara Belli (dalle 16).
+14
+
+WHAT TO SUBMIT · BY 16:00
+A public repo, a README, and a two-minute demo video
+The README must say
+The problem and who has it
+Which track, which City sources
+How to run it and see it work
+Link to the demo video (optional, recommended)
+REQUIRED SECTION
+Where does Claude work when someone uses this?
+Model, prompts, tools or MCP it calls, what it decides and what a human confirms.
+Requisito di consegna legato al criterio "AI at work": senza questa sezione il criterio vale zero. Consegna con l'issue form "Submission" nel repo Claude-Milano/impact-lab-oct-2026.
+15
+
+TODAY
+The day at a glance
+Time
+What happens
+09:00
+Doors open, coffee
+10:00
+Work starts: welcome from the Comune, the brief, teams form
+~13:00
+Lunch at the tables
+16:00
+Submission deadline, then pitches · 2 minutes per team
+17:00
+Jury deliberates
+17:30
+Awards
+Orari confermati da Alexio: porte e caffè alle 9, inizio lavori alle 10, pranzo verso le 13, consegna alle 16, premiazione alle 17:30. Pitch dopo la consegna, giuria alle 17. Riccardo Colombo arriva tra 15:30 e 16:00.
+16
+
+FORMING TEAMS · NEXT 15 MINUTES
+Join the team working on the idea you care about
+1
+Write your card
+Your name and your skill: design, code or domain
+2
+Go to a track
+Gather around the idea you want to build
+3
+Balance the team
+4 or 5 people, mixed skills, at least one Claude Max plan
+Gruppi da 4-5, minimo 4. I gruppi da 3 vengono assorbiti in quelli da 4. Lo staff gira tra i tavoli per bilanciare. Post-it grandi formato cartolina per nome e skill.
+17
+
+FROM ANTHROPIC, TO RUN YOUR SOLUTION
+$100 in Claude API credits, each
+1. Sign in at console.anthropic.com and create your organization
+2. Copy your Org ID from the console. Not your Claude.ai ID: it will be rejected
+3. Scan the code and submit it once. One claim per person
+4. Create an API key and put it in your app
+Use the credits to run your solution and build it with your Claude plan. Each team needs at least one Max plan.
+API only · not valid on Claude.ai
+Dalla mail di Chiara (Anthropic): link valido per 90 iscrizioni, $100 a testa, solo API (non Claude.ai), serve l'ORG ID della console e non lo UUID di Claude.ai. Controlli antifrode: chi invia da più profili viene bloccato e il supporto non può correggere invii sbagliati. Con Opus e Claude Code i crediti finiscono in fretta: usateli per far girare la soluzione.
+18
+
+EVERYTHING IN ONE PLACE
+The Impact Lab repo
+github.com/Claude-Milano/impact-lab-oct-2026
+The brief
+The three tracks, the question, the voices from 9 September
+The data
+Catalogue of City sources, with links and formats
+The rules
+Schedule, rules and judging criteria
+README template
+Problem, users, data used, demo, and where Claude works
+Submission
+A GitHub issue form, by 16:00
+Starter kit
+Prompts, a CLAUDE.md and a working "runs on Claude" example
+Repo sul modello di quello di San Diego, ma senza MCP di consegna: si consegna con l'issue form del repo. Il repo diventa pubblico all'avvio dei lavori: prima di allora il QR porta a una pagina 404 per chi non è membro dell'org Claude-Milano. Clonatelo e date il repo a Claude come contesto.
+19
+
+TIPS · A FLOW THAT WORKS
+From people to code in five steps
+1
+Personas
+Who uses the service, and where they get stuck
+2
+Brainstorm
+What the service becomes when AI runs inside it
+3
+User stories
+A few short stories, one per need
+4
+Mockup
+Stories into Claude Design, export one working HTML file
+5
+Build
+Stories and mockup into Claude Code, then start building
+Steps 1 to 3 can live in one Claude chat. Each step's output becomes the next step's input.
+Il flusso che consiglio: personas, brainstorming sul servizio aumentato con l'AI, user stories, mockup in Claude Design esportato come HTML autocontenuto e funzionante, poi Claude Code con user stories e mockup come contesto per iniziare a costruire.
+20
+
+TIPS AND TRICKS
+Three ways to get more out of Claude today
+Brainstorm in an HTML artifact
+Ask Claude for an interactive page that asks you questions one at a time and draws your answers. Use it for personas and for how the service could evolve. Ask it to be very visual.
+Use Claude Design twice
+First to design the user experience from your user stories. Then again at the end, to build the pitch deck, with video if you have it.
+Let Claude make your demo video
+With Opus 5.5 in Claude Desktop or Claude Code, point it at your repo and ask for a two-minute video. Add the docs that explain what you built, not just the code.
+Prompt di esempio per il brainstorming: "Crea una pagina HTML interattiva che ci intervisti una domanda alla volta per definire le personas di questo servizio. Man mano che rispondiamo, disegna le personas come schede visive." Per il video: più contesto c'è nel repo (README, user stories, note sulle scelte), migliore è il risultato.
+21
+
+Go build.
+Build something the City could switch on tomorrow, with Claude doing the work inside it.
+If you get stuck, raise a hand. The staff will be walking the tables all day.
+Chiusura dell'apertura. Da qui si passa alle slide da tenere a schermo durante la giornata.
+22
