@@ -4,4 +4,8 @@ Nella cartella input/ trovi il transcript della presentazione che ci hanno appen
 
 Il mio team ha deciso di intraprendere la via del track 1.
 
-Fai uno screening dei documenti e delle fonti citate nella presentazione (pag. ) 
+Fai uno screening dei documenti e delle fonti citate nella presentazione (pag. 12), e proponici qualche (massimo 5) idea comprensiva dei tre step dei cinque citati a pag. 20 della presentazione.
+
+L'obbiettivo è farci vincere.
+
+Output: documento html.
