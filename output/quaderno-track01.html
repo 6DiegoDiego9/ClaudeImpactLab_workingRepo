@@ -1,0 +1,534 @@
+<title>Quaderno Welcome Journey</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: colonna di lettura unica, schede-idea come "linee" della metro con fermate = step del flow */
+:root{
+  --paper:#f5f6f3; --surface:#ffffff; --ink:#1d2430; --muted:#5a6372; --rule:#d9ddd6;
+  --accent:#d4621a; --accent-soft:#fbe9dc;
+  --m1:#d6001c; --m2:#00874a; --m3:#d9a400; --m5:#8a5aa6;
+  --ok:#1f7a4a; --warn:#a86a00; --bad:#b3261e; --ok-bg:#e4f3ea; --warn-bg:#fbf0d9; --bad-bg:#f9e3e1;
+  --f-display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --f-body:"Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#14181e; --surface:#1c2129; --ink:#e7eaee; --muted:#9aa3b0; --rule:#2f3640;
+  --accent:#f08a45; --accent-soft:#3a2618;
+  --m1:#ff4d5e; --m2:#2fbf7a; --m3:#f2c432; --m5:#b88ad4;
+  --ok:#5cc98d; --warn:#e8b14a; --bad:#ff8a80; --ok-bg:#16301f; --warn-bg:#33280f; --bad-bg:#3a1a18;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#14181e; --surface:#1c2129; --ink:#e7eaee; --muted:#9aa3b0; --rule:#2f3640;
+  --accent:#f08a45; --accent-soft:#3a2618;
+  --m1:#ff4d5e; --m2:#2fbf7a; --m3:#f2c432; --m5:#b88ad4;
+  --ok:#5cc98d; --warn:#e8b14a; --bad:#ff8a80; --ok-bg:#16301f; --warn-bg:#33280f; --bad-bg:#3a1a18;
+  color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.55;margin:0}
+.wrap{max-width:980px;margin:0 auto;padding-inline:20px;padding-block:28px 80px}
+h1,h2,h3,h4{font-family:var(--f-display);line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:clamp(2rem,5vw,3.1rem);font-weight:800;letter-spacing:-.02em}
+h2{font-size:1.75rem;font-weight:700;margin-bottom:.4rem}
+h3{font-size:1.3rem;font-weight:700}
+h4{font-size:1rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+p{margin:0}
+a{color:var(--accent);text-underline-offset:2px}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+code,.mono{font-family:var(--f-mono);font-size:.84em}
+code{background:var(--accent-soft);padding:.05em .35em;border-radius:4px;overflow-wrap:anywhere}
+.eyebrow{font-family:var(--f-mono);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.stack{display:flex;flex-direction:column;gap:14px}
+.stack-lg{display:flex;flex-direction:column;gap:56px}
+.lead{font-size:1.15rem;color:var(--muted);max-width:68ch}
+.prose{max-width:70ch}
+ul{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
+
+/* header */
+header.top{display:flex;flex-direction:column;gap:14px;padding-bottom:28px;border-bottom:2px solid var(--ink)}
+.status{display:inline-flex;gap:8px;align-items:center;background:var(--warn-bg);color:var(--warn);border-radius:999px;padding:4px 12px;font-size:.88rem;font-weight:700;width:fit-content}
+.status::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor}
+nav.toc{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:.95rem}
+
+/* tabella classifica */
+.tbl-wrap{overflow-x:auto;border:1px solid var(--rule);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.93rem;font-variant-numeric:tabular-nums}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-family:var(--f-mono);font-size:.74rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+tr:last-child td{border-bottom:0}
+td.num{text-align:right;white-space:nowrap}
+tr.pick td{background:var(--accent-soft)}
+tr.pick td:first-child{font-weight:700}
+
+/* pillole linee */
+.line{display:inline-flex;align-items:center;justify-content:center;min-width:2.3em;height:1.6em;padding:0 .45em;border-radius:5px;color:#fff;font-family:var(--f-display);font-weight:800;font-size:.85rem}
+.l1{background:var(--m1)} .l2{background:var(--m2)} .l3{background:var(--m3);color:#1d2430} .l5{background:var(--m5)}
+
+/* box raccomandazione */
+.verdict{border:2px solid var(--accent);border-radius:12px;padding:20px 22px;background:var(--surface);display:flex;flex-direction:column;gap:10px}
+.verdict h3{color:var(--accent)}
+
+/* numeri pitch */
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.fact{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.fact b{font-family:var(--f-display);font-size:1.7rem;font-weight:800;line-height:1.1;font-variant-numeric:tabular-nums}
+.fact span{font-size:.92rem}
+.fact small{font-family:var(--f-mono);font-size:.72rem;color:var(--muted);overflow-wrap:anywhere}
+
+/* scheda idea */
+.idea{background:var(--surface);border:1px solid var(--rule);border-radius:14px;overflow:hidden}
+.idea-head{padding:22px 24px 18px;display:flex;flex-direction:column;gap:10px;border-top:8px solid var(--c)}
+.idea-head .title{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.idea-body{padding:0 24px 24px;display:flex;flex-direction:column;gap:22px}
+.scores{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font-family:var(--f-mono);font-size:.78rem;border:1px solid var(--rule);border-radius:999px;padding:3px 10px;white-space:nowrap}
+.chip.total{background:var(--ink);color:var(--paper);border-color:var(--ink);font-weight:600}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.two>*{min-width:0}
+@media (max-width:720px){.two{grid-template-columns:1fr}}
+
+/* fermate = step */
+.stops{position:relative;display:flex;flex-direction:column;gap:22px;padding-left:30px}
+.stops::before{content:"";position:absolute;left:9px;top:6px;bottom:6px;width:5px;border-radius:3px;background:var(--c)}
+.stop{position:relative;display:flex;flex-direction:column;gap:8px}
+.stop::before{content:"";position:absolute;left:-28px;top:3px;width:18px;height:18px;border-radius:50%;background:var(--surface);border:4px solid var(--c)}
+.stop>.eyebrow{color:var(--ink);font-weight:600}
+
+.persona{border-left:3px solid var(--rule);padding-left:12px;display:flex;flex-direction:column;gap:4px}
+.persona q{font-style:italic;color:var(--muted)}
+.story{background:var(--paper);border-radius:8px;padding:10px 12px;display:flex;flex-direction:column;gap:4px}
+.story .who{font-size:.95rem}
+.story .meta{font-size:.84rem;color:var(--muted)}
+.story .meta b{color:var(--ink)}
+
+.note{border-radius:8px;padding:10px 14px;font-size:.93rem}
+.note.warn{background:var(--warn-bg)} .note.ok{background:var(--ok-bg)} .note.bad{background:var(--bad-bg)}
+.note b{display:block;margin-bottom:2px}
+
+details{border-top:1px solid var(--rule);padding-top:10px}
+summary{cursor:pointer;font-weight:700;font-family:var(--f-display)}
+details[open] summary{margin-bottom:10px}
+.judge{display:flex;flex-direction:column;gap:3px;font-size:.93rem}
+.judge+.judge{margin-top:10px}
+
+/* catena dipendenze */
+.chain-wrap{overflow-x:auto;padding-bottom:6px}
+.chain{display:flex;align-items:flex-start;min-width:720px;position:relative;padding-top:6px}
+.chain::before{content:"";position:absolute;left:20px;right:20px;top:15px;height:6px;border-radius:3px;background:var(--m1)}
+.st{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;position:relative;text-align:center;font-size:.82rem;padding:0 4px}
+.st i{width:24px;height:24px;border-radius:50%;background:var(--surface);border:5px solid var(--m1)}
+.st.block i{border-color:var(--muted);background:var(--rule)}
+.st b{font-family:var(--f-display);font-size:.92rem}
+.st small{color:var(--muted)}
+
+/* fonti */
+.src{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.src article{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:16px 18px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.src article h3{font-size:1.1rem}
+.src ul{font-size:.92rem}
+.k{font-family:var(--f-mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+
+.plan{display:grid;grid-template-columns:auto 1fr;gap:8px 16px;font-size:.96rem}
+.plan dt{font-family:var(--f-mono);font-weight:600;white-space:nowrap}
+.plan dd{margin:0}
+
+footer{margin-top:60px;padding-top:18px;border-top:1px solid var(--rule);color:var(--muted);font-size:.88rem}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="top">
+  <span class="eyebrow">Claude Impact Lab Milano · 3 ottobre 2026 · Track 01 Welcome journey</span>
+  <h1>Quaderno Welcome Journey</h1>
+  <p class="lead">Screening delle fonti di pagina 12 e quattro idee (C1, C2, C4, C7) sviluppate sui primi tre step del flow di pagina 20: personas, brainstorm, user stories. Per ogni idea trovate il voto di una giuria simulata con i criteri ufficiali e le correzioni emerse dalle verifiche fatte dal vivo sulle fonti.</p>
+  <span class="status">Versione preliminare delle 12:30. La versione verificata arriva dal workflow verso le 12:45</span>
+  <nav class="toc" aria-label="Sezioni">
+    <a href="#classifica">Classifica</a><a href="#numeri">Numeri per il pitch</a><a href="#c1">C1 Sblocca</a><a href="#c7">C7 Ponte</a><a href="#c2">C2 Benvenuto, e adesso?</a><a href="#c4">C4 Leggimi</a><a href="#fonti">Screening fonti</a><a href="#regole">Trappole</a><a href="#piano">Piano fino alle 16</a>
+  </nav>
+</header>
+
+<main class="stack-lg" style="margin-top:36px">
+
+<!-- CLASSIFICA -->
+<section id="classifica" class="stack">
+  <span class="eyebrow">Giuria simulata · rubrica di RULES.md · max 35</span>
+  <h2>Dove stanno le quattro idee</h2>
+  <p class="prose">Tre agenti hanno votato ciascuno nei panni di un giurato: Anthropic, la CDO del Comune e i servizi al cittadino. Hanno usato la rubrica ufficiale, con impatto e "AI at work" che valgono doppio. Le quattro idee scelte sono evidenziate in arancione. C3 è uscita quarta, ma si sovrappone molto a C1 e si può assorbire lì.</p>
+  <div class="tbl-wrap">
+  <table>
+    <thead><tr><th>Idea</th><th>Anthropic</th><th>CDO</th><th>Servizi</th><th>Media</th><th>Punto debole comune</th></tr></thead>
+    <tbody>
+      <tr class="pick"><td><span class="line l1">C1</span> Sblocca</td><td class="num">30</td><td class="num">29</td><td class="num">29</td><td class="num"><b>29,3</b></td><td>Troppi pezzi per le 16:00</td></tr>
+      <tr class="pick"><td><span class="line l5">C7</span> Ponte</td><td class="num">28</td><td class="num">28,5</td><td class="num">30</td><td class="num"><b>28,8</b></td><td>Dati del Comune usati poco; sembra Track 3</td></tr>
+      <tr class="pick"><td><span class="line l2">C2</span> Benvenuto, e adesso?</td><td class="num">28</td><td class="num">27,5</td><td class="num">28</td><td class="num"><b>27,8</b></td><td>Contenuto della mail di benvenuto non verificato</td></tr>
+      <tr><td>C3 Chiave senza SPID</td><td class="num">28</td><td class="num">27</td><td class="num">27</td><td class="num">27,3</td><td>Si sovrappone a C1</td></tr>
+      <tr class="pick"><td><span class="line l3">C4</span> Leggimi</td><td class="num">29</td><td class="num">25,5</td><td class="num">26</td><td class="num"><b>26,8</b></td><td>Pochi dati del Comune; voce tagalog da verificare</td></tr>
+      <tr><td>C6 Nato altrove</td><td class="num">26</td><td class="num">26,5</td><td class="num">28</td><td class="num">26,8</td><td>Nicchia (la storia di Alexio)</td></tr>
+      <tr><td>C8 Radar e Sentinella</td><td class="num">25</td><td class="num">26</td><td class="num">23</td><td class="num">24,7</td><td>Poco valore diretto per il cittadino</td></tr>
+      <tr><td>C5 Senza scale</td><td class="num">21</td><td class="num">21</td><td class="num">24</td><td class="num">22,0</td><td>Scope fragile, dati ATM senza API</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="prose" style="font-size:.93rem;color:var(--muted)">Tutte e quattro prendono 3 su 5 in "Product and execution". La leva più forte per vincere è tagliare lo scope e arrivare alle 16:00 con una demo che funziona dall'inizio alla fine.</p>
+
+  <div class="verdict">
+    <h3>La nostra proposta: C1 come motore, con la scheda sportello di C7 come uscita</h3>
+    <p>C1 è prima per due giurati su tre. C7 è prima per chi giudica l'adottabilità (servizi). Si combinano bene. Il cittadino senza SPID riceve da Claude il percorso nell'ordine giusto, con il canale alternativo per ogni passo bloccato. Alla fine ottiene una <b>scheda caso in italiano</b> da mostrare al Milano Welcome Center o allo sportello, e l'operatore la conferma o la corregge. In questo modo si copre la "altra faccia della medaglia" citata in sala senza cambiare track, e il punto in cui decide un umano è chiaro.</p>
+    <p>Il punto d'ingresso di C2 (un QR nella mail di benvenuto) e la foto del foglio di C4 restano possibili estensioni da mostrare nella slide "day one". Non vanno costruite oggi.</p>
+  </div>
+</section>
+
+<!-- NUMERI -->
+<section id="numeri" class="stack">
+  <span class="eyebrow">Verificati dal vivo il 3/10/2026 · citare sempre dataset e anno</span>
+  <h2>Numeri per il pitch</h2>
+  <div class="facts">
+    <div class="fact"><b>~140 al giorno</b><span>pratiche di iscrizione anagrafica per immigrazione (50.777 nel 2025)</span><small>LOD atti-pubblici, SPARQL Virtuoso</small></div>
+    <div class="fact"><b>46,2%</b><span>degli stranieri dice che il servizio online di residenza ha aiutato "poco o per niente", contro il 25,1% di chi arriva da un altro comune</span><small>ds1702, 2022, 10.194 risposte</small></div>
+    <div class="fact"><b>1 su 3</b><span>stranieri dall'estero ha compilato il questionario in inglese; per il 34,3% il servizio ha aiutato poco o per niente</span><small>ds2216, 2023 (non è in DATA.md)</small></div>
+    <div class="fact"><b>21,1%</b><span>dei residenti è straniero: 295.805 persone di 173 cittadinanze. Le prime sono Egitto, Cina e Filippine</span><small>ds74, 31/12/2025</small></div>
+    <div class="fact"><b>26.359</b><span>nuove iscrizioni in anagrafe dall'estero nel 2023, il 44% del totale</span><small>ds1959, 2023</small></div>
+    <div class="fact"><b>3.268</b><span>FAQ ufficiali datate (KA-xxxxx) nel Centro Supporto, con ricerca semantica pubblica</span><small>servizicrm.comune.milano.it</small></div>
+  </div>
+  <p class="prose" style="font-size:.93rem;color:var(--muted)">Le indagini misurano solo chi ha completato la richiesta online. Chi ha abbandonato non è rappresentato, quindi il 46% è un limite inferiore: questo argomento va detto nel pitch. Contrariamente a quanto scrive DATA.md, le indagini NON contengono commenti liberi, solo risposte chiuse.</p>
+</section>
+
+<!-- C1 -->
+<section id="c1" class="idea" style="--c:var(--m1)">
+  <div class="idea-head">
+    <div class="title"><span class="line l1">C1</span><h2 style="margin:0">Sblocca</h2></div>
+    <p><b>Il navigatore delle dipendenze per le "settimane invisibili" senza SPID.</b> Claude capisce in che caso sei, ragiona su cosa blocca cosa e ti dice cosa puoi fare oggi. Per ogni passo che online richiede SPID trova il canale alternativo ufficiale.</p>
+    <div class="scores"><span class="chip total">29,3 / 35</span><span class="chip">Impatto 4</span><span class="chip">AI at work 5</span><span class="chip">Dati 4,3</span><span class="chip">Execution 3</span><span class="chip">Pitch 4</span></div>
+  </div>
+  <div class="idea-body">
+    <div class="stack">
+      <h4>Il blocco che risolve</h4>
+      <div class="chain-wrap"><div class="chain" role="img" aria-label="Catena dei prerequisiti: codice fiscale, kit permesso, alloggio, residenza, CIE, SPID, servizi online">
+        <div class="st"><i></i><b>Codice fiscale</b><small>AdE, AA4/8</small></div>
+        <div class="st"><i></i><b>Kit permesso</b><small>Poste, entro 8 gg</small></div>
+        <div class="st"><i></i><b>Alloggio</b><small>contratto / ospitalità</small></div>
+        <div class="st"><i></i><b>Residenza</b><small>entro 20 gg, form Elix</small></div>
+        <div class="st block"><i></i><b>CIE</b><small>solo da residente</small></div>
+        <div class="st block"><i></i><b>SPID</b><small>serve doc. italiano</small></div>
+        <div class="st block"><i></i><b>Online</b><small>Fascicolo, TARI web</small></div>
+      </div></div>
+      <p class="prose" style="font-size:.95rem">Per settimane chi arriva da fuori UE non può vedere lo stato della propria pratica di residenza (solo dal Fascicolo, KA-00325) né dichiarare la TARI online. Il Fascicolo non ha account senza SPID o CIE (KA-03731). Le guide YesMilano esistono solo in inglese, l'ordine dei passi è implicito e circa il 18% dei link è rotto.</p>
+    </div>
+
+    <div class="stops">
+      <div class="stop">
+        <span class="eyebrow">Step 1 · Personas</span>
+        <div class="two">
+          <div class="persona"><b>Wei, 29 anni, Singapore</b><span>Assunto da una startup, a Milano da 4 giorni. Parla inglese e cinese. Non ha codice fiscale, SIM italiana, SPID o CIE.</span><span><b>Dove si blocca:</b> non sa da cosa partire; ogni portale gli chiede SPID; il termine degli 8 giorni per il kit corre.</span><q>"Every page asks me for SPID. How do I get SPID if I don't exist here yet?"</q></div>
+          <div class="persona"><b>Lena, 23 anni, Germania</b><span>Erasmus di 6 mesi al Politecnico. Cittadina UE, parla inglese.</span><span><b>Dove si blocca:</b> legge guide pensate per extra-UE, crede di dover fare il permesso; non sa della residenza temporanea via email.</span><q>"Do I even need to register? My friend from Brazil had to go to the police."</q></div>
+        </div>
+      </div>
+      <div class="stop">
+        <span class="eyebrow">Step 2 · Brainstorm: cosa diventa il servizio con Claude dentro</span>
+        <ul>
+          <li>Claude fa <b>solo le domande che cambiano il percorso</b>: UE o extra-UE, motivo, durata oltre 90 giorni, se ha già CF, SIM e alloggio. Al massimo 5 domande e nessun dato identificativo.</li>
+          <li>Ragiona su un grafo di prerequisiti di circa 15 nodi (<code>prerequisiti.yaml</code>) e lo colora: verde "puoi farlo oggi", rosso "bloccato da...".</li>
+          <li>Per ogni nodo che richiede SPID propone il canale ufficiale alternativo: form Elix per la residenza, PEC per la TARI, 020202, Milano Welcome Center senza appuntamento.</li>
+          <li>Quando due fonti ufficiali si contraddicono <b>mostra il conflitto</b> invece di sceglierne una. Esempi: "8 giorni" per Poste contro "8 working days" per YesMilano; CF al consolato sì o no.</li>
+          <li>Le scadenze le calcola il codice, non il modello, ed escono in un file .ics. La checklist è nella lingua dell'utente, con i nomi dei moduli in italiano a fianco.</li>
+          <li>Ogni risposta cita la FAQ KA-xxxxx o la pagina con la sua data.</li>
+        </ul>
+        <div class="two">
+          <div class="note ok"><b>Tool di Claude</b><code>search_comune_faq</code> sull'endpoint semantico del Comune · <code>get_faq_article</code> · <code>query_open_data</code> (SQL su CKAN, es. sedi ds549) · <code>get_yesmilano_guide</code> da snapshot datati</div>
+          <div class="note warn"><b>Alternative scartate</b>Un RAG su tutto il sito: troppo lento da preparare e incapace di gestire l'ordine. Una checklist statica per profilo: non passa il test "spegni l'AI".</div>
+        </div>
+      </div>
+      <div class="stop">
+        <span class="eyebrow">Step 3 · User stories (bozza)</span>
+        <div class="story"><span class="who"><b>Come</b> Wei, <b>voglio</b> descrivere la mia situazione in inglese con poche risposte, <b>così che</b> l'assistente capisca quale percorso mi riguarda.</span><span class="meta"><b>Claude:</b> sceglie le domande e classifica il caso · <b>Umano:</b> Wei conferma il riepilogo del profilo</span></div>
+        <div class="story"><span class="who"><b>Come</b> Wei, <b>voglio</b> vedere cosa posso fare oggi e cosa è bloccato e da cosa, <b>così che</b> non perda giorni.</span><span class="meta"><b>Claude:</b> ordina i nodi del grafo per il suo caso · <b>Fonte:</b> FAQ KA, Allegato A, guide YesMilano</span></div>
+        <div class="story"><span class="who"><b>Come</b> Wei senza SPID, <b>voglio</b> per ogni passo bloccato il canale alternativo ufficiale, <b>così che</b> non resti fermo.</span><span class="meta"><b>Claude:</b> trova il canale e prepara la bozza di email/PEC · <b>Umano:</b> Wei la invia da sé</span></div>
+        <div class="story"><span class="who"><b>Come</b> Wei, <b>voglio</b> sapere quando due fonti ufficiali dicono cose diverse, <b>così che</b> scelga l'opzione prudente.</span><span class="meta"><b>Claude:</b> rileva il conflitto e cita entrambe le fonti con la data</span></div>
+        <div class="story"><span class="who"><b>Come</b> Lena, cittadina UE, <b>voglio</b> sapere subito che il permesso non mi serve e come chiedere la residenza temporanea, <b>così che</b> non segua la procedura sbagliata.</span><span class="meta"><b>Claude:</b> ramo UE (Allegato B) · <b>Fonte:</b> YesMilano "Temporary Residence (EU only)"</span></div>
+        <div class="story"><span class="who"><b>Come</b> Wei, <b>voglio</b> portare il mio caso al Welcome Center già riassunto in italiano, <b>così che</b> il colloquio duri meno.</span><span class="meta"><b>Claude:</b> genera la scheda caso (presa da C7) · <b>Umano:</b> l'operatore conferma o corregge</span></div>
+      </div>
+    </div>
+
+    <div class="two">
+      <div class="note ok"><b>Demo in 60 secondi</b>Wei scrive in inglese. Il grafo si colora: CIE, SPID e Fascicolo in rosso "bloccato da residenza", kit e residenza in verde. Compare un riquadro arancione con il conflitto tra fonti. Poi la stessa conversazione continua in cinese.</div>
+      <div class="note ok"><b>Day one</b>Un link o QR sulla pagina "residenza stranieri dall'estero", nella Getting Started di YesMilano e al Welcome Center. KPI: abbassare il 34,3% di "poco o per niente" (ds2216).</div>
+    </div>
+    <div class="note bad"><b>Da correggere prima di scrivere codice</b>L'endpoint FAQ risponde in modo semantico solo con questi parametri: <code>?top=5&amp;searchType=semantic&amp;formatInput=true&amp;category=&amp;textSearch=…</code>. Con <code>q=</code> restituisce sempre la stessa lista generica (Area B, sosta). Il numero KA non è un campo del JSON: va ricavato dal link. In inglese i risultati sono rumorosi, quindi il tool deve riformulare la domanda in italiano, e conviene mostrarlo in demo.</div>
+    <div class="note warn"><b>Taglio dello scope</b>Tenete grafo, checklist, un conflitto tra fonti e il .ics. Il server MCP "milano-services" piace al giurato Anthropic: scrivete i tool come funzioni normali e incapsulateli in MCP solo se alle 14:30 siete in orario. Togliete le query SPARQL se il tempo stringe.</div>
+
+    <details><summary>Cosa hanno detto i tre giurati</summary>
+      <div class="judge"><b>Anthropic · 30</b><span>È quella che corrisponde meglio al punteggio 5 di "AI at work": un agente vero con tool, che decide cosa chiedere e segnala le contraddizioni. Il server MCP lasciato al Comune risponde alla domanda aperta sui connettori affidabili. Impatto 4 perché resta un pianificatore reattivo: la proattività è solo nella wishlist.</span></div>
+      <div class="judge"><b>CDO · 29</b><span>Segnalare le contraddizioni tra fonti è un comportamento corretto sulla qualità del dato. ds549 ha temporal_coverage 28/01/2026 anche se la frequenza dichiarata è DAILY: va detto.</span></div>
+      <div class="judge"><b>Servizi · 29</b><span>Affronta il buco vero, le settimane in cui il Comune non sa ancora che esisti. Domande: chi aggiorna gli snapshot di YesMilano? L'accessibilità è solo linguistica.</span></div>
+    </details>
+  </div>
+</section>
+
+<!-- C7 -->
+<section id="c7" class="idea" style="--c:var(--m5)">
+  <div class="idea-head">
+    <div class="title"><span class="line l5">C7</span><h2 style="margin:0">Ponte</h2></div>
+    <p><b>Dal racconto nella tua lingua al caso già istruito per l'operatore del Milano Welcome Center.</b> Un solo flusso con due viste dello stesso risultato: il cittadino lo vede nella sua lingua, l'operatore in italiano.</p>
+    <div class="scores"><span class="chip total">28,8 / 35</span><span class="chip">Impatto 4,5</span><span class="chip">AI at work 5</span><span class="chip">Dati 2,8</span><span class="chip">Execution 3</span><span class="chip">Pitch 4</span></div>
+  </div>
+  <div class="idea-body">
+    <p class="prose" style="font-size:.95rem">Si arriva allo sportello senza i documenti giusti, metà del colloquio serve a ricostruire il caso e si torna più volte. Il 020202 su WhatsApp è un bot a menu e non capisce un racconto libero in arabo. Le FAQ sono solo in italiano. Il Welcome Center di via Sammartini 75 ha circa 60 operatori, tra cui mediatori, e riceve anche senza appuntamento.</p>
+    <div class="stops">
+      <div class="stop">
+        <span class="eyebrow">Step 1 · Personas</span>
+        <div class="two">
+          <div class="persona"><b>Ahmed, 38 anni, Egitto</b><span>Parla arabo e usa solo i messaggi vocali. Ha il permesso in rinnovo, la moglie e due figli in arrivo con il ricongiungimento.</span><span><b>Dove si blocca:</b> è già stato due volte allo sportello senza i documenti giusti; il figlio deve entrare a scuola in corso d'anno.</span><q>«Mi hanno detto di tornare con un altro foglio, ma quale?»</q></div>
+          <div class="persona"><b>Marco, mediatore al Welcome Center</b><span>Parla italiano, inglese e arabo di base. Vede molte persone al giorno.</span><span><b>Dove si blocca:</b> passa metà del colloquio a ricostruire la storia e a capire quale procedura si applica.</span><q>«Se arrivassero con il caso già in ordine potrei aiutarne il doppio.»</q></div>
+        </div>
+      </div>
+      <div class="stop">
+        <span class="eyebrow">Step 2 · Brainstorm</span>
+        <ul>
+          <li>Claude capisce un racconto disordinato e riconosce le procedure intrecciate: residenza con permesso in rinnovo (KA-00370), ricongiungimento, scuola in corso d'anno, prima CIE (KA-00393).</li>
+          <li>Chiede solo le 2-3 cose che cambiano il percorso. Poi decide se il caso si risolve da solo (checklist) o va instradato, e verso chi: Welcome Center, sede anagrafica (ds549), patronato (ds550), 020202.</li>
+          <li>Genera una <b>scheda caso strutturata</b> (JSON) con sintesi, passi fatti e bloccati, documenti mancanti secondo l'Allegato A, fonti KA con data, livello di confidenza e domande aperte per l'operatore.</li>
+          <li>Ahmed la vede in arabo, la approva e decide se mostrarla (QR o stampa). Marco la apre in italiano e conferma o corregge ogni punto. La correzione torna ad Ahmed tradotta.</li>
+          <li>Le domande senza una fonte finiscono in un backlog di "FAQ mancanti" per la redazione del Comune.</li>
+        </ul>
+      </div>
+      <div class="stop">
+        <span class="eyebrow">Step 3 · User stories (bozza)</span>
+        <div class="story"><span class="who"><b>Come</b> Ahmed, <b>voglio</b> raccontare la mia situazione con un vocale in arabo, <b>così che</b> non debba scrivere in italiano.</span><span class="meta"><b>Claude:</b> trascrive, capisce e fa al massimo 3 domande mirate</span></div>
+        <div class="story"><span class="who"><b>Come</b> Ahmed, <b>voglio</b> sapere quali documenti mi mancano per ciascuna pratica, <b>così che</b> non torni allo sportello a vuoto.</span><span class="meta"><b>Fonte:</b> Allegato A, FAQ KA con data · <b>Umano:</b> Ahmed approva la scheda</span></div>
+        <div class="story"><span class="who"><b>Come</b> Ahmed, <b>voglio</b> decidere io se e quando mostrare la scheda all'operatore, <b>così che</b> i miei dati restino miei.</span><span class="meta">Nessun salvataggio lato server; QR generato sul telefono</span></div>
+        <div class="story"><span class="who"><b>Come</b> Marco, <b>voglio</b> ricevere il caso già ordinato in italiano con il livello di confidenza, <b>così che</b> il colloquio parta dal punto giusto.</span><span class="meta"><b>Umano:</b> Marco conferma o corregge ogni punto</span></div>
+        <div class="story"><span class="who"><b>Come</b> Ahmed, <b>voglio</b> ricevere le correzioni dell'operatore nella mia lingua, <b>così che</b> sappia cosa fare dopo.</span><span class="meta"><b>Claude:</b> traduce la correzione e aggiorna la checklist</span></div>
+        <div class="story"><span class="who"><b>Come</b> redazione del Comune, <b>voglio</b> l'elenco delle domande rimaste senza fonte, <b>così che</b> scriva le FAQ che mancano.</span><span class="meta"><b>Claude:</b> raggruppa le domande simili</span></div>
+      </div>
+    </div>
+    <div class="two">
+      <div class="note ok"><b>Demo in 60 secondi</b>Schermo diviso. A sinistra il vocale in arabo e due domande mirate. A destra la scheda che si compila in tempo reale, con i documenti mancanti in rosso e il pulsante "Confermo / Correggo". Marco corregge e Ahmed riceve la correzione in arabo.</div>
+      <div class="note ok"><b>Day one</b>Un QR in sala d'attesa e sul dépliant del Welcome Center, senza integrazioni. KPI del pilota: minuti per colloquio, quota di persone che arrivano con i documenti giusti, punti corretti dall'operatore.</div>
+    </div>
+    <div class="note warn"><b>Da sistemare</b>Per la CDO i dati sono il punto debole (2,5-3): aggiungete almeno ds2216 come baseline KPI e ds549 con l'ingresso provvisorio da via Pecorari 3. ds550 (patronati) è del 2018 e va segnalato. Nel pitch il protagonista deve essere Ahmed, non l'operatore, altrimenti la giuria lo legge come Track 3. Non date pareri sull'esito del ricongiungimento. Fate rivedere l'arabo da un madrelingua in sala.</div>
+    <details><summary>Cosa hanno detto i tre giurati</summary>
+      <div class="judge"><b>Servizi · 30, il voto più alto</b><span>È quella che adotterei domani: QR in sala d'attesa, nessuna integrazione e nessuna scrittura su sistemi. Il human in the loop è il migliore di tutti. Il backlog "FAQ mancanti" è oro per la redazione. Non duplica l'assistente del contact center, lo alimenta.</span></div>
+      <div class="judge"><b>Anthropic · 28</b><span>Sul piano agentico è vicinissima alla definizione della rubrica. Rischio: due viste sincronizzate più vocale arabo più ciclo di correzione sono tante parti mobili.</span></div>
+      <div class="judge"><b>CDO · 28,5</b><span>L'impatto day-one è il più tangibile. Il dato del Comune è il punto debole: poche combinazioni tra dataset.</span></div>
+    </details>
+  </div>
+</section>
+
+<!-- C2 -->
+<section id="c2" class="idea" style="--c:var(--m2)">
+  <div class="idea-head">
+    <div class="title"><span class="line l2">C2</span><h2 style="margin:0">Benvenuto, e adesso?</h2></div>
+    <p><b>La mail di benvenuto del Comune diventa il piano dei primi 90 giorni nel tuo quartiere.</b> Dal link nella mail, cinque domande anonime e Claude interroga i dati aperti del Comune per costruire un piano con scadenze e servizi vicini.</p>
+    <div class="scores"><span class="chip total">27,8 / 35</span><span class="chip">Impatto 4</span><span class="chip">AI at work 4</span><span class="chip">Dati 4,8</span><span class="chip">Execution 3</span><span class="chip">Pitch 4</span></div>
+  </div>
+  <div class="idea-body">
+    <div class="stops">
+      <div class="stop">
+        <span class="eyebrow">Step 1 · Personas</span>
+        <div class="two">
+          <div class="persona"><b>Amira, 27 anni, Egitto</b><span>Appena iscritta in anagrafe a NoLo, Municipio 2. Parla arabo, non ha SPID, aspetta un bambino. L'Egitto è la prima comunità straniera (41.957 residenti, ds74).</span><span><b>Dove si blocca:</b> dopo la residenza crede di aver finito. Restano la TARI entro 90 giorni, il pediatra, i nidi (nuovi posti entro il 14/10/2026) e un corso di italiano.</span><q>«Ho la residenza. Quindi adesso è tutto a posto, vero?»</q></div>
+          <div class="persona"><b>Tomás, 34 anni, Spagna</b><span>Ingegnere, si trasferisce nel Municipio 9 con due figli di 3 e 7 anni. Parla spagnolo e inglese.</span><span><b>Dove si blocca:</b> le iscrizioni scolastiche sono chiuse da febbraio; non sa a chi chiedere un posto in corso d'anno.</span><q>"The welcome email is nice, but what do I do this week?"</q></div>
+        </div>
+      </div>
+      <div class="stop">
+        <span class="eyebrow">Step 2 · Brainstorm</span>
+        <ul>
+          <li>Claude fa al massimo 5 domande anonime: quartiere (NIL), figli per fascia d'età, lingua, livello di italiano, data di iscrizione.</li>
+          <li>Scrive al volo query SQL su CKAN (<code>datastore_search_sql</code>) e SPARQL sull'endpoint Virtuoso del Comune: pediatri ds235, scuole di italiano ds551 (oltre 70 attributi: gratuità, baby-sitting, livello), biblioteche, scuole del NIL.</li>
+          <li>Legge <code>temporal_coverage</code> dai metadati DCAT e avvisa quando un dato è vecchio: "ds551 è del 2018, verifica prima di andare".</li>
+          <li>Prepara la mail TARI per la PEC in italiano, con l'oggetto nel formato richiesto e la traduzione araba a fianco. La invia Amira.</li>
+          <li>Mostra a lato il log delle chiamate SQL e SPARQL: in demo serve al giurato Anthropic.</li>
+        </ul>
+      </div>
+      <div class="stop">
+        <span class="eyebrow">Step 3 · User stories (bozza)</span>
+        <div class="story"><span class="who"><b>Come</b> Amira, <b>voglio</b> aprire il link della mail e rispondere in arabo a poche domande, <b>così che</b> il piano sia mio e non uguale per tutti.</span><span class="meta"><b>Claude:</b> sceglie le domande · nessun dato identificativo</span></div>
+        <div class="story"><span class="who"><b>Come</b> Amira, <b>voglio</b> vedere una timeline con quanto manca a ogni scadenza, <b>così che</b> non prenda una multa per la TARI.</span><span class="meta">Date calcolate dal codice · <b>Fonte:</b> KA-02121 TARI entro 90 giorni</span></div>
+        <div class="story"><span class="who"><b>Come</b> Amira, <b>voglio</b> sapere qual è il corso di italiano gratuito più vicino con baby-sitting, <b>così che</b> possa andarci con il bambino.</span><span class="meta"><b>Claude:</b> ragiona sui criteri di ds551 e motiva la scelta</span></div>
+        <div class="story"><span class="who"><b>Come</b> Tomás, <b>voglio</b> essere avvisato se un'informazione viene da un dataset vecchio, <b>così che</b> verifichi prima di muovermi.</span><span class="meta"><b>Claude:</b> legge i metadati DCAT a runtime</span></div>
+        <div class="story"><span class="who"><b>Come</b> Amira senza SPID, <b>voglio</b> una mail TARI già pronta, <b>così che</b> debba solo controllarla e inviarla.</span><span class="meta"><b>Umano:</b> Amira controlla e invia da sé</span></div>
+      </div>
+    </div>
+    <div class="two">
+      <div class="note ok"><b>Demo in 60 secondi</b>Mockup della mail (senza loghi ufficiali), un clic, 4 risposte in arabo, i log SQL e SPARQL a lato, poi la timeline "TARI: mancano 87 giorni", il corso a 600 m e l'avviso giallo sul dato del 2018.</div>
+      <div class="note ok"><b>Day one</b>Una riga e un QR nel template della mail di benvenuto che esiste già. Pilota su un municipio (2 o 9, quelli con più arrivi dall'estero).</div>
+    </div>
+    <div class="note bad"><b>Rischio principale</b>Contenuto, mittente e lingue delle mail di benvenuto non sono verificabili online. Chiedetelo ai referenti del Comune in sala <b>prima</b> di costruirci sopra la demo. Altri dataset sono vecchi: ds47 nidi copre il 2016-2019, ds1304 sportelli tributi il 2020-2021, ds551 il 2018. Il text-to-SQL dal vivo è fragile: preparate query di fallback già testate.</div>
+    <details><summary>Cosa hanno detto i tre giurati</summary>
+      <div class="judge"><b>CDO · 27,5</b><span>È la proposta che usa i nostri dati nel modo più combinato e consapevole. La lettura del temporal_coverage a runtime è esattamente ciò che chiedo. ds235 e ds234 sono freschi (aggiornati all'1/10/2026): ottima scelta.</span></div>
+      <div class="judge"><b>Servizi · 28</b><span>È l'idea che il mio ufficio adotterebbe con meno attrito. Ma arriva dopo l'iscrizione e non copre i primi 20 giorni, i più critici.</span></div>
+      <div class="judge"><b>Anthropic · 28</b><span>Claude che scrive SQL e SPARQL con i log visibili è lavoro vero. Senza identità però rischia di diventare la "FAQ più intelligente" del watch out.</span></div>
+    </details>
+  </div>
+</section>
+
+<!-- C4 -->
+<section id="c4" class="idea" style="--c:var(--m3)">
+  <div class="idea-head">
+    <div class="title"><span class="line l3">C4</span><h2 style="margin:0">Leggimi</h2></div>
+    <p><b>Fotografi il foglio, lo capisci a voce nella tua lingua e sai qual è il prossimo passo.</b> È l'unica delle quattro che risponde in pieno alla domanda dell'evento per chi vede poco, è anziano e non legge l'italiano.</p>
+    <div class="scores"><span class="chip total">26,8 / 35</span><span class="chip">Impatto 4</span><span class="chip">AI at work 4,3</span><span class="chip">Dati 2,8</span><span class="chip">Execution 3</span><span class="chip">Pitch 4,3</span></div>
+  </div>
+  <div class="idea-body">
+    <div class="stops">
+      <div class="stop">
+        <span class="eyebrow">Step 1 · Personas</span>
+        <div class="two">
+          <div class="persona"><b>Rosa, 61 anni, Filippine</b><span>Colf convivente. Parla tagalog e un po' di inglese, ha la cataratta, usa solo WhatsApp, non ha SPID. Le Filippine sono la terza comunità straniera (35.638 residenti).</span><span><b>Dove si blocca:</b> ha in mano fogli in italiano (ricevuta del kit, Allegato A) e non sa che la ricevuta vale già per chiedere la residenza.</span><q>"Ano ang ibig sabihin ng papel na ito?" (Cosa vuol dire questo foglio?)</q></div>
+          <div class="persona"><b>Mahmoud, 72 anni, Egitto</b><span>Arrivato con il ricongiungimento familiare. Parla arabo, legge con difficoltà anche nella sua lingua.</span><span><b>Dove si blocca:</b> riceve una lettera del Comune e aspetta che il figlio torni dal lavoro per farsela leggere.</span><q>«Aspetto mio figlio stasera.»</q></div>
+        </div>
+      </div>
+      <div class="stop">
+        <span class="eyebrow">Step 2 · Brainstorm</span>
+        <ul>
+          <li>Claude legge la foto con la visione ed estrae tipo di atto, date, luogo e documenti richiesti in una scheda che Rosa conferma campo per campo.</li>
+          <li>Colloca il documento nel percorso (CF, kit, residenza, SSN, CIE) e decide la prossima azione.</li>
+          <li>Riformula la domanda in italiano per la ricerca FAQ del Comune, che in tagalog dà risultati sbagliati (RSA, Estate Vacanza).</li>
+          <li>Risponde a voce in 3-5 frasi semplici, citando la FAQ e la data. Genera una "scheda sportello" in italiano a caratteri grandi.</li>
+          <li>La foto non viene salvata, l'avviso AI è sempre visibile e il pulsante "parla con una persona" porta al Welcome Center (dépliant anche in tagalog).</li>
+          <li>Smonta in demo un errore della traduzione automatica del sito: "attestazione di soggiorno" resa con "Residence permit".</li>
+        </ul>
+      </div>
+      <div class="stop">
+        <span class="eyebrow">Step 3 · User stories (bozza)</span>
+        <div class="story"><span class="who"><b>Come</b> Rosa, <b>voglio</b> fotografare il foglio che ho in mano, <b>così che</b> non debba leggerlo.</span><span class="meta"><b>Claude:</b> estrae i campi · <b>Umano:</b> Rosa conferma campo per campo</span></div>
+        <div class="story"><span class="who"><b>Come</b> Rosa, <b>voglio</b> sentire la spiegazione a voce in tagalog, <b>così che</b> capisca anche senza occhiali.</span><span class="meta">Piano B se la voce TTS tagalog non funziona: inglese semplice</span></div>
+        <div class="story"><span class="who"><b>Come</b> Rosa, <b>voglio</b> sapere qual è il prossimo passo e dove andare, <b>così che</b> non perda la giornata libera.</span><span class="meta"><b>Fonte:</b> ds549 sedi anagrafiche con orari e ingresso · FAQ KA</span></div>
+        <div class="story"><span class="who"><b>Come</b> Mahmoud, <b>voglio</b> una scheda in italiano a caratteri grandi da mostrare allo sportello, <b>così che</b> l'operatore capisca subito.</span><span class="meta"><b>Claude:</b> genera la scheda · <b>Umano:</b> l'operatore verifica</span></div>
+        <div class="story"><span class="who"><b>Come</b> Rosa, <b>voglio</b> poter parlare con una persona in ogni momento, <b>così che</b> non resti sola con la macchina.</span><span class="meta">Tutela obbligatoria del Manifesto IA del Comune</span></div>
+      </div>
+    </div>
+    <div class="two">
+      <div class="note ok"><b>Demo in 60 secondi</b>Si inquadra una ricevuta fac-simile, chiaramente inventata. Il telefono dice in tagalog: "con questa puoi già chiedere la residenza, ti mancano il CF e il contratto". Poi si mostra la stessa domanda in tagalog sulla ricerca del Comune, che dà risultati sbagliati.</div>
+      <div class="note ok"><b>Day one</b>Link nel footer accanto al 020202, tablet al Welcome Center o nelle biblioteche (22.430 prestiti l'anno a over 85). Viene prima di ConWEB, che compila moduli, quindi non lo duplica.</div>
+    </div>
+    <div class="note bad"><b>Da correggere</b>La tesi "in arabo la ricerca del Comune non dà risultati" è FALSA: in arabo dà 5 risultati parzialmente pertinenti. Usate il tagalog per il confronto, perché lì fallisce davvero. Testate subito la voce TTS tagalog nel browser. "Leggere foto di documenti" è la formula del Track 2: nel pitch dite subito che il risultato è il percorso, non la compilazione di un modulo. Per la CDO aggiungete almeno ds74 e le biblioteche dal LOD.</div>
+    <details><summary>Cosa hanno detto i tre giurati</summary>
+      <div class="judge"><b>Anthropic · 29</b><span>È la demo che mi convincerebbe di più in sala: foto, visione, voce in tagalog e il confronto con la ricerca del Comune che fallisce. La riformulazione in italiano è un valore reale e dimostrabile.</span></div>
+      <div class="judge"><b>Servizi · 26</b><span>La scheda sportello gialla e il pulsante "parla con una persona" sono esattamente ciò che chiederei. Se Claude legge male una data di scadenza, però, il danno ricade su Rosa.</span></div>
+      <div class="judge"><b>CDO · 25,5</b><span>Il valore sta nell'AI multimodale, non nei dati: vedo poco uso dei dati del Comune e nessuna wishlist strutturata.</span></div>
+    </details>
+  </div>
+</section>
+
+<!-- FONTI -->
+<section id="fonti" class="stack">
+  <span class="eyebrow">Fonti di pagina 12 + repo dell'evento · verificate il 3/10/2026</span>
+  <h2>Screening delle fonti</h2>
+  <p class="prose">Cinque agenti hanno esplorato le fonti dal vivo. Le due scoperte che quasi nessun team avrà sono l'<b>endpoint SPARQL del Comune</b> e il <b>Centro Supporto con 3.268 FAQ datate</b>: entrambi si possono usare come tool di Claude a runtime.</p>
+  <div class="src">
+    <article>
+      <span class="k">Portale del dato · CKAN</span>
+      <h3>dati.comune.milano.it</h3>
+      <ul>
+        <li>2.604 dataset, API senza chiave. Funziona anche <code>datastore_search_sql</code> per query aggregate (solo su risorse CSV).</li>
+        <li>I metadati DCAT hanno <code>temporal_coverage</code> e <code>frequency</code>: la freschezza si controlla in automatico.</li>
+        <li>Fuori da DATA.md: ds2216 e ds2692, indagini dedicate alla residenza degli stranieri dall'estero.</li>
+        <li>Freschi: ds234/ds235 medici e pediatri (30/09/2026), biblioteche ds3012, GTFS ds929.</li>
+        <li>Vecchi: ds550/551/552/554 Service4Migrants (2018), ds47 nidi (2016-2019). ds74 non ha la colonna municipio nonostante lo slug.</li>
+      </ul>
+    </article>
+    <article>
+      <span class="k">Linked Open Data · SPARQL</span>
+      <h3>portalelod.comune.milano.it</h3>
+      <ul>
+        <li>Endpoint pubblico <code>virtuoso-prod.comune.milano.it/sparql</code>: senza chiave, CORS aperto, circa 0,2 s. Non è citato nel brief.</li>
+        <li>7 grafi: scuole, biblioteche, atti pubblici, impianti sportivi, LET-MI, prezzi, Area C.</li>
+        <li>Il grafo "atti-pubblici" ha le iscrizioni per immigrazione mese per mese fino a maggio 2026: è il dato più fresco sugli arrivi.</li>
+        <li>Imponete sempre <code>GRAPH</code> e <code>LIMIT</code> (Area C ha circa 114 milioni di triple) e usate <code>STR()</code> nei filtri sui letterali.</li>
+      </ul>
+    </article>
+    <article>
+      <span class="k">Statistica ufficiale</span>
+      <h3>MilanoStatistica</h3>
+      <ul>
+        <li>Mashup Qlik: ottimo da consultare, ma inutilizzabile come tool a runtime (le query anonime restituiscono zero righe).</li>
+        <li>Circa 50 file XLS di indicatori con URL stabili (es. <code>stranieri_1999-2025.xls</code>): caricateli al build come JSON.</li>
+        <li>Stranieri per municipio: M2 27,8%, M9 25,2%. Over 85: 4,79% dei residenti.</li>
+      </ul>
+    </article>
+    <article>
+      <span class="k">Pagine di servizio</span>
+      <h3>comune.milano.it + Centro Supporto</h3>
+      <ul>
+        <li>Centro Supporto: 3.268 FAQ KA-xxxxx con data, in una sitemap pubblica. Endpoint di ricerca semantica: <code>/o/crmsearch-service/knowledgeArticles</code> con <code>textSearch</code>.</li>
+        <li>Il Fascicolo si apre solo con SPID o CIE (KA-03731); eIDAS non è verificabile.</li>
+        <li>10 lingue a traduzione automatica, con errori giuridici ("Residence permit" per attestazione di soggiorno).</li>
+        <li>Il cambio di residenza viene già comunicato a INPS, AdE, ATS, Tributi (KA-00372): è il trigger per una v2 proattiva.</li>
+        <li>WAF: risponde 403 senza user-agent da browser. Salvate le pagine nel repo con la data.</li>
+      </ul>
+    </article>
+    <article>
+      <span class="k">Percorso informativo</span>
+      <h3>YesMilano Study &amp; Work</h3>
+      <ul>
+        <li>Le guide stanno su <a href="https://studyandwork.yesmilano.it/en/study/how-to">studyandwork.yesmilano.it</a>: 12 per studenti, 18 per professionisti.</li>
+        <li>Solo in inglese, quasi senza date, circa 18% dei link rotti o che finiscono sulla home del Comune.</li>
+        <li>Contraddizioni interne: CF al consolato sì/no; soglie della residenza temporanea UE.</li>
+        <li>Il WAF blocca ClaudeBot e WebFetch: usate snapshot datati, YesMilano resta la fonte di verità.</li>
+      </ul>
+    </article>
+    <article>
+      <span class="k">Ecosistema e concorrenti</span>
+      <h3>Enti esterni e altre città</h3>
+      <ul>
+        <li>Ordine reale: CF, poi kit Poste entro 8 giorni, alloggio, residenza entro 20 giorni, SSN, TARI entro 90 giorni, CIE, SPID.</li>
+        <li>Per i cittadini UE il Reg. 2016/1191 evita apostille e traduzione per alcuni atti (il caso di Alexio).</li>
+        <li>Kamu (Finlandia, chatbot FAQ) è stato chiuso a ottobre 2024; Helsinki Into è a regole e solo in inglese; Sportellino non prenota e non presenta pratiche.</li>
+        <li>Esistono già al Comune: 020202 WhatsApp a menu, ConWEB (moduli a voce), assistente AI del contact center. Non duplicateli.</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<!-- REGOLE -->
+<section id="regole" class="stack">
+  <span class="eyebrow">Valgono per qualunque idea scegliate</span>
+  <h2>Trappole e punti da mostrare</h2>
+  <div class="two">
+    <div class="stack">
+      <h4>Da mostrare nella UI e nel README</h4>
+      <ul>
+        <li>Le due tutele del <a href="https://www.comune.milano.it/documents/20118/1454280/manifesto_AI_Comune_di_Milano.pdf">Manifesto IA del Comune</a>: l'avviso "stai parlando con un sistema automatico" e un modo per contattare sempre un operatore.</li>
+        <li>La sezione "Where Claude works": senza questa sezione "AI at work" vale 0.</li>
+        <li>Ogni risposta con fonte e data; il periodo coperto di ogni dataset.</li>
+        <li>Una <b>data wishlist</b> per la CDO, che l'ha chiesta in sala: trigger "nuovo residente" con consenso, stato della pratica senza SPID tramite token, FAQ come dataset CKAN, allowlist per agenti AI su YesMilano.</li>
+      </ul>
+    </div>
+    <div class="stack">
+      <h4>Da evitare</h4>
+      <ul>
+        <li>Inviare form o prenotazioni sui sistemi del Comune: nessun accesso in scrittura.</li>
+        <li>Dati personali, anche nei dataset dei medici: usate solo ambulatorio e posizione.</li>
+        <li>Citare come attuali dati vecchi, o come fonti siti di terze parti (milanofree, studi legali).</li>
+        <li>Dire che eIDAS funziona sul Fascicolo, o indicare durate dell'accertamento non verificate.</li>
+        <li>Loghi del Comune nei mockup.</li>
+        <li>Pareri sull'esito di permessi o ricongiungimenti: è orientamento, non consulenza legale.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PIANO -->
+<section id="piano" class="stack">
+  <span class="eyebrow">Orientativo · team di 4-5</span>
+  <h2>Piano fino alle 16:00</h2>
+  <dl class="plan">
+    <dt>12:30–12:50</dt><dd>Scegliete l'idea. Chiedete ai referenti del Comune in sala cosa contiene la mail di benvenuto e se il Welcome Center userebbe una scheda caso.</dd>
+    <dt>12:50–13:15</dt><dd>Chiudete gli step 1-3 in una chat Claude, partendo da questo documento. Dividetevi: chi fa design, chi scrive i tool, chi si occupa di contenuti e fonti.</dd>
+    <dt>13:15–14:30</dt><dd>Mockup in Claude Design (step 4). In parallelo, in Claude Code: system prompt, 2-3 tool e il loop partendo da <code>starter/runs_on_claude.py</code>.</dd>
+    <dt>14:30–15:15</dt><dd>Collegate UI e agente. Preparate un caso inventato dall'inizio alla fine e le risposte di fallback in cache.</dd>
+    <dt>15:15–15:45</dt><dd>README dal template (con "Where Claude works", fonti e date), video di 2 minuti, controllo che non ci siano chiavi API nel repo.</dd>
+    <dt>15:45</dt><dd>Submission dal form del repo dell'evento. Il pitch: 20 secondi di problema, 60 di demo, 20 su Claude, 20 sul day one.</dd>
+  </dl>
+</section>
+
+</main>
+
+<footer>
+  Fonti: slide e transcript della presentazione, repo <a href="https://github.com/Claude-Milano/impact-lab-oct-2026">Claude-Milano/impact-lab-oct-2026</a>, verifiche dal vivo del 3/10/2026 su dati.comune.milano.it, virtuoso-prod.comune.milano.it, comune.milano.it, servizicrm.comune.milano.it, studyandwork.yesmilano.it ed enti esterni. I voti sono una simulazione fatta con agenti Claude e non anticipano il giudizio della giuria reale. Le persone descritte sono inventate.
+</footer>
+</div>
