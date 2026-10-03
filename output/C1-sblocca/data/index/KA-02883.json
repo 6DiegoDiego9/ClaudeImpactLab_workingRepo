@@ -1,0 +1,37 @@
+{
+ "id": "KA-02883",
+ "tipo": "faq",
+ "titolo": "Cosa fare se non riesco a utilizzare SPID per presentare una domanda sul portale WeMi?",
+ "domanda": "Cosa fare se non riesco a utilizzare SPID per presentare una domanda sul portale WeMi?",
+ "testo": "Per ricevere assistenza, è possibile prenotare un appuntamento presso gli spazi WeMi.\nRivolgersi al Contact Center tramite la sezione \"Hai ancora bisogno di aiuto?\" oppure accedere al portale WeMi .",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02883/Difficolta-utilizzo-SPID-per-presentazione-domanda",
+ "lingua": "it",
+ "aggiornato_il": "2026-03-16",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2026-03-16T10:15:10+01:00",
+ "recuperato_il": "2026-10-03T13:07:01+02:00",
+ "categoria": "Welfare / Sistema WeMi",
+ "titolo_breve": "Difficoltà utilizzo SPID per presentazione domanda",
+ "parole_chiave": [
+  "weMi",
+  "portale WeMI",
+  "servizi WeMi",
+  "supporto domanda WeMi"
+ ],
+ "link": [
+  {
+   "testo": "WeMi",
+   "url": "https://wemi.comune.milano.it/"
+  }
+ ],
+ "link_servizio": [
+  {
+   "titolo": "Sistema WeMi",
+   "url": "https://www.comune.milano.it/servizi/welfare/sistema-wemi"
+  },
+  {
+   "titolo": "Richiedi assistenza",
+   "url": "https://servizicrm.comune.milano.it/callasap/servizisociali/wemiinformazioni?knowledgeArticleId=2b401137-6166-f011-bec3-7c1e528767ce"
+  }
+ ]
+}

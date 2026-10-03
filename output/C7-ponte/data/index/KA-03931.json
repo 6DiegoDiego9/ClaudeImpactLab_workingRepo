@@ -1,0 +1,33 @@
+{
+ "id": "KA-03931",
+ "tipo": "faq",
+ "titolo": "Ho effettuato il cambio di residenza sul portale dell’Anagrafe nazionale della popolazione residente (ANPR) ma risulto ancora residente al vecchio indirizzo. Come posso sapere a che punto è la mia pratica?",
+ "domanda": "Ho effettuato il cambio di residenza sul portale dell’Anagrafe nazionale della popolazione residente (ANPR) ma risulto ancora residente al vecchio indirizzo. Come posso sapere a che punto è la mia pratica?",
+ "testo": "Per verificare lo stato della pratica è necessario inviare una richiesta dalla sezione \"Hai ancora bisogno di aiuto?\".",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03931/Sollecito-pratica-cambio-residenza",
+ "lingua": "it",
+ "aggiornato_il": "2025-11-24",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2025-11-24T22:55:37+01:00",
+ "recuperato_il": "2026-10-03T13:05:37+02:00",
+ "categoria": "Anagrafe / Cambio di residenza",
+ "titolo_breve": "Sollecito pratica cambio residenza",
+ "parole_chiave": [
+  "cambio residenza",
+  "pratica cambio residenza",
+  "cambio residenza ANPR",
+  "sollecito cambio residenza",
+  "sollecito cambio residenza ANPR"
+ ],
+ "link": [],
+ "link_servizio": [
+  {
+   "titolo": "Cambio di residenza",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza"
+  },
+  {
+   "titolo": "Richiedi assistenza",
+   "url": "https://servizicrm.comune.milano.it/spec/cambiodiresidenza/informazioni?knowledgeArticleId=3a62c046-80c9-f011-bbd2-7c1e5236e249"
+  }
+ ]
+}

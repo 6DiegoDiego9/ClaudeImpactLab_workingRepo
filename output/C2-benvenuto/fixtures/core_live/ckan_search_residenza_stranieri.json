@@ -1,0 +1,50 @@
+{
+  "catturato_il": "2026-10-03T13:12:28+02:00",
+  "dati": [
+    {
+      "slug": "ds74-popolazione-residenti-stranieri-cittadinanza-e-municipio",
+      "titolo": "Stranieri: residenti per cittadinanza (1979-2025)",
+      "descrizione": "Il dataset contiene la serie storica degli stranieri residenti a Milano per cittadinanza di appartenenza a partire dal 1979. I cittadini dell'ex Serbia-Montenegro che hanno acquisito la residenza a Milano prima dell'istituzione del…",
+      "metadata_modified": "2026-05-08T10:33:45.981501",
+      "frequency": null,
+      "n_risorse": 2,
+      "recuperato_il": "2026-10-03T13:12:28+02:00"
+    },
+    {
+      "slug": "ds75-popolazione-residenti-stranieri-cittadinanza-genere",
+      "titolo": "Stranieri: residenti per cittadinanza e genere (1987-2025)",
+      "descrizione": "Il dataset contiene la serie storica degli stranieri residenti a Milano per cittadinanza di appartenenza e genere a partire dal 1987. I cittadini dell'ex Serbia-Montenegro che hanno acquisito la residenza a Milano prima dell'istituzione…",
+      "metadata_modified": "2026-05-08T10:33:44.160165",
+      "frequency": null,
+      "n_risorse": 2,
+      "recuperato_il": "2026-10-03T13:12:28+02:00"
+    },
+    {
+      "slug": "ds27-popolazione-residenti-cittadinanza-quartiere-serie-storica",
+      "titolo": "Popolazione: residenti per cittadinanza e quartiere (1999-2025)",
+      "descrizione": "Il dataset contiene i dati anagrafici della popolazione residente distinta per anno (al 31/12). Avvertenza: si consiglia l'importazione dei file scaricati mediante pacchetti statistici o software per la gestione di database (DataBase…",
+      "metadata_modified": "2026-05-14T09:34:13.312821",
+      "frequency": null,
+      "n_risorse": 2,
+      "recuperato_il": "2026-10-03T13:12:28+02:00"
+    },
+    {
+      "slug": "ds387-popolazione-struttura-demografica-stranieri-nati-italia-2011c",
+      "titolo": "Censimento 2011: Struttura demografica della popolazione straniera nata in Italia",
+      "descrizione": "Il dataset contiene la numerosità della popolazione residente straniera nata in Italia per luogo di nascita, genere e classe d'età quinquennale. I dati sono stati rilevati attraverso il 15° Censimento generale della popolazione e delle…",
+      "metadata_modified": "2026-05-08T10:30:40.532101",
+      "frequency": null,
+      "n_risorse": 2,
+      "recuperato_il": "2026-10-03T13:12:28+02:00"
+    },
+    {
+      "slug": "ds1949-popolazione-matrimoni-con-almeno-un-coniuge-residente-a-milano-per-rito-e-cittadinanza",
+      "titolo": "Popolazione: matrimoni con almeno un coniuge residente a Milano per rito e cittadinanza (2021-2024)",
+      "descrizione": "Il dataset si riferisce ai matrimoni celebrati a Milano dal 2021 in avanti, dove almeno un contraente è residente a Milano, per anno dell'evento. I matrimoni sono classificati per rito e cittadinanza degli sposi. Il percorso da utilizzare…",
+      "metadata_modified": "2026-05-08T10:07:36.034633",
+      "frequency": null,
+      "n_risorse": 2,
+      "recuperato_il": "2026-10-03T13:12:28+02:00"
+    }
+  ]
+}

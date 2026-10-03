@@ -1,0 +1,41 @@
+{
+ "id": "comune:tributi/tari-dichiarazione-di-cessazione-di-occupazione-di-appartamenti-e-immobili",
+ "tipo": "pagina_comune",
+ "titolo": "Tari: dichiarazione di cessazione di occupazione di appartamenti e immobili",
+ "testo": "Tari: dichiarazione di cessazione di occupazione di appartamenti e immobili\nDichiara cessazione\nSe lasci o vendi un appartamento o un immobile\n- dichiara la cessazione entro il bimestre in cui si verifica la cessazione\n- non devi dichiarare la cessazione se nell'immobile rimangono utenze attive (es. luce, gas, acqua). In questo caso dovrai continuare a pagare la Tari.\nIn alternativa alla dichiarazione online puoi usare le modalità indicate negli approfondimenti.\nUltimo aggiornamento: 16/06/2026\nHai bisogno di aiuto?\nVai agli approfondimenti\nAltre modalità di richiesta\nScarica il modulo e presentalo a uno dei canali indicati di seguito.\nModulo utenze domestiche\nEstensione - Dimensione\nPEC\nInvia la documentazione a:\ntassarifiuti@pec.comune.milano.it\nIndica :\n- nell’oggetto del messaggio:\n• TARI Dichiarazione (occupazione, variazione o cessazione) - anno del tributo - codice fiscale del soggetto - denominazione/ragione sociale\n- nel nome dell’allegato, se presente:\n• TARI Dichiarazione (occupazione, variazione o cessazione) - anno del tributo - denominazione/ragione sociale\nE-mail\nInvia la documentazione a:\ntassarifiuti@comune.milano.it\nIndica :\n- nell’oggetto del messaggio:\n- TARI Dichiarazione (occupazione, variazione o cessazione) - anno del tributo - codice fiscale del soggetto - denominazione/ragione sociale\n- nel nome dell’allegato, se presente:\n- TARI Dichiarazione (occupazione, variazione o cessazione) - anno del tributo - denominazione/ragione sociale\nSportello\nPuoi consegnare la documentazione a mano presso:\n- Protocollo Bilancio e Riscossione\n- Protocollo Generale del Comune di Milano\nPosta\nInvia la documentazione con raccomandata A/R a:\nServizio Tassa Rifiuti\nvia Silvio Pellico, 16 - 20121 Milano\nLe dichiarazioni inviate con questa modalità saranno considerate presentate nel giorno di spedizione.\nIn caso di mancata dichiarazione\nIn assenza di dichiarazione di cessazione, continuerai a ricevere l’avviso di pagamento Tari anche per l’appartamento/immobile non occupato e dovrai documentare il rilascio dei locali in caso di dichiarazione di cessazione inviata tardivamente.\nDichiarazioni Tari per le utenze domestiche\nIl calcolo Tari è determinato dalla situazione abitativa/immobiliare.\nOgni cambiamento della situazione abitativa incide sulla tariffa Tari e richiede la presentazione della dichiarazione di nuova occupazione, di cessazione di occupazione, di variazione del numero di occupanti non residenti o di metratura.\nCollegamenti\nInformazioni sui rifiuti\nEstensione - Dimensione\nComunicati stampa Arera - Autorità di regolazione per energia, reti e ambienti\nEstensione - Dimensione\nServizi correlati\nCarta di identità a domicilio per motivi di salute\nDichiarazione di volontà sulla donazioni di organi\nEffettua dichiarazione\nCarta d'identità PIN e PUK\nRichiedi\nServizi correlati\nAssistenza e consulenza riguardo i tributi - Info Tributi\nTari: dichiarazione di cessazione per le utenze non domestiche\nDichiara cessazione",
+ "url": "https://www.comune.milano.it/servizi/tributi/tari-dichiarazione-di-cessazione-di-occupazione-di-appartamenti-e-immobili",
+ "lingua": "it",
+ "aggiornato_il": "2026-06-16",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "recuperato_il": "2026-10-03T13:10:05+02:00",
+ "link": [
+  {
+   "testo": "Dichiara cessazione",
+   "url": "https://formshd5.comune.milano.it/rwe2/module_preview.jsp?MODULE_TAG=TARIWEB_DICHIARAZIONE_CESSAZIONE"
+  },
+  {
+   "testo": "Modulo utenze domestiche",
+   "url": "https://www.comune.milano.it/documents/20118/0/TARI+Utenze+Domestiche+-+cessazione+2021-07-22.pdf/cfe12dec-8e6d-7290-9753-63e3f2c5c75d?version=1.0&t=1752583675626&download=true"
+  },
+  {
+   "testo": "Protocollo Bilancio e Riscossione",
+   "url": "https://www.comune.milano.it/web/guest/consegna-di-istanze-comunicazioni-e-documenti-per-bilancio-e-riscossione"
+  },
+  {
+   "testo": "Protocollo Generale del Comune di Milano",
+   "url": "https://www.comune.milano.it/web/guest/consegna-di-istanze-comunicazioni-e-documenti-all-ufficio-protocollo"
+  },
+  {
+   "testo": "Informazioni sui rifiuti",
+   "url": "https://www.museoarcheologicomilano.it/web/guest/aree-tematiche/ambiente/rifiuti"
+  },
+  {
+   "testo": "Comunicati stampa Arera - Autorità di regolazione per energia, reti e ambienti",
+   "url": "https://www.arera.it/"
+  },
+  {
+   "testo": "Assistenza e consulenza riguardo i tributi - Info Tributi",
+   "url": "https://www.comune.milano.it/servizi/tributi/assistenza-e-consulenza-riguardo-i-tributi-info-tributi"
+  }
+ ]
+}

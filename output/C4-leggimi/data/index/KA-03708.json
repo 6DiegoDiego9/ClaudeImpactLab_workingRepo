@@ -1,0 +1,30 @@
+{
+ "id": "KA-03708",
+ "tipo": "faq",
+ "titolo": "Serve un sopralluogo nell’alloggio per ottenere l'idoneità abitativa?",
+ "domanda": "Serve un sopralluogo nell’alloggio per ottenere l'idoneità abitativa?",
+ "testo": "Sì, il sopralluogo è richiesto in determinati casi:\n- se l’alloggio è molto piccolo: superficie inferiore a 28,8 mq\n- se si richiede l’attestazione per più persone\nIn tali circostanze è necessario un accertamento igienico-sanitario, che può essere effettuato da:\n- un tecnico del Collegio dei Geometri, oppure\n- un tecnico privato abilitato, con spese a carico del richiedente.\nPer ricevere ulteriore assistenza consultare la sezione \"Hai ancora bisogno di aiuto?\".",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03708/Sopralluogo-per-ottenere-lidoneita-abitativa",
+ "lingua": "it",
+ "aggiornato_il": "2026-03-04",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2026-03-04T11:51:01+01:00",
+ "recuperato_il": "2026-10-03T13:03:09+02:00",
+ "categoria": "Casa / Attestazione di idoneità abitativa",
+ "titolo_breve": "Sopralluogo per ottenere l'idoneità abitativa",
+ "parole_chiave": [
+  "idoneit&#xE0; abitativa",
+  "sopralluogo alloggio"
+ ],
+ "link": [],
+ "link_servizio": [
+  {
+   "titolo": "Attestazione di idoneità abitativa",
+   "url": "https://www.comune.milano.it/servizi/casa/attestazione-di-idoneita-abitativa"
+  },
+  {
+   "titolo": "Richiedi assistenza",
+   "url": "https://servizicrm.comune.milano.it/spec/municipi/idoneitaabitativa?knowledgeArticleId=bd1d80a6-b99f-f011-b41c-7c1e52876786"
+  }
+ ]
+}

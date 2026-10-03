@@ -1,0 +1,49 @@
+{
+ "id": "KA-00330",
+ "tipo": "faq",
+ "titolo": "Come chiedere/cambiare residenza?",
+ "domanda": "Come chiedere/cambiare residenza?",
+ "testo": "Le cittadine e i cittadini italiani, Aire o stranieri ma già residenti in Italia, devono presentare la richiesta all'Ufficio Anagrafe entro 20 giorni dalla data di trasferimento la nuova residenza tramite il servizio online . Le cittadine e i cittadini stranieri provenienti dall'estero devono presentare domanda tramite il servizio dedicato .\nQualora la richiesta venga presentata previo appuntamento allo sportello, è necessaria la presenza di tutte le persone maggiorenni del nucleo familiare interessato alla pratica.\nNel caso in cui una persona maggiorenne non possa essere presente, dovrà delegare con procura speciale la persona che si presenta.\nInoltre, se la richiesta comporta l'aggregazione nello stesso stato di famiglia di una persona già residente al medesimo indirizzo, è richiesto l'assenso dell'aggregante.\nI moduli per la procura speciale e per l'assenso all'ospitalità sono disponibili nella mail di riepilogo dell'appuntamento o presso qualsiasi sede anagrafica, allo sportello informazioni; la nominata/nominato procuratrice/procuratore firmerà per conto della persona interessata.\nPer ulteriore assistenza, rivolgersi al Contact Center dalla sezione “Hai ancora bisogno di aiuto?”",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00330/Richiestacambio-residenza-come-procedere",
+ "lingua": "it",
+ "aggiornato_il": "2026-07-23",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2026-07-23T16:10:07+02:00",
+ "recuperato_il": "2026-10-03T13:01:50+02:00",
+ "categoria": "Anagrafe / Cambio di residenza",
+ "titolo_breve": "Richiesta/cambio residenza: come procedere",
+ "parole_chiave": [
+  "anagrafe",
+  "residenti",
+  "documenti",
+  "indirizzo"
+ ],
+ "link": [
+  {
+   "testo": "servizio online",
+   "url": "https://www.anagrafenazionale.interno.it/servizi-al-cittadino/"
+  },
+  {
+   "testo": "servizio dedicato",
+   "url": "https://formshd2.comune.milano.it/rwe2/module_preview.jsp?MODULE_TAG=MOD_DDR_ESTERO"
+  },
+  {
+   "testo": "procura speciale",
+   "url": "https://repository.comune.milano.it/s/FgyERJnzN8HgRCb"
+  },
+  {
+   "testo": "l'assenso",
+   "url": "https://repository.comune.milano.it/s/WeaSG6jPLJdkPcL"
+  }
+ ],
+ "link_servizio": [
+  {
+   "titolo": "Cambio di residenza",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza"
+  },
+  {
+   "titolo": "Richiedi assistenza",
+   "url": "https://servizicrm.comune.milano.it/callasap/cambiodiresidenza/informazioni?knowledgeArticleId=6dde8276-6475-f111-ab0d-e4fb1ef58517"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "id": "yesmilano:work/getting-started-guide/digital-identity-spid",
+ "tipo": "guida_yesmilano",
+ "titolo": "Digital Identity (SPID)",
+ "testo": "Digital Identity (SPID)\n- Home\n- Work\n- Getting Started Guide\n- Digital Identity (SPID)\nSPID is the authentication system that allows citizens to access online services of the Italian public administration entities with a single digital identity. SPID identity consists of credentials (username and password) that are issued to the user and that allow access to all online services.\nTo get SPID, you will need to be an Italian Citizen or foreign citizen registered as resident of Italy (and Milano) and own an Italian ID.\nThe issuing of SPID credentials by any of the authorized providers is free of charge in its basic form. Providers may charge for additional services or alternative ways of registering, such as remote online recognition.\n- How to get the SPID\n- Get the SPID at the Chamber of Commerce (Infocert)\nHow to get the SPID\nSPID is released via several companies that act as providers.\nYou will choose one of the Identity providers and register with them. You'll be asked to provide personal data, documents and an e-mail. You will also be required to possess an Italian sim card where to get SMS, as well as a smartphone and a specific app.\nYour SPID credentials will be created, and you will perform recognition in-person at an appointment, or via a video call, or via digital identification.9\nDigital identity issuing times depend on the individual Identity Provider.\nGet the SPID at the Chamber of Commerce (Infocert)\nAmong the SPID issuers, you can get the immediate release of free SPID credentials at the Chamber of Commerce of Milano Monza Brianza Lodi, during an operator-assisted appointment, in via Meravigli 11/A.\nYou will need:\n- An Italian ID\n- Tax code card or certificate. N.B. If you’re going to apply with the Tax Code Certificate: the certificate shouldn’t be more than 1 year old. It also must be endorsed by the Revenue agency with a signature and a stamp, or digital signature in form of a QR code.)\n- Your smartphone (Italian number) where you can receive e-mail and SMS.\n- You will need to install app MyInfocert available on all app stores.\n1. Book your appointment at the Chamber of Commerce.\n- You can book your appointment on the booking platform here .\n- Register with your personal details and email address. You’ll receive a confirmation e-mail.\n- Once logged in, consult the calendar and click on available days on the calendar (in white) to select one (the tab is called data ) then choose the time (click on the tab called ora ) of your appointment and confirm.\n- On the tab dati , place your name, last name, cell phone number, email and select “No” in the “Sei in possesso di firma digitale (token USB o smart card)?”.\n- Click on “CONFERMA” to confirm.\n- You will receive confirmation with a call number and a QR code in your e-mail.\n2. On your appointment\nBring the required documents (see above).\nYour appointment will take place in the Salon in Via Meravigli 11/A. Arrive 10 minutes earlier and check in with your QR code.\nIf you can’t make it or wish to reschedule your appointment, please contact spid@mi.camcom.it\nThe issuance of your SPID is free, operator assisted, and will take from 15 to 20 minutes.\ntorna su",
+ "url": "https://studyandwork.yesmilano.it/en/work/getting-started-guide/digital-identity-spid",
+ "lingua": "en",
+ "aggiornato_il": null,
+ "aggiornato_il_fonte": null,
+ "recuperato_il": "2026-10-03T13:11:33+02:00",
+ "link": [
+  {
+   "testo": "Home",
+   "url": "https://studyandwork.yesmilano.it/en"
+  },
+  {
+   "testo": "Work",
+   "url": "https://studyandwork.yesmilano.it/en/work"
+  },
+  {
+   "testo": "Getting Started Guide",
+   "url": "https://studyandwork.yesmilano.it/en/work/getting-started-guide"
+  },
+  {
+   "testo": "providers.",
+   "url": "https://www.spid.gov.it/en/what-is-spid/how-to-choose-between-digital-identity-providers/"
+  },
+  {
+   "testo": "MyInfocert",
+   "url": "https://help.infocert.it/home/guida/guida-all-app-myinfocert-per-spid-infocert-id"
+  },
+  {
+   "testo": "on the booking platform here",
+   "url": "http://servizionline.milomb.camcom.it/front-agenda/calendario.html?prestazioneId=18"
+  }
+ ]
+}

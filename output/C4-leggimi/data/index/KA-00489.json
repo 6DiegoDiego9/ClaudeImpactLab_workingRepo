@@ -1,0 +1,41 @@
+{
+ "id": "KA-00489",
+ "tipo": "faq",
+ "titolo": "Come chiedo/cambio la residenza se sono una cittadina straniera/un cittadino straniero proveniente dall'estero?",
+ "domanda": "Come chiedo/cambio la residenza se sono una cittadina straniera/un cittadino straniero proveniente dall'estero?",
+ "testo": "Comunicare all'Ufficio Anagrafe entro 20 giorni dalla data di trasferimento tramite il servizio dedicato .\nInoltre, è necessario dichiarare la nuova situazione abitativa ai fini Tari compilando online la dichiarazione di nuova occupazione .\nPer maggiori informazioni rivolgersi al Contact Center tramite la pagina del servizio dedicato \"Hai ancora bisogno di aiuto?\".",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00489/Residenza-per-stranieri-dallestero-procedura",
+ "lingua": "it",
+ "aggiornato_il": "2025-10-02",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2025-10-02T10:38:48+02:00",
+ "recuperato_il": "2026-10-03T13:02:11+02:00",
+ "categoria": "Anagrafe / Cambio di residenza per persone straniere provenienti dall’estero",
+ "titolo_breve": "Residenza per stranieri dall'estero: procedura",
+ "parole_chiave": [
+  "anagrafe",
+  "residenti",
+  "indirizzo",
+  "stranieri"
+ ],
+ "link": [
+  {
+   "testo": "servizio dedicato",
+   "url": "https://formshd2.comune.milano.it/rwe2/module_preview.jsp?MODULE_TAG=MOD_DDR_ESTERO"
+  },
+  {
+   "testo": "dichiarazione di nuova occupazione",
+   "url": "https://formshd5.comune.milano.it/rwe2/module_preview.jsp?MODULE_TAG=TARIWEB_DICHIARAZIONE_OCCUPAZIONE"
+  }
+ ],
+ "link_servizio": [
+  {
+   "titolo": "Cambio di residenza per persone straniere provenienti dall’estero",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza-per-persone-straniere-provenienti-dall-estero"
+  },
+  {
+   "titolo": "Richiedi assistenza",
+   "url": "https://servizicrm.comune.milano.it/callasap/richiestaresidenzapersonestraniere/informazioni?knowledgeArticleId=22e45882-cf4a-f011-8779-7c1e5237660e"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "id": "KA-03732",
+ "tipo": "faq",
+ "titolo": "Ho bisogno di aiuto per accedere al Fascicolo del Cittadino: chi posso contattare?",
+ "domanda": "Ho bisogno di aiuto per accedere al Fascicolo del Cittadino: chi posso contattare?",
+ "testo": "È possibile contattare il Comune compilando il modulo online di richiesta assistenza, selezionando la voce “Invia una richiesta”, presente nella sezione “Hai ancora bisogno d'aiuto?” (che puoi trovare anche in fondo a questa pagina).\nDopo aver eseguito l'accesso, e compilato il modulo online, il Sistema provvederà a sottoporre la tua richiesta all'ufficio competente e invierà una email riassuntiva (con i dati da te indicati e il codice di riferimento assegnato alla tua pratica) all'indirizzo di posta elettronica collegato alla tua identità digitale.",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03732/Aiuto-per-accesso-al-Fascicolo-del-Cittadino-contatti",
+ "lingua": "it",
+ "aggiornato_il": "2026-06-02",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2026-06-02T15:34:44+02:00",
+ "recuperato_il": "2026-10-03T13:06:51+02:00",
+ "categoria": "App e fascicolo del cittadino / Fascicolo del Cittadino",
+ "titolo_breve": "Aiuto per accesso al Fascicolo del Cittadino: contatti",
+ "parole_chiave": [
+  "fascicolo",
+  "fascicolo del cittadino",
+  "accesso",
+  "assistenza"
+ ],
+ "link": [],
+ "link_servizio": [
+  {
+   "titolo": "Fascicolo del Cittadino",
+   "url": "https://www.comune.milano.it/servizi/fascicolo-del-cittadino"
+  },
+  {
+   "titolo": "Richiedi assistenza",
+   "url": "https://servizicrm.comune.milano.it/spec/fascicolodelcittadino/assistenza?knowledgeArticleId=78915025-1fa0-f011-b41c-6045bddd5411"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "id": "KA-00309",
+ "tipo": "faq",
+ "titolo": "Come creo lo SPID?",
+ "domanda": "Come creo lo SPID?",
+ "testo": "L’identità SPID è fornita da gestori accreditati da AgID , che verificano i dati dell’utente e rilasciano le credenziali digitali.\nPer ottenerla, serve un documento di identità valido e la tessera sanitaria o il tesserino del codice fiscale, necessari per prevenire il furto d’identità e verificare l’autenticità della persona.\nPer consultare l’elenco completo e aggiornato dei fornitori di identità digitale visitare il sito ufficiale dell’Agenzia per l’Italia Digitale (AgID) .",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00309/Creazione-SPID-procedura-e-documenti-necessari",
+ "lingua": "it",
+ "aggiornato_il": "2025-07-01",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2025-07-01T10:30:08+02:00",
+ "recuperato_il": "2026-10-03T13:06:40+02:00",
+ "categoria": "Anagrafe / Certificati anagrafici",
+ "titolo_breve": "Creazione SPID: procedura e documenti necessari",
+ "parole_chiave": [
+  "anagrafe",
+  "SPID",
+  "identit&#xE0;"
+ ],
+ "link": [
+  {
+   "testo": "AgID",
+   "url": "https://www.agid.gov.it/it/piattaforme/spid"
+  },
+  {
+   "testo": "sito ufficiale dell’Agenzia per l’Italia Digitale (AgID)",
+   "url": "https://www.agid.gov.it/it/piattaforme/spid/identity-provider-accreditati?utm_source=chatgpt.com"
+  }
+ ],
+ "link_servizio": [
+  {
+   "titolo": "Certificati anagrafici",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/certificati-anagrafici"
+  }
+ ]
+}

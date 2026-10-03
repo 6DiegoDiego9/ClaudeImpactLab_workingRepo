@@ -1,0 +1,45 @@
+{
+  "catturato_il": "2026-10-03T13:12:31+02:00",
+  "query": "PREFIX ap: <https://dati.comune.milano.it/atti-pubblici/onto/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nSELECT ?anno (SUM(xsd:integer(?n)) AS ?pratiche)\nWHERE {\n  GRAPH <https://dati.comune.milano.it/data/atti-pubblici> {\n    ?s a ap:TotaleDocumentiRilasciatiPerMese ;\n       ap:tipologiaAttoPubblico ?t ; ap:anno ?anno ; ap:numeroDocumenti ?n .\n    ?t rdfs:label ?tl .\n    FILTER(STR(?tl) = \"ISCRIZIONE ANAGRAFICA PER IMMIGRAZIONE\")\n  }\n}\nGROUP BY ?anno ORDER BY ?anno LIMIT 50",
+  "variabili": [
+    "anno",
+    "pratiche"
+  ],
+  "righe": [
+    {
+      "anno": "2019",
+      "pratiche": "46626"
+    },
+    {
+      "anno": "2020",
+      "pratiche": "35763"
+    },
+    {
+      "anno": "2021",
+      "pratiche": "38465"
+    },
+    {
+      "anno": "2022",
+      "pratiche": "46261"
+    },
+    {
+      "anno": "2023",
+      "pratiche": "58934"
+    },
+    {
+      "anno": "2024",
+      "pratiche": "54973"
+    },
+    {
+      "anno": "2025",
+      "pratiche": "50777"
+    },
+    {
+      "anno": "2026",
+      "pratiche": "22782"
+    }
+  ],
+  "recuperato_il": "2026-10-03T13:12:30+02:00",
+  "da_cache": false,
+  "avviso": null
+}

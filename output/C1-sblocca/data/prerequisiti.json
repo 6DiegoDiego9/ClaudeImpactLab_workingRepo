@@ -1,0 +1,1011 @@
+{
+  "versione": "1.0",
+  "aggiornato_il": "2026-10-03",
+  "descrizione": "Grafo dei prerequisiti per le prime settimane a Milano senza SPID. Scritto a mano dal team e verificato sulle fonti il 3/10/2026 (vedi CORREZIONI verificate). Ogni nodo cita fonti con data. Le date di scadenza le calcola il codice (app/core/date_utils.py), non il modello.",
+  "avvertenza": "Orientamento, non consulenza legale. Il grafo non copre: rinnovi del permesso (KA-00370: 'entro 60 giorni dalla scadenza'), protezione internazionale, minori non accompagnati, ricongiungimento nel dettaglio. Per questi casi: operatore umano.",
+  "contatti_umani": {
+    "contact_center": "020202 (Contact Center del Comune di Milano)",
+    "welcome_center": "Milano Welcome Center, via Sammartini 75 (M1 Rovereto), anche senza appuntamento: lun, mar, gio, ven 9-17; mer 9-13",
+    "email_welcome_center": "MilanoWelcomeCenter@comune.milano.it"
+  },
+  "domande_che_cambiano_il_percorso": [
+    {
+      "id": "cittadinanza",
+      "domanda": "Sei cittadino di un Paese dell'Unione Europea?",
+      "perche": "UE: niente permesso di soggiorno; possibile residenza temporanea sotto un anno."
+    },
+    {
+      "id": "motivo",
+      "domanda": "Perche' sei a Milano: lavoro, studio, famiglia?",
+      "perche": "Cambia il canale per CF e permesso (Sportello Unico per lavoro subordinato e ricongiungimento) e i documenti dell'Allegato A."
+    },
+    {
+      "id": "durata",
+      "domanda": "Resti piu' di 90 giorni? Meno di un anno?",
+      "perche": "Sotto i 90 giorni niente permesso; UE sotto l'anno: residenza temporanea."
+    },
+    {
+      "id": "cf_sim",
+      "domanda": "Hai gia' un codice fiscale e una SIM italiana?",
+      "perche": "CF e SIM sbloccano SPID; il CF serve anche per la TARI via email."
+    },
+    {
+      "id": "alloggio",
+      "domanda": "Dove vivi e il contratto e' intestato a te? Da quando?",
+      "perche": "Serve per residenza e permesso; la TARI tocca solo all'intestatario; la data di inizio fa partire i 20 e i 90 giorni."
+    },
+    {
+      "id": "arrivo",
+      "domanda": "In che giorno sei arrivato in Italia? Arrivi direttamente dall'estero?",
+      "perche": "Fa partire gli 8 giorni lavorativi del permesso; chi e' gia' residente in Italia usa ANPR."
+    }
+  ],
+  "nodi": [
+    {
+      "id": "welcome_center",
+      "titolo": "Orientamento al Milano Welcome Center",
+      "titolo_en": "Get guidance at the Milano Welcome Center",
+      "descrizione": "Centro servizi del Comune per persone migranti e rifugiate, prioritariamente neo-arrivate. Orientamento accessibile a tutti senza documentazione particolare. Puo' confermare il percorso e accompagnare la richiesta di residenza online.",
+      "requires": [],
+      "si_applica_a": {
+        "cittadinanza": [
+          "extra_ue",
+          "ue"
+        ],
+        "motivi": [
+          "lavoro",
+          "studio",
+          "famiglia",
+          "altro"
+        ],
+        "durata": "qualsiasi",
+        "condizioni": "Sempre applicabile: e' il canale umano di riferimento."
+      },
+      "scadenza": null,
+      "richiede_spid": false,
+      "canali_alternativi": [
+        {
+          "canale": "Di persona senza appuntamento",
+          "dettaglio": "Milano Welcome Center, via Sammartini 75 (M1 Rovereto), anche senza appuntamento: lun, mar, gio, ven 9-17; mer 9-13",
+          "fonte": "KA-02803"
+        },
+        {
+          "canale": "Email",
+          "dettaglio": "MilanoWelcomeCenter@comune.milano.it",
+          "fonte": "pagina Milano Welcome Center"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Milano Welcome Center",
+          "url": "https://www.comune.milano.it/servizi/welfare/milano-welcome-center",
+          "ka": "",
+          "aggiornato": "2026-06-16",
+          "recuperato": "2026-10-03",
+          "tipo": "pagina_comune",
+          "id_indice": "comune:welfare/milano-welcome-center"
+        },
+        {
+          "titolo": "Dove posso trovare informazioni sul Milano Welcome Center?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02803/Milano-Welcome-Center-dove-trovare-informazioni",
+          "ka": "KA-02803",
+          "aggiornato": "2026-03-13",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        }
+      ],
+      "note_verifica": "Orari e indirizzo verificati sulla pagina del Comune (agg. 16/06/2026) e su KA-02803 (agg. 13/03/2026)."
+    },
+    {
+      "id": "alloggio",
+      "titolo": "Alloggio e documento dell'abitazione",
+      "titolo_en": "Housing and housing document",
+      "descrizione": "Un indirizzo stabile e un documento che lo provi (contratto di affitto e ricevuta di registrazione, comodato, rogito, oppure dichiarazione di ospitalita'). Serve per il kit del permesso, per la residenza e, se sei intestatario, per la TARI.",
+      "requires": [],
+      "si_applica_a": {
+        "cittadinanza": [
+          "extra_ue",
+          "ue"
+        ],
+        "motivi": [
+          "lavoro",
+          "studio",
+          "famiglia",
+          "altro"
+        ],
+        "durata": "qualsiasi",
+        "condizioni": "Sempre. Se la persona e' in hotel o ospite, il documento e' diverso (ricevuta dell'albergatore o dichiarazione di ospitalita')."
+      },
+      "scadenza": null,
+      "richiede_spid": false,
+      "canali_alternativi": [],
+      "fonti": [
+        {
+          "titolo": "Quali documenti servono, relativi all'abitazione, per chiedere la residenza se sono una cittadina straniera/un cittadino straniero in affitto (contratto di locazione)?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00329/Residenza-stranieri-in-affitto-documenti-immobile",
+          "ka": "KA-00329",
+          "aggiornato": "2025-09-26",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        },
+        {
+          "titolo": "Residence Permit (non-EU only)",
+          "url": "https://studyandwork.yesmilano.it/en/work/getting-started-guide/residence-permit",
+          "ka": "",
+          "aggiornato": null,
+          "recuperato": "2026-10-03",
+          "tipo": "guida_yesmilano",
+          "id_indice": "yesmilano:work/getting-started-guide/residence-permit"
+        }
+      ],
+      "note_verifica": "KA-00329: per chi e' in affitto servono copia del contratto ed eventuale ricevuta di registrazione."
+    },
+    {
+      "id": "codice_fiscale",
+      "titolo": "Codice fiscale",
+      "titolo_en": "Italian tax code (codice fiscale)",
+      "descrizione": "Codice identificativo gratuito e valido per sempre. Utile quasi ovunque: SPID (KA-00309), CIE (KA-00393), oggetto dell'email TARI (KA-01955), contratti. Per chi entra con nulla osta per lavoro subordinato o ricongiungimento viene attribuito dallo Sportello Unico per l'Immigrazione (secondo YesMilano e' un codice numerico provvisorio da far convalidare all'Agenzia delle Entrate). Altrimenti si chiede di persona a un ufficio territoriale dell'Agenzia delle Entrate con il modulo AA4/8, il passaporto e la prova dell'ingresso regolare.",
+      "requires": [],
+      "si_applica_a": {
+        "cittadinanza": [
+          "extra_ue",
+          "ue"
+        ],
+        "motivi": [
+          "lavoro",
+          "studio",
+          "famiglia",
+          "altro"
+        ],
+        "durata": "qualsiasi",
+        "condizioni": "Non applicabile se la persona ha gia' un codice fiscale definitivo."
+      },
+      "scadenza": null,
+      "richiede_spid": false,
+      "canali_alternativi": [
+        {
+          "canale": "Agenzia delle Entrate, ufficio territoriale",
+          "dettaglio": "Modulo AA4/8 + passaporto + prova di ingresso regolare (visto e timbro, o dichiarazione di presenza). Appuntamento prenotabile online.",
+          "fonte": "guida YesMilano Tax Code; pagina Agenzia delle Entrate"
+        },
+        {
+          "canale": "Sportello Unico per l'Immigrazione (Prefettura)",
+          "dettaglio": "Per lavoro subordinato e ricongiungimento il codice viene dato alla firma del contratto di soggiorno.",
+          "fonte": "pagina Agenzia delle Entrate; guida YesMilano Tax Code"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Agenzia delle Entrate - Codice fiscale: che cos'è (cittadini)",
+          "url": "https://www.agenziaentrate.gov.it/portale/codice-fiscale-e-tessera-sanitaria/che-cos-cittadini",
+          "ka": "",
+          "aggiornato": null,
+          "recuperato": "2026-10-03",
+          "tipo": "pagina_esterna",
+          "nota": "Verificata il 3/10/2026: attribuzione tramite Sportello Unico (lavoro subordinato, ricongiungimento), Questura, ufficio territoriale AE; canale consolare per chi risiede all'estero."
+        },
+        {
+          "titolo": "Tax Code",
+          "url": "https://studyandwork.yesmilano.it/en/work/getting-started-guide/tax-code",
+          "ka": "",
+          "aggiornato": null,
+          "recuperato": "2026-10-03",
+          "tipo": "guida_yesmilano",
+          "id_indice": "yesmilano:work/getting-started-guide/tax-code"
+        },
+        {
+          "titolo": "Allegato A - Elenco documenti per persone provenienti da Paesi extra-UE (PDF Comune di Milano)",
+          "url": "https://www.comune.milano.it/documents/20118/42443/Elenco+documenti+per+persone+provenienti+da+Paesi+extraUE.pdf/f59656a6-d8aa-7960-fc88-60daf732aeb3?version=1.0&t=1743091608057&download=true",
+          "ka": "",
+          "aggiornato": null,
+          "recuperato": "2026-10-03",
+          "tipo": "pdf_comune",
+          "nota": "Letto il 3/10/2026. Il codice fiscale 'in originale e in fotocopia' compare in tutti e 4 i casi SENZA l'asterisco che marca i documenti obbligatori. Caso 3 (lavoro subordinato): obbligatori (*) contratto di soggiorno, ricevuta postale della domanda di permesso, domanda allo Sportello Unico."
+        },
+        {
+          "titolo": "Come creo lo SPID?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00309/Creazione-SPID-procedura-e-documenti-necessari",
+          "ka": "KA-00309",
+          "aggiornato": "2025-07-01",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        }
+      ],
+      "note_verifica": "Nell'Allegato A il CF compare in tutti i casi ma SENZA asterisco di obbligatorieta': NON dire che la residenza e' bloccata senza CF ne' che il CF in originale e' obbligatorio. Conviene averlo. Il canale consolare (pagina AE) riguarda chi risiede ancora all'estero: e' un ramo diverso, non un conflitto."
+    },
+    {
+      "id": "permesso_soggiorno",
+      "titolo": "Richiesta del permesso di soggiorno (kit postale)",
+      "titolo_en": "Apply for the residence permit (postal kit)",
+      "descrizione": "Per chi non e' cittadino UE e resta oltre 90 giorni. La norma chiede di presentare la domanda entro otto giorni LAVORATIVI dall'ingresso. Per lavoro subordinato con nulla osta: prima la convocazione allo Sportello Unico (contratto di soggiorno e modulo 209), poi il kit all'ufficio postale abilitato. La ricevuta di Poste ('assicurata') prova il soggiorno regolare fino al rilascio: va conservata e i codici di accesso che contiene non vanno mai condivisi.",
+      "requires": [
+        "alloggio"
+      ],
+      "si_applica_a": {
+        "cittadinanza": [
+          "extra_ue"
+        ],
+        "motivi": [
+          "lavoro",
+          "studio",
+          "famiglia"
+        ],
+        "durata": "oltre_90_giorni",
+        "condizioni": "Non si applica ai cittadini UE. Non si applica ai soggiorni brevi (fino a 90 giorni)."
+      },
+      "scadenza": {
+        "da": "data_arrivo",
+        "giorni": 8,
+        "tipo": "lavorativi",
+        "fonte": "D.Lgs. 286/1998, art. 5, c. 2",
+        "nota": "La guida di Poste scrive 'entro 8 giorni': e' una semplificazione, non un conflitto. La norma dice 'otto giorni lavorativi'. Il codice calcola entrambe le date; la data di calendario e' la scelta prudente."
+      },
+      "richiede_spid": false,
+      "canali_alternativi": [
+        {
+          "canale": "Ufficio postale abilitato (Sportello Amico)",
+          "dettaglio": "Kit giallo per il permesso. Per lavoro subordinato dopo lo Sportello Unico.",
+          "fonte": "guida YesMilano Residence Permit; guida Poste"
+        },
+        {
+          "canale": "Ufficio studenti internazionali dell'universita'",
+          "dettaglio": "Per motivi di studio: kit e aiuto nella compilazione.",
+          "fonte": "guida YesMilano Residence Permit (students)"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "D.Lgs. 286/1998, art. 5, comma 2 (Testo unico immigrazione) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1998-07-25;286~art5",
+          "ka": "",
+          "aggiornato": null,
+          "recuperato": "2026-10-03",
+          "tipo": "norma",
+          "nota": "Testo verificato il 3/10/2026: 'entro otto giorni lavorativi dal suo ingresso nel territorio dello Stato'."
+        },
+        {
+          "titolo": "Poste Italiane - Guida rilascio e rinnovo permesso di soggiorno",
+          "url": "https://www.poste.it/guida-rilascio-e-rinnovo-permesso-di-soggiorno",
+          "ka": "",
+          "aggiornato": null,
+          "recuperato": "2026-10-03",
+          "tipo": "pagina_esterna",
+          "nota": "Verificata il 3/10/2026: scrive 'entro 8 giorni dal tuo ingresso in Italia' (semplificazione della norma)."
+        },
+        {
+          "titolo": "Residence Permit (non-EU only)",
+          "url": "https://studyandwork.yesmilano.it/en/work/getting-started-guide/residence-permit",
+          "ka": "",
+          "aggiornato": null,
+          "recuperato": "2026-10-03",
+          "tipo": "guida_yesmilano",
+          "id_indice": "yesmilano:work/getting-started-guide/residence-permit"
+        },
+        {
+          "titolo": "Get Your Residence Permit",
+          "url": "https://studyandwork.yesmilano.it/en/study/how-to/residence-permit-students",
+          "ka": "",
+          "aggiornato": null,
+          "recuperato": "2026-10-03",
+          "tipo": "guida_yesmilano",
+          "id_indice": "yesmilano:study/how-to/residence-permit-students"
+        }
+      ],
+      "note_verifica": "Procedura esatta dello Sportello Unico dopo il DL 20/2023 da confermare con la Prefettura: segui la convocazione ricevuta."
+    },
+    {
+      "id": "dichiarazione_presenza",
+      "titolo": "Dichiarazione di presenza in Questura",
+      "titolo_en": "Declaration of presence (Questura)",
+      "descrizione": "Per chi entra da un Paese Schengen con un permesso di un altro Stato (es. mobilita' Erasmus di studenti non UE) o per soggiorni brevi: dichiarazione alla Questura entro 8 giorni dall'arrivo. Chi arriva da un Paese non Schengen con visto ha gia' il timbro d'ingresso, che basta; chi alloggia in albergo ha la registrazione fatta dall'albergatore.",
+      "requires": [],
+      "si_applica_a": {
+        "cittadinanza": [
+          "extra_ue"
+        ],
+        "motivi": [
+          "studio",
+          "lavoro",
+          "famiglia",
+          "altro"
+        ],
+        "durata": "qualsiasi",
+        "condizioni": "Solo extra-UE entrati da un altro Paese Schengen senza timbro d'ingresso (o con permesso di un altro Stato Schengen). Non applicabile a chi chiede il permesso di soggiorno con visto nazionale e timbro, ne' ai cittadini UE."
+      },
+      "scadenza": {
+        "da": "data_arrivo",
+        "giorni": 8,
+        "tipo": "calendario",
+        "fonte": "guida YesMilano Residence Permit (students), sezione Declaration of presence",
+        "nota": "Termine riportato dalla guida YesMilano ('within 8 days of arrival')."
+      },
+      "richiede_spid": false,
+      "canali_alternativi": [
+        {
+          "canale": "Questura",
+          "dettaglio": "Modulo di dichiarazione di presenza (PDF nella guida YesMilano).",
+          "fonte": "guida YesMilano Residence Permit (students)"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Get Your Residence Permit",
+          "url": "https://studyandwork.yesmilano.it/en/study/how-to/residence-permit-students",
+          "ka": "",
+          "aggiornato": null,
+          "recuperato": "2026-10-03",
+          "tipo": "guida_yesmilano",
+          "id_indice": "yesmilano:study/how-to/residence-permit-students"
+        },
+        {
+          "titolo": "Tax Code",
+          "url": "https://studyandwork.yesmilano.it/en/work/getting-started-guide/tax-code",
+          "ka": "",
+          "aggiornato": null,
+          "recuperato": "2026-10-03",
+          "tipo": "guida_yesmilano",
+          "id_indice": "yesmilano:work/getting-started-guide/tax-code"
+        }
+      ],
+      "note_verifica": ""
+    },
+    {
+      "id": "residenza_estero",
+      "titolo": "Richiesta di residenza per chi arriva dall'estero (MOD_DDR_ESTERO, solo online)",
+      "titolo_en": "Register as resident when arriving from abroad (MOD_DDR_ESTERO, online only)",
+      "descrizione": "Le persone straniere provenienti dall'estero presentano la domanda SOLO online con il servizio dedicato MOD_DDR_ESTERO, allegando i documenti (gif, jpeg, pdf, tiff, max 7 MB ciascuno; i file inviati via email non sono considerati). Non si portano documenti allo sportello: il Welcome Center orienta e accompagna. Gli effetti decorrono dalla data di presentazione. Documenti dell'Allegato A per lavoro subordinato (caso 3), obbligatori: passaporto, contratto di soggiorno, ricevuta postale della domanda di permesso; il CF e' elencato senza asterisco.",
+      "requires": [
+        "alloggio",
+        "permesso_soggiorno"
+      ],
+      "requires_note": "Per i cittadini extra-UE servono la ricevuta postale e (lavoro subordinato) il contratto di soggiorno; per i cittadini UE il requisito 'permesso' non vale (servono documenti sul diritto di soggiorno). Il codice fiscale e' consigliato, non bloccante.",
+      "si_applica_a": {
+        "cittadinanza": [
+          "extra_ue",
+          "ue"
+        ],
+        "motivi": [
+          "lavoro",
+          "studio",
+          "famiglia",
+          "altro"
+        ],
+        "durata": "oltre_90_giorni",
+        "condizioni": "Solo per chi arriva direttamente dall'estero e si stabilisce a Milano. Per i cittadini UE in Italia per meno di un anno (es. Erasmus) esiste anche la residenza temporanea."
+      },
+      "scadenza": {
+        "da": "data_inizio_alloggio",
+        "giorni": 20,
+        "tipo": "calendario",
+        "fonte": "KA-00534 (e KA-00489)",
+        "nota": "20 giorni dalla data del trasferimento; se la data di inizio dell'alloggio non e' nota si usa la data di arrivo."
+      },
+      "richiede_spid": "non_verificato",
+      "richiede_spid_nota": "Non e' verificato se il servizio MOD_DDR_ESTERO richieda SPID o CIE: e' una domanda aperta da porre al Comune (Welcome Center o 020202).",
+      "canali_alternativi": [
+        {
+          "canale": "Milano Welcome Center",
+          "dettaglio": "Orienta e accompagna nella domanda online; senza appuntamento.",
+          "fonte": "pagina Milano Welcome Center"
+        },
+        {
+          "canale": "Contact Center 020202 / 'Hai ancora bisogno di aiuto?'",
+          "dettaglio": "Assistenza sul servizio dedicato.",
+          "fonte": "KA-00489"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Come chiedere/cambiare residenza?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00330/Richiestacambio-residenza-come-procedere",
+          "ka": "KA-00330",
+          "aggiornato": "2026-07-23",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        },
+        {
+          "titolo": "Come chiedo/cambio la residenza se sono una cittadina straniera/un cittadino straniero proveniente dall'estero?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00489/Residenza-per-stranieri-dallestero-procedura",
+          "ka": "KA-00489",
+          "aggiornato": "2025-10-02",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        },
+        {
+          "titolo": "Quanto tempo ho per comunicare il cambio di residenza?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00534/Termine-per-comunicare-cambio-residenza-giorni",
+          "ka": "KA-00534",
+          "aggiornato": "2025-08-23",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        },
+        {
+          "titolo": "Cambio di residenza per persone straniere provenienti dall’estero",
+          "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza-per-persone-straniere-provenienti-dall-estero",
+          "ka": "",
+          "aggiornato": "2026-07-27",
+          "recuperato": "2026-10-03",
+          "tipo": "pagina_comune",
+          "id_indice": "comune:anagrafe/cambio-di-residenza-per-persone-straniere-provenienti-dall-estero"
+        },
+        {
+          "titolo": "Modulistica: richiesta di residenza per persone straniere provenienti dall’estero",
+          "url": "https://www.comune.milano.it/servizi/anagrafe/richiesta-di-residenza-per-persone-straniere-provenienti-dall-estero/modulistica-richiesta-di-residenza-per-persone-straniere-provenienti-dall-estero",
+          "ka": "",
+          "aggiornato": "2026-06-16",
+          "recuperato": "2026-10-03",
+          "tipo": "pagina_comune",
+          "id_indice": "comune:anagrafe/richiesta-di-residenza-per-persone-straniere-provenienti-dall-estero/modulistica-richiesta-di-residenza-per-persone-straniere-provenienti-dall-estero"
+        },
+        {
+          "titolo": "Allegato A - Elenco documenti per persone provenienti da Paesi extra-UE (PDF Comune di Milano)",
+          "url": "https://www.comune.milano.it/documents/20118/42443/Elenco+documenti+per+persone+provenienti+da+Paesi+extraUE.pdf/f59656a6-d8aa-7960-fc88-60daf732aeb3?version=1.0&t=1743091608057&download=true",
+          "ka": "",
+          "aggiornato": null,
+          "recuperato": "2026-10-03",
+          "tipo": "pdf_comune",
+          "nota": "Letto il 3/10/2026. Il codice fiscale 'in originale e in fotocopia' compare in tutti e 4 i casi SENZA l'asterisco che marca i documenti obbligatori. Caso 3 (lavoro subordinato): obbligatori (*) contratto di soggiorno, ricevuta postale della domanda di permesso, domanda allo Sportello Unico."
+        }
+      ],
+      "note_verifica": "KA-00330 (agg. 23/07/2026): 'Le cittadine e i cittadini stranieri provenienti dall'estero devono presentare domanda tramite il servizio dedicato'."
+    },
+    {
+      "id": "residenza_anpr",
+      "titolo": "Cambio di residenza per chi e' gia' residente in Italia (ANPR)",
+      "titolo_en": "Change of residence if already resident in Italy (ANPR)",
+      "descrizione": "Chi e' gia' residente in un altro Comune italiano (o cambia indirizzo a Milano) usa il servizio online dell'Anagrafe nazionale (ANPR), che richiede SPID o CIE, entro 20 giorni dal trasferimento. In alternativa e' prevista la presentazione su appuntamento allo sportello con tutte le persone maggiorenni del nucleo.",
+      "requires": [
+        "alloggio"
+      ],
+      "si_applica_a": {
+        "cittadinanza": [
+          "extra_ue",
+          "ue"
+        ],
+        "motivi": [
+          "lavoro",
+          "studio",
+          "famiglia",
+          "altro"
+        ],
+        "durata": "qualsiasi",
+        "condizioni": "Solo per chi e' GIA' residente in Italia. Non applicabile a chi arriva direttamente dall'estero."
+      },
+      "scadenza": {
+        "da": "data_inizio_alloggio",
+        "giorni": 20,
+        "tipo": "calendario",
+        "fonte": "KA-00597, KA-00534",
+        "nota": ""
+      },
+      "richiede_spid": true,
+      "canali_alternativi": [
+        {
+          "canale": "Sportello anagrafico su appuntamento",
+          "dettaglio": "Presenza di tutte le persone maggiorenni del nucleo (o procura speciale).",
+          "fonte": "KA-00597"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Come cambio residenza se sono una cittadina straniera/un cittadino straniero proveniente da altro comune o da altro indirizzo a Milano?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00597/Cambio-residenza-per-stranieri-gia-in-Italia",
+          "ka": "KA-00597",
+          "aggiornato": "2026-07-01",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        },
+        {
+          "titolo": "Come chiedere/cambiare residenza?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00330/Richiestacambio-residenza-come-procedere",
+          "ka": "KA-00330",
+          "aggiornato": "2026-07-23",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        },
+        {
+          "titolo": "Cambio di residenza",
+          "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza",
+          "ka": "",
+          "aggiornato": "2026-06-16",
+          "recuperato": "2026-10-03",
+          "tipo": "pagina_comune",
+          "id_indice": "comune:anagrafe/cambio-di-residenza"
+        }
+      ],
+      "note_verifica": ""
+    },
+    {
+      "id": "residenza_temporanea_ue",
+      "titolo": "Residenza temporanea per cittadini UE (meno di un anno, via email)",
+      "titolo_en": "Temporary residence for EU citizens (under one year, by email)",
+      "descrizione": "Per cittadini UE che restano meno di un anno (es. Erasmus): modulo di due pagine firmato, inviato via email all'Anagrafe (DSC.AnagrafeVariazioni@comune.milano.it) con documento UE o passaporto, codice fiscale, iscrizione all'universita' e copertura sanitaria (TEAM/EHIC, S1, tessera sanitaria o assicurazione privata). Conferma con numero di protocollo dopo un paio di settimane; vale un anno; non cambia lo stato di residenza.",
+      "requires": [
+        "codice_fiscale",
+        "alloggio"
+      ],
+      "si_applica_a": {
+        "cittadinanza": [
+          "ue"
+        ],
+        "motivi": [
+          "studio",
+          "lavoro",
+          "altro"
+        ],
+        "durata": "meno_di_un_anno",
+        "condizioni": "Solo cittadini UE con permanenza inferiore a un anno."
+      },
+      "scadenza": null,
+      "richiede_spid": false,
+      "canali_alternativi": [
+        {
+          "canale": "Email all'Anagrafe",
+          "dettaglio": "DSC.AnagrafeVariazioni@comune.milano.it (la persona invia da se')",
+          "fonte": "guida YesMilano Temporary Residence"
+        },
+        {
+          "canale": "International Student Desk YesMilano",
+          "dettaglio": "welcomestudents@yesmilano.it",
+          "fonte": "guida YesMilano Temporary Residence"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Temporary Residence (EU only)",
+          "url": "https://studyandwork.yesmilano.it/en/study/how-to/get-temporary-residence-milano",
+          "ka": "",
+          "aggiornato": null,
+          "recuperato": "2026-10-03",
+          "tipo": "guida_yesmilano",
+          "id_indice": "yesmilano:study/how-to/get-temporary-residence-milano"
+        }
+      ],
+      "note_verifica": "La guida YesMilano non ha data di aggiornamento: si mostra solo la data di recupero (3/10/2026)."
+    },
+    {
+      "id": "stato_pratica",
+      "titolo": "Sapere a che punto e' la pratica di residenza",
+      "titolo_en": "Check the status of your residence application",
+      "descrizione": "Lo stato si vede nel Fascicolo del Cittadino, che richiede SPID o CIE: non esistono account con username e password del Comune. Senza SPID manca il self-service, ma il canale esiste: richiesta dalla sezione 'Hai ancora bisogno di aiuto?' (KA-03938, KA-03937), oppure Contact Center 020202 e Milano Welcome Center.",
+      "requires": [
+        "residenza_estero"
+      ],
+      "si_applica_a": {
+        "cittadinanza": [
+          "extra_ue",
+          "ue"
+        ],
+        "motivi": [
+          "lavoro",
+          "studio",
+          "famiglia",
+          "altro"
+        ],
+        "durata": "oltre_90_giorni",
+        "condizioni": "Solo dopo aver presentato la richiesta di residenza."
+      },
+      "scadenza": null,
+      "richiede_spid": true,
+      "canali_alternativi": [
+        {
+          "canale": "'Hai ancora bisogno di aiuto?' (richiesta al Contact Center)",
+          "dettaglio": "Indicato da KA-03938 e KA-03937 per verificare lo stato della pratica.",
+          "fonte": "KA-03938"
+        },
+        {
+          "canale": "Contact Center",
+          "dettaglio": "020202 (Contact Center del Comune di Milano)",
+          "fonte": "pie' di pagina delle FAQ"
+        },
+        {
+          "canale": "Milano Welcome Center",
+          "dettaglio": "Milano Welcome Center, via Sammartini 75 (M1 Rovereto), anche senza appuntamento: lun, mar, gio, ven 9-17; mer 9-13",
+          "fonte": "KA-02803"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Come controllo lo stato della richiesta del cambio di residenza?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00325/Verifica-stato-pratica-di-residenza",
+          "ka": "KA-00325",
+          "aggiornato": "2026-08-13",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        },
+        {
+          "titolo": "Posso accedere al Fascicolo del Cittadino senza SPID o CIE?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03731/Accesso-al-Fascicolo-del-Cittadino-senza-SPID-o-CIE",
+          "ka": "KA-03731",
+          "aggiornato": "2026-06-02",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        },
+        {
+          "titolo": "Sono una cittadina/un cittadino straniera/o che ha richiesto la residenza. Quanto tempo ci vuole per ottenere l'iscrizione anagrafica?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03938/Sollecito-prima-iscrizione-cittadini-stranieri",
+          "ka": "KA-03938",
+          "aggiornato": "2025-11-24",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        },
+        {
+          "titolo": "Sono una cittadina/un cittadino straniero. Ho effettuato il cambio di residenza sul portale del Comune di Milano, ma non risulto ancora residente. Come posso sapere a che punto è la mia pratica?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03937/Sollecito-iscrizione-anagrafica-stranieri",
+          "ka": "KA-03937",
+          "aggiornato": "2025-11-25",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        },
+        {
+          "titolo": "Ho bisogno di aiuto per accedere al Fascicolo del Cittadino: chi posso contattare?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03732/Aiuto-per-accesso-al-Fascicolo-del-Cittadino-contatti",
+          "ka": "KA-03732",
+          "aggiornato": "2026-06-02",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        }
+      ],
+      "note_verifica": "KA-03732 descrive il modulo 'Hai ancora bisogno di aiuto?' come compilato 'dopo aver eseguito l'accesso', con email collegata all'identita' digitale: non e' verificato che il modulo funzioni senza identita' digitale. Dillo come punto da verificare e indica sempre anche 020202 e Welcome Center."
+    },
+    {
+      "id": "tari",
+      "titolo": "Dichiarazione TARI di nuova occupazione",
+      "titolo_en": "Waste tax (TARI) declaration for a new home",
+      "descrizione": "Entro 90 giorni dall'inizio del possesso o della detenzione dell'immobile. Riguarda chi e' tenuto alla dichiarazione (tipicamente l'intestatario del contratto o della scheda di famiglia): chiedi sempre 'il contratto e' intestato a te?'. Online serve SPID/CIE; senza SPID: PEC, email, consegna a mano al Protocollo, raccomandata. Nell'oggetto dell'email va indicato il codice fiscale del soggetto.",
+      "requires": [
+        "alloggio",
+        "codice_fiscale"
+      ],
+      "requires_note": "Il codice fiscale serve per l'oggetto del messaggio PEC/email (KA-01955).",
+      "si_applica_a": {
+        "cittadinanza": [
+          "extra_ue",
+          "ue"
+        ],
+        "motivi": [
+          "lavoro",
+          "studio",
+          "famiglia",
+          "altro"
+        ],
+        "durata": "qualsiasi",
+        "condizioni": "Solo se la persona e' intestataria del contratto (o comunque tenuta alla dichiarazione). Non applicabile a chi e' ospite o in una stanza in un alloggio intestato ad altri."
+      },
+      "scadenza": {
+        "da": "data_inizio_alloggio",
+        "giorni": 90,
+        "tipo": "calendario",
+        "fonte": "KA-02121",
+        "nota": "90 giorni dall'inizio del possesso o della detenzione (decorrenza del contratto)."
+      },
+      "richiede_spid": true,
+      "canali_alternativi": [
+        {
+          "canale": "PEC",
+          "dettaglio": "tassarifiuti@pec.comune.milano.it (oggetto: TARI Dichiarazione di occupazione - anno - codice fiscale - denominazione)",
+          "fonte": "KA-01955"
+        },
+        {
+          "canale": "Email",
+          "dettaglio": "tassarifiuti@comune.milano.it (stesso formato dell'oggetto)",
+          "fonte": "KA-01955"
+        },
+        {
+          "canale": "Consegna a mano senza appuntamento",
+          "dettaglio": "Protocollo Generale, via Larga 12 (ingresso da via Pecorari 3)",
+          "fonte": "KA-01955"
+        },
+        {
+          "canale": "Consegna su appuntamento",
+          "dettaglio": "Ufficio Protocollo, via Silvio Pellico 16: appuntamento 'con accesso anonimo o tramite SPID/CIE'",
+          "fonte": "KA-01955"
+        },
+        {
+          "canale": "Raccomandata A/R",
+          "dettaglio": "Servizio Tassa Rifiuti, via Silvio Pellico 16, 20121 Milano",
+          "fonte": "KA-01955"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Entro quando devo presentare la dichiarazione per occupazione Tari per acquisto/affitto (locazione)?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02121/Termine-dichiarazione-Tari-per-nuova-occupazione",
+          "ka": "KA-02121",
+          "aggiornato": "2026-05-06",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        },
+        {
+          "titolo": "Non riesco a presentare online la dichiarazione di nuova occupazione Tari: come posso fare?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01955/Presentazione-dichiarazione-Tari-via-mail",
+          "ka": "KA-01955",
+          "aggiornato": "2026-05-06",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        },
+        {
+          "titolo": "Come presento una dichiarazione di occupazione Tari per un'utenza domestica?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02120/Presentazione-dichiarazione-Tari-online",
+          "ka": "KA-02120",
+          "aggiornato": "2026-05-06",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        },
+        {
+          "titolo": "Tari: dichiarazione di occupazione di appartamenti e immobili",
+          "url": "https://www.comune.milano.it/servizi/tributi/tari-dichiarazione-di-occupazione-di-appartamenti-e-immobili",
+          "ka": "",
+          "aggiornato": "2026-06-16",
+          "recuperato": "2026-10-03",
+          "tipo": "pagina_comune",
+          "id_indice": "comune:tributi/tari-dichiarazione-di-occupazione-di-appartamenti-e-immobili"
+        },
+        {
+          "titolo": "Come chiedo/cambio la residenza se sono una cittadina straniera/un cittadino straniero proveniente dall'estero?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00489/Residenza-per-stranieri-dallestero-procedura",
+          "ka": "KA-00489",
+          "aggiornato": "2025-10-02",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        }
+      ],
+      "note_verifica": "Il sistema prepara solo una bozza: la persona invia da se'. Nessun invio automatico."
+    },
+    {
+      "id": "cie",
+      "titolo": "Carta d'identita' elettronica (CIE)",
+      "titolo_en": "Electronic identity card (CIE)",
+      "descrizione": "Per cittadini extra-UE KA-00393 elenca: tessera sanitaria o codice fiscale, una fototessera, il permesso o la carta di soggiorno, un altro documento d'identita' valido. L'appuntamento si prenota senza SPID (KA-00578). La CIE e' anche un'identita' digitale per i servizi online (KA-03621).",
+      "requires": [
+        "codice_fiscale",
+        "permesso_soggiorno"
+      ],
+      "requires_note": "Che la CIE richieda la residenza a Milano NON e' verificato: KA-00393 non lo elenca, mentre la guida YesMilano 'ID card' dice che e' rilasciata ai residenti. Trattalo come punto da verificare, non come blocco certo. Non e' verificato se basti la ricevuta postale al posto del permesso per la prima CIE.",
+      "si_applica_a": {
+        "cittadinanza": [
+          "extra_ue",
+          "ue"
+        ],
+        "motivi": [
+          "lavoro",
+          "studio",
+          "famiglia",
+          "altro"
+        ],
+        "durata": "oltre_90_giorni",
+        "condizioni": "Utile a chi si stabilisce a Milano."
+      },
+      "scadenza": null,
+      "richiede_spid": false,
+      "canali_alternativi": [
+        {
+          "canale": "Prenotazione dell'appuntamento senza SPID",
+          "dettaglio": "Dalla pagina di servizio dedicata.",
+          "fonte": "KA-00578"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Quali documenti servono per fare la Carta di Identità Elettronica (CIE) per la prima volta se sono una cittadina straniera/un cittadino straniero extra UE?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00393/Prima-CIE-per-cittadini-extra-UE-documenti-necessari",
+          "ka": "KA-00393",
+          "aggiornato": "2025-10-23",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        },
+        {
+          "titolo": "Come prendo appuntamento per fare/rinnovare la Carta di Identità Elettronica (CIE)?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00578/Prenotazione-appuntamento-per-rilascio-CIE",
+          "ka": "KA-00578",
+          "aggiornato": "2025-10-23",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        },
+        {
+          "titolo": "Come accedo ai servizi online del Comune di Milano con la CIE?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03621/Accesso-servizi-online-con-CIE",
+          "ka": "KA-03621",
+          "aggiornato": "2026-05-28",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        },
+        {
+          "titolo": "How to get your Italian ID card",
+          "url": "https://studyandwork.yesmilano.it/en/study/how-to/id-card",
+          "ka": "",
+          "aggiornato": null,
+          "recuperato": "2026-10-03",
+          "tipo": "guida_yesmilano",
+          "id_indice": "yesmilano:study/how-to/id-card"
+        },
+        {
+          "titolo": "Carta d'identità",
+          "url": "https://www.comune.milano.it/servizi/anagrafe/carta-d-identita",
+          "ka": "",
+          "aggiornato": "2026-10-02",
+          "recuperato": "2026-10-03",
+          "tipo": "pagina_comune",
+          "id_indice": "comune:anagrafe/carta-d-identita"
+        }
+      ],
+      "note_verifica": ""
+    },
+    {
+      "id": "spid",
+      "titolo": "SPID (identita' digitale)",
+      "titolo_en": "SPID (digital identity)",
+      "descrizione": "Rilasciato da gestori accreditati AgID. KA-00309: serve un documento di identita' valido e la tessera sanitaria o il codice fiscale. Le guide YesMilano aggiungono numero di telefono italiano e, per alcuni gestori, un documento italiano. SPID NON dipende dalla residenza come regola generale: dipende dal CF e da un documento accettato dal gestore, e i requisiti variano per gestore. In alternativa, la CIE da' accesso agli stessi servizi.",
+      "requires": [
+        "codice_fiscale"
+      ],
+      "requires_note": "Oltre al CF: documento accettato dal gestore scelto e (secondo YesMilano) SIM italiana. Non presentare la catena residenza -> CIE -> SPID come un blocco rigido.",
+      "si_applica_a": {
+        "cittadinanza": [
+          "extra_ue",
+          "ue"
+        ],
+        "motivi": [
+          "lavoro",
+          "studio",
+          "famiglia",
+          "altro"
+        ],
+        "durata": "qualsiasi",
+        "condizioni": "Utile a chiunque usi i servizi online della PA."
+      },
+      "scadenza": null,
+      "richiede_spid": false,
+      "canali_alternativi": [
+        {
+          "canale": "CIE come identita' digitale",
+          "dettaglio": "Accesso ai servizi online con credenziali CIE o app CieID.",
+          "fonte": "KA-03621"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Come creo lo SPID?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00309/Creazione-SPID-procedura-e-documenti-necessari",
+          "ka": "KA-00309",
+          "aggiornato": "2025-07-01",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        },
+        {
+          "titolo": "Digital Identity (SPID)",
+          "url": "https://studyandwork.yesmilano.it/en/work/getting-started-guide/digital-identity-spid",
+          "ka": "",
+          "aggiornato": null,
+          "recuperato": "2026-10-03",
+          "tipo": "guida_yesmilano",
+          "id_indice": "yesmilano:work/getting-started-guide/digital-identity-spid"
+        },
+        {
+          "titolo": "Come accedo ai servizi online del Comune di Milano con la CIE?",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03621/Accesso-servizi-online-con-CIE",
+          "ka": "KA-03621",
+          "aggiornato": "2026-05-28",
+          "recuperato": "2026-10-03",
+          "tipo": "faq_comune"
+        }
+      ],
+      "note_verifica": "La guida YesMilano 'Digital Identity (SPID)' indica la residenza tra i requisiti; KA-00309 del Comune no. Non e' nella lista dei conflitti verificati: presentalo come 'requisiti variabili per gestore, da verificare con il gestore scelto'."
+    },
+    {
+      "id": "ssn",
+      "titolo": "Iscrizione al Servizio Sanitario Nazionale e medico di base (da verificare)",
+      "titolo_en": "National Health Service registration and GP (to be verified)",
+      "descrizione": "Per i lavoratori l'iscrizione al SSN e' un diritto (guida YesMilano). Si fa a uno sportello Scelta e Revoca dell'ASST, su appuntamento (Zerocoda). Per gli studenti UE sotto i 6 mesi basta la tessera TEAM/EHIC. Che l'iscrizione dipenda dalla residenza NON e' verificato: chiedi conferma all'ASST.",
+      "requires": [
+        "codice_fiscale"
+      ],
+      "requires_note": "Dipendenza dalla residenza non verificata.",
+      "si_applica_a": {
+        "cittadinanza": [
+          "extra_ue",
+          "ue"
+        ],
+        "motivi": [
+          "lavoro",
+          "studio",
+          "famiglia",
+          "altro"
+        ],
+        "durata": "qualsiasi",
+        "condizioni": "Nodo da verificare con ASST: non e' una fonte del Comune."
+      },
+      "scadenza": null,
+      "richiede_spid": false,
+      "canali_alternativi": [
+        {
+          "canale": "ASST - sportello Scelta e Revoca",
+          "dettaglio": "Appuntamento tramite il sito Zerocoda (prenota.zerocoda.it).",
+          "fonte": "guida YesMilano Healthcare"
+        }
+      ],
+      "fonti": [
+        {
+          "titolo": "Healthcare",
+          "url": "https://studyandwork.yesmilano.it/en/work/getting-started-guide/italian-healthcare",
+          "ka": "",
+          "aggiornato": null,
+          "recuperato": "2026-10-03",
+          "tipo": "guida_yesmilano",
+          "id_indice": "yesmilano:work/getting-started-guide/italian-healthcare"
+        },
+        {
+          "titolo": "Access the National Healthcare Service (NHS)",
+          "url": "https://studyandwork.yesmilano.it/en/study/how-to/national-health-service-students-step-step",
+          "ka": "",
+          "aggiornato": null,
+          "recuperato": "2026-10-03",
+          "tipo": "guida_yesmilano",
+          "id_indice": "yesmilano:study/how-to/national-health-service-students-step-step"
+        }
+      ],
+      "note_verifica": "Stato suggerito: da_verificare."
+    }
+  ],
+  "conflitti_verificati": [
+    {
+      "id": "prenotazione_sportello_senza_registrazione",
+      "titolo": "Prenotare allo sportello anagrafico senza SPID: le fonti non coincidono",
+      "fonte_a": {
+        "titolo": "ds549 Sedi dei servizi anagrafici (open data, dati.comune.milano.it)",
+        "url": "https://dati.comune.milano.it/dataset/ds549-sedi-dei-servizi-anagrafici",
+        "ka": "",
+        "aggiornato": "2026-01-28",
+        "dice": "Note della sede Municipio 2 (via Padova 118) e di altre sedi: 'La prenotazione e' accessibile sia con un'utenza SPID che senza necessita' di registrazione'."
+      },
+      "fonte_b": {
+        "titolo": "Cambio di residenza",
+        "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza",
+        "ka": "",
+        "aggiornato": "2026-06-16",
+        "dice": "Il link 'Prenota appuntamento' della pagina (servizicrm.comune.milano.it/spec/certificatianagrafici/appuntamentosportello) porta al login con SPID, CIE o eIDAS (verificato il 3/10/2026)."
+      },
+      "fonte_c": {
+        "titolo": "Non riesco a presentare online la dichiarazione di nuova occupazione Tari: come posso fare?",
+        "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01955/Presentazione-dichiarazione-Tari-via-mail",
+        "ka": "KA-01955",
+        "aggiornato": "2026-05-06",
+        "dice": "Per il Protocollo di via Silvio Pellico l'appuntamento si prenota 'con accesso anonimo o tramite SPID/CIE'."
+      },
+      "classificazione": "incoerenza tra fonti (da verificare, non risolvibile dall'assistente)",
+      "cosa_fare": "Non scegliere una versione. Prova la prenotazione senza registrazione indicata da ds549; se trovi il login, chiedi al Contact Center 020202 o al Milano Welcome Center. Per la residenza dall'estero lo sportello non serve: la domanda e' solo online.",
+      "nodi_collegati": [
+        "residenza_anpr",
+        "stato_pratica",
+        "cie",
+        "welcome_center"
+      ]
+    }
+  ],
+  "non_conflitti": [
+    {
+      "id": "otto_giorni",
+      "titolo": "8 giorni (Poste) contro 8 giorni lavorativi (norma)",
+      "classificazione": "semplificazione",
+      "spiegazione": "La norma (art. 5, c. 2, D.Lgs. 286/1998) dice 'otto giorni lavorativi'; la guida di Poste semplifica in '8 giorni'. Vale la norma; la data di calendario e' comunque la scelta prudente. Non presentarlo come conflitto."
+    },
+    {
+      "id": "cf_consolato",
+      "titolo": "Codice fiscale al consolato",
+      "classificazione": "ramo diverso",
+      "spiegazione": "Il canale consolare riguarda chi risiede ancora all'estero (pagina Agenzia delle Entrate). Chi e' gia' a Milano usa Sportello Unico o Agenzia delle Entrate. Anche se guide diverse ne parlano in modo diverso, per chi e' gia' arrivato non e' rilevante: non e' un conflitto."
+    },
+    {
+      "id": "cf_allegato_a",
+      "titolo": "Codice fiscale nell'Allegato A",
+      "classificazione": "documento consigliato, non obbligatorio",
+      "spiegazione": "Il CF e' elencato in tutti i casi ma senza asterisco di obbligatorieta'. Non dire che la residenza e' bloccata senza CF."
+    }
+  ],
+  "domande_aperte_per_il_comune": [
+    "Il servizio MOD_DDR_ESTERO richiede SPID o CIE?",
+    "Il modulo 'Hai ancora bisogno di aiuto?' funziona senza identita' digitale (KA-03732 parla di accesso)?",
+    "La prenotazione allo sportello e' davvero possibile senza registrazione (ds549) se il link porta al login?",
+    "La prima CIE per cittadini extra-UE richiede la residenza a Milano?"
+  ]
+}

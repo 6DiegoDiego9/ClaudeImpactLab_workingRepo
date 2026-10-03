@@ -1,0 +1,50 @@
+{
+ "id": "KA-00597",
+ "tipo": "faq",
+ "titolo": "Come cambio residenza se sono una cittadina straniera/un cittadino straniero proveniente da altro comune o da altro indirizzo a Milano?",
+ "domanda": "Come cambio residenza se sono una cittadina straniera/un cittadino straniero proveniente da altro comune o da altro indirizzo a Milano?",
+ "testo": "Comunicare all'Ufficio Anagrafe entro 20 giorni dalla data di trasferimento tramite il servizio online .\nQualora la richiesta venga presentata previo appuntamento allo sportello, è necessaria la presenza di tutte le persone maggiorenni del nucleo familiare interessato alla pratica.\nNel caso in cui una persona maggiorenne non possa essere presente, dovrà delegare con procura speciale la persona che si presenta.\nInoltre, se la richiesta comporta l'aggregazione nello stesso stato di famiglia di una persona già residente al medesimo indirizzo, è richiesto l'assenso dell'aggregante.\nI moduli per la procura speciale e per l'assenso all'ospitalità sono disponibili nella mail di riepilogo dell'appuntamento o presso qualsiasi sede anagrafica, allo sportello informazioni; la nominata/nominato procuratrice/procuratore firmerà per conto della persona interessata. Inoltre, è necessario dichiarare la nuova situazione abitativa ai fini Tari compilando online la dichiarazione di nuova occupazione e/o la dichiarazione di cessata occupazione .",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00597/Cambio-residenza-per-stranieri-gia-in-Italia",
+ "lingua": "it",
+ "aggiornato_il": "2026-07-01",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2026-07-01T18:15:08+02:00",
+ "recuperato_il": "2026-10-03T13:05:21+02:00",
+ "categoria": "Anagrafe / Cambio di residenza",
+ "titolo_breve": "Cambio residenza per stranieri già in Italia",
+ "parole_chiave": [
+  "anagrafe",
+  "residenti",
+  "indirizzo",
+  "TARI",
+  "stranieri"
+ ],
+ "link": [
+  {
+   "testo": "servizio online",
+   "url": "https://www.anagrafenazionale.interno.it/area-cittadino/cambio-di-residenza/"
+  },
+  {
+   "testo": "procura speciale",
+   "url": "https://repository.comune.milano.it/s/AcbZbipRHbWZKMQ"
+  },
+  {
+   "testo": "l'assenso",
+   "url": "https://repository.comune.milano.it/s/EXtamyBMtP7WZeW"
+  },
+  {
+   "testo": "dichiarazione di nuova occupazione",
+   "url": "https://formshd5.comune.milano.it/rwe2/module_preview.jsp?MODULE_TAG=TARIWEB_DICHIARAZIONE_OCCUPAZIONE"
+  },
+  {
+   "testo": "dichiarazione di cessata occupazione",
+   "url": "https://formshd5.comune.milano.it/rwe2/module_preview.jsp?MODULE_TAG=TARIWEB_DICHIARAZIONE_CESSAZIONE"
+  }
+ ],
+ "link_servizio": [
+  {
+   "titolo": "Cambio di residenza",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza"
+  }
+ ]
+}

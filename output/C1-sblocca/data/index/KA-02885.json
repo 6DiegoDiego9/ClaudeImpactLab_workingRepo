@@ -1,0 +1,40 @@
+{
+ "id": "KA-02885",
+ "tipo": "faq",
+ "titolo": "Come posso prenotare un appuntamento presso gli spazi WeMi?",
+ "domanda": "Come posso prenotare un appuntamento presso gli spazi WeMi?",
+ "testo": "È possibile prenotare gli appuntamenti con gli spazi WeMI online, visitando il portale WeMi .\nGli spazi WeMi forniscono supporto alla compilazione per chi non possiede SPID o per problematiche tecniche.\nIn caso di difficoltà a prenotare dal sito, rivolgersi al Contact Center tramite la sezione \"Hai ancora bisogno di aiuto?\".",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02885/Come-prenotare-appuntamento-spazi-WeMi",
+ "lingua": "it",
+ "aggiornato_il": "2026-03-13",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2026-03-13T15:24:32+01:00",
+ "recuperato_il": "2026-10-03T13:02:59+02:00",
+ "categoria": "Welfare / Sistema WeMi",
+ "titolo_breve": "Come prenotare appuntamento spazi WeMi",
+ "parole_chiave": [
+  "Spazi WeMi",
+  "appuntamento Spazi WeMi",
+  "appuntamento servizi sociali"
+ ],
+ "link": [
+  {
+   "testo": "appuntamenti",
+   "url": "https://servizicrm.comune.milano.it/spec/servizisociali/spaziwemi?knowledgeArticleId=25b54d3a-6166-f011-bec3-7c1e52764bd6"
+  },
+  {
+   "testo": "portale WeMi",
+   "url": "https://wemi.comune.milano.it/"
+  }
+ ],
+ "link_servizio": [
+  {
+   "titolo": "Sistema WeMi",
+   "url": "https://www.comune.milano.it/servizi/welfare/sistema-wemi"
+  },
+  {
+   "titolo": "Richiedi assistenza",
+   "url": "https://servizicrm.comune.milano.it/callasap/servizisociali/spaziwemi?knowledgeArticleId=25b54d3a-6166-f011-bec3-7c1e52764bd6"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+  "titolo": "Dichiarazione di residenza - Allegato A: documentazione necessaria per l'iscrizione anagrafica di cittadini di Stati non appartenenti all'Unione Europea",
+  "url": "https://www.comune.milano.it/documents/20118/42443/Elenco+documenti+per+persone+provenienti+da+Paesi+extraUE.pdf/f59656a6-d8aa-7960-fc88-60daf732aeb3?version=1.0&t=1743091608057&download=true",
+  "recuperato_il": "2026-10-03",
+  "nota_recupero": "PDF di 1 pagina scaricato il 3/10/2026 (HTTP 200) e trascritto. Legenda: * documentazione obbligatoria; ** documentazione necessaria per la registrazione nell'anagrafe del rapporto di parentela e per il rilascio della certificazione. Il codice fiscale compare in tutti e 4 i casi SENZA asterisco: non e' marcato obbligatorio.",
+  "casi": [
+    {
+      "caso": 1,
+      "titolo": "Cittadino in possesso di titolo di soggiorno in corso di validita'",
+      "documenti": [
+        {"testo": "copia del passaporto o documento equipollente in corso di validita'", "obbligatorio": true},
+        {"testo": "copia del titolo di soggiorno in corso di validita'", "obbligatorio": true},
+        {"testo": "copia degli atti originali, tradotti e legalizzati, comprovanti lo stato civile e la composizione della famiglia", "obbligatorio": false, "nota": "** per il rapporto di parentela e la certificazione"},
+        {"testo": "codice fiscale, in originale e in fotocopia", "obbligatorio": false, "nota": "elencato senza asterisco"}
+      ]
+    },
+    {
+      "caso": 2,
+      "titolo": "Cittadino in possesso di titolo di soggiorno in corso di rinnovo",
+      "documenti": [
+        {"testo": "copia del passaporto o documento equipollente in corso di validita'", "obbligatorio": true},
+        {"testo": "copia del titolo di soggiorno scaduto", "obbligatorio": true},
+        {"testo": "ricevuta della richiesta di rinnovo del titolo di soggiorno", "obbligatorio": true},
+        {"testo": "copia degli atti originali, tradotti e legalizzati, comprovanti lo stato civile e la composizione della famiglia", "obbligatorio": false, "nota": "**"},
+        {"testo": "codice fiscale, in originale e in fotocopia", "obbligatorio": false, "nota": "elencato senza asterisco"}
+      ]
+    },
+    {
+      "caso": 3,
+      "titolo": "Cittadino in attesa del rilascio del primo permesso di soggiorno per lavoro subordinato",
+      "documenti": [
+        {"testo": "copia del passaporto o documento equipollente in corso di validita'", "obbligatorio": true},
+        {"testo": "copia del contratto di soggiorno presso lo Sportello Unico per l'immigrazione", "obbligatorio": true},
+        {"testo": "ricevuta rilasciata dall'ufficio postale attestante l'avvenuta presentazione della richiesta di permesso di soggiorno", "obbligatorio": true},
+        {"testo": "domanda di rilascio del permesso di soggiorno per lavoro subordinato presentata allo Sportello Unico", "obbligatorio": true},
+        {"testo": "copia degli atti originali, tradotti e legalizzati, comprovanti lo stato civile e la composizione della famiglia", "obbligatorio": false, "nota": "**"},
+        {"testo": "codice fiscale, in originale e in fotocopia", "obbligatorio": false, "nota": "elencato senza asterisco"}
+      ]
+    },
+    {
+      "caso": 4,
+      "titolo": "Cittadino in attesa del rilascio del permesso di soggiorno per ricongiungimento familiare",
+      "documenti": [
+        {"testo": "copia del passaporto o documento equipollente in corso di validita'", "obbligatorio": true},
+        {"testo": "originale e fotocopia del visto di ingresso", "obbligatorio": true},
+        {"testo": "ricevuta rilasciata dall'ufficio postale attestante l'avvenuta presentazione della richiesta di permesso", "obbligatorio": true},
+        {"testo": "fotocopia non autenticata del nulla osta rilasciato dallo Sportello unico", "obbligatorio": true},
+        {"testo": "copia degli atti originali, tradotti e legalizzati, comprovanti lo stato civile e la composizione della famiglia", "obbligatorio": false, "nota": "**"},
+        {"testo": "codice fiscale, in originale e in fotocopia", "obbligatorio": false, "nota": "elencato senza asterisco"}
+      ]
+    }
+  ]
+}

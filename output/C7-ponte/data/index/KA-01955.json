@@ -1,0 +1,43 @@
+{
+ "id": "KA-01955",
+ "tipo": "faq",
+ "titolo": "Non riesco a presentare online la dichiarazione di nuova occupazione Tari: come posso fare?",
+ "domanda": "Non riesco a presentare online la dichiarazione di nuova occupazione Tari: come posso fare?",
+ "testo": "Nel caso in cui non sia possibile presentare la dichiarazione di nuova occupazione tramite il servizio online , è necessario scaricare il modulo e inviarlo compilato tramite una delle seguenti modalità:\n- PEC: tassarifiuti@pec.comune.milano.it\n- E-mail: tassarifiuti@comune.milano.it.\nIndicare nel nome del messaggio: TARI Dichiarazione di occupazione, anno del tributo, codice fiscale del soggetto, denominazione.\nIndicare nel nome dell'allegato: TARI Dichiarazione di occupazione, anno del tributo, denominazione.\nÈ necessario allegare la dichiarazione e la documentazione richiesta.\n- consegna a mano: presentare il modulo della dichiarazione compilato e i documenti di supporto come la planimetria catastale o il contratto di locazione a:\n- Ufficio Protocollo, in Via Silvio Pellico, 16, con appuntamento da prenotare con accesso anonimo o tramite SPID/CIE; attenzione: l'ufficio Protocollo non fornisce consulenza sulla dichiarazione Tari presentata.\n- Protocollo Generale del Comune di Milano, via Larga, 12 (accesso da via Pecorari 3) senza appuntamento.\n- è possibile inviare la dichiarazione anche tramite posta raccomandata a/r a: Servizio Tassa Rifiuti in via Silvio Pellico, 16 - 20121 Milano.",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01955/Presentazione-dichiarazione-Tari-via-mail",
+ "lingua": "it",
+ "aggiornato_il": "2026-05-06",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2026-05-06T14:42:28+02:00",
+ "recuperato_il": "2026-10-03T13:02:27+02:00",
+ "categoria": "Tributi / Tari: dichiarazione di occupazione di appartamenti e immobili",
+ "titolo_breve": "Difficoltà presentazione online dichiarazione occupazione Tari",
+ "parole_chiave": [
+  "tributi",
+  "tari",
+  "dichiarazione",
+  "nuova occupazione tari",
+  "utenza domestica tari",
+  "problema online tari"
+ ],
+ "link": [
+  {
+   "testo": "servizio online",
+   "url": "https://formshd5.comune.milano.it/rwe2/module_preview.jsp?MODULE_TAG=TARIWEB_DICHIARAZIONE_OCCUPAZIONE"
+  },
+  {
+   "testo": "modulo",
+   "url": "https://www.comune.milano.it/documents/20118/0/TARI+Utenze+Domestiche+-+nuova+occupazione+12+11+2020.pdf/e018c863-25e2-0c92-7c9c-5a4b9867473c?version=1.0&t=1752581855891&download=true"
+  },
+  {
+   "testo": "appuntamento",
+   "url": "http://servizicrm.comune.milano.it/spec/tributi/protocolloappuntamento"
+  }
+ ],
+ "link_servizio": [
+  {
+   "titolo": "Tari: dichiarazione di occupazione di appartamenti e immobili",
+   "url": "https://www.comune.milano.it/servizi/tributi/tari-dichiarazione-di-occupazione-di-appartamenti-e-immobili"
+  }
+ ]
+}

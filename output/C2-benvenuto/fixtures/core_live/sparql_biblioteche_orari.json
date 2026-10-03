@@ -1,0 +1,198 @@
+{
+  "catturato_il": "2026-10-03T13:12:31+02:00",
+  "query": "PREFIX bo: <https://dati.comune.milano.it/biblioteche/onto/>\nPREFIX om: <https://dati.comune.milano.it/ontomi/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?nome ?indirizzo ?municipio ?orari ?note\nWHERE {\n  GRAPH <https://dati.comune.milano.it/data/biblioteche> {\n    ?a a bo:BibliotecaAnagrafica ; om:nome ?nome ; bo:orarioBiblioteca ?orari ; om:haIndirizzo ?i .\n    ?i om:indirizzoCompleto ?indirizzo .\n    OPTIONAL { ?i om:haMunicipio ?m . BIND(REPLACE(STR(?m), \"^.*/\", \"\") AS ?municipio) }\n    OPTIONAL { ?a rdfs:comment ?note }\n  }\n}\nORDER BY ?nome LIMIT 50",
+  "variabili": [
+    "nome",
+    "indirizzo",
+    "municipio",
+    "orari",
+    "note"
+  ],
+  "righe": [
+    {
+      "nome": "Accursio",
+      "indirizzo": "Piazzale Accursio 5",
+      "municipio": "8",
+      "orari": "Lunedi, mercoledi e venerdi:14:00-19:00, martedi e giovedi: 09:00-14:00, sabato: 10:00-14:00",
+      "note": "Ritiro prenotazioni su appuntamento"
+    },
+    {
+      "nome": "Affori",
+      "indirizzo": "Viale Affori 21",
+      "municipio": "9",
+      "orari": "Lunedi: 14:30-19:00, da martedi a venerdi: 09:00 -19:00, sabato: 10:00-18:00, domenica: 09:00 -19:00",
+      "note": "Ritiro prenotazioni su appuntamento"
+    },
+    {
+      "nome": "Baggio",
+      "indirizzo": "Via Pistoia 10",
+      "municipio": "7",
+      "orari": "Lunedi: 14:30-19:00, da martedi a venerdi: 09:00 -19:00, sabato: 10:00-18:00",
+      "note": "per ritirare le prenotazioni o accedere agli scaffali è necessario prenotarsi: per telefono 0288465804, tramite il sito Affluences oppure tramite l'app per smartphone Affluences."
+    },
+    {
+      "nome": "Bibliobus",
+      "indirizzo": "Via Bezzecca 18",
+      "municipio": "4",
+      "orari": "Lunedi e mercoledi: 14:00-17:30, martedi,giovedi e venerdi: 09.00-12.30, sabato: chiuso",
+      "note": "sara' possibile ritirare i libri prenotati prima della chiusura, previo appuntamento ai contatti"
+    },
+    {
+      "nome": "Calvairate",
+      "indirizzo": "Piazza Insubria 3",
+      "municipio": "4",
+      "orari": "Lunedi, mercoledi e venerdi:14:00-19:00, martedi e giovedi: 09:00-14:00, sabato: 10:00-14:00",
+      "note": "Ritiro prenotazioni su appuntamento"
+    },
+    {
+      "nome": "Cassina Anna",
+      "indirizzo": "Via S. Arnaldo 17",
+      "municipio": "9",
+      "orari": "Lunedi, mercoledi e venerdi:14:00-19:00, martedi e giovedi: 09:00-14:00, sabato: 10:00-14:00",
+      "note": "Possibilita' di restituire i documenti presso un box al piano terra. Accesso in biblioteca su prenotazione"
+    },
+    {
+      "nome": "Chiesa Rossa",
+      "indirizzo": "Via San Domenico Savio 3",
+      "municipio": "5",
+      "orari": "Lunedi: chiuso, da martedi a venerdi: 09:00 -19:00, sabato: 10:00-18:00",
+      "note": "restituire i libri e i multimediali in un contenitore posto all'ingresso della biblioteca"
+    },
+    {
+      "nome": "Crescenzago",
+      "indirizzo": "Viale Don Orione 19",
+      "municipio": "2",
+      "orari": "Lunedi: 14:30-19:00, da martedi a venerdi: 09:00 -19:00, sabato: 10:00-18:00",
+      "note": "Ritiro prenotazioni su appuntamento"
+    },
+    {
+      "nome": "Dergano Bovisa",
+      "indirizzo": "Via Baldinucci 76",
+      "municipio": "9",
+      "orari": "lunedi: chiuso, martedi e giovedi: 09:30-14:30, mercoledi e venerdi: 14.00-19:00, sabato: 09:30-14:00",
+      "note": "Puoi ritirarli solo su appuntamento concordando data e ora di ritiro"
+    },
+    {
+      "nome": "Fra Cristoforo",
+      "indirizzo": "Via Fra Cristoforo 6",
+      "municipio": "5",
+      "orari": "lunedi: chiuso, dal martedi al venerdi: 09:00-19:00, sabato:10:00-18:00",
+      "note": "per la restituzione, è necessario recarsi in biblioteca dopo aver concordato un appuntamento, preso tramite app Affluneces oppure chiamando i recapiti che ogni sede riserva a questo servizio"
+    },
+    {
+      "nome": "Gallaratese",
+      "indirizzo": "Via G. Quarenghi 21",
+      "municipio": "8",
+      "orari": "Lunedi: 14:30-19:00, da martedi a venerdi: 09:00 -19:00, sabato: 10:00-18:00",
+      "note": "E' sempre aperto il box restituzione h24"
+    },
+    {
+      "nome": "Harar",
+      "indirizzo": "Via Albenga 2",
+      "municipio": "7",
+      "orari": "lunedi: chiuso, martedi e giovedi: 09:00-14:00, mercoledi e venerdi: 14:00-19:00, sabato: 10:00-14:00",
+      "note": "scegliere i documenti a scaffale, per un tempo limitato e sempre previo appuntamento"
+    },
+    {
+      "nome": "Lorenteggio",
+      "indirizzo": "Via E. Odazio 9",
+      "municipio": "6",
+      "orari": "Lunedi, mercoledi e venerdi:14:00-19:00, martedi e giovedi: 09:00-14:00, sabato: 10:00-14:00",
+      "note": "ritiro prenotazioni e accesso agli scaffali su appuntamento. Sala studio e postazioni internet chiuse"
+    },
+    {
+      "nome": "Niguarda",
+      "indirizzo": "Via G.B. Passerini 5",
+      "municipio": "9",
+      "orari": "Lunedi: 14:30-19:00, da martedi a venerdi: 09:00 -19:00, sabato: 10:00-18:00",
+      "note": "E' possibile prenotare online  libri e multimediali e venire a ritirarli dopo aver fissato un appuntamento."
+    },
+    {
+      "nome": "Oglio",
+      "indirizzo": "Via Oglio 18",
+      "municipio": "4",
+      "orari": "Lunedi: chiuso, da martedi a venerdi: 09:00 -19.00, sabato: 10:00-18:00",
+      "note": "Restituzione all'ingresso senza prenotazione quando la biblioteca è aperta. Ritiro su appuntamento."
+    },
+    {
+      "nome": "Parco Sempione",
+      "indirizzo": "Viale Cervantes 1",
+      "municipio": "1",
+      "orari": "lunedi: chiuso, martedi e giovedi: 09:30-14:30, mercoledi e venerdi: 14:00-19:00, sabato: 09:30-14:00",
+      "note": "Prima di venire in biblioteca dovrai fissare un appuntamento, utilizzando Affluences o telefonando"
+    },
+    {
+      "nome": "Quarto Oggiaro",
+      "indirizzo": "Via Carbonia 7",
+      "municipio": "8",
+      "orari": "lunedi: chiuso, martedi: chiuso mercoledi: 09:30-19:00, giovedi: 09:30-14:30, sabato: chiuso",
+      "note": "E' possibile accedere al pannello di prenotazione sia scaricando l' app Affluences su smartphone o tablet, sia accedendo comodamente dal sito web attraverso un qualsiasi browser."
+    },
+    {
+      "nome": "Sant'Ambrogio",
+      "indirizzo": "Via S. Paolino 18",
+      "municipio": "6",
+      "orari": "Lunedi: 14:00-19:00, martedi e giovedi: 09.00-14.00, mercoledi e venerdi: 14.00-19.00, sabato: 10.00-14.00",
+      "note": "Per prenotare ora puoi usare lÃ•app gratuita Affluences. Oppure puoi sempre telefonare"
+    },
+    {
+      "nome": "Sicilia",
+      "indirizzo": "Via L. Sacco 14",
+      "municipio": "7",
+      "orari": "Lunedi: chiuso, dal martedi al venerdi: 09:30-14:30, sabato: 09:30-14:00",
+      "note": "Ritiro prenotazioni su appuntamento"
+    },
+    {
+      "nome": "Sormani",
+      "indirizzo": "Corso di Porta Vittoria 6",
+      "municipio": "1",
+      "orari": "Lunedi: 14:30-19:30, dal martedi al venerdi: 09:00-19:30, sabato: 10:00-18:00",
+      "note": "Per accedere agli spazi e ai servizi della biblioteca occorre: prendere appuntamento tramite l'app Affluences oppure chiamando il numero"
+    },
+    {
+      "nome": "Tibaldi",
+      "indirizzo": "Viale Tibaldi 41",
+      "municipio": "5",
+      "orari": "Lunedi: chiuso, da martedi a venerdi: 09.00 -19.00, sabato: 10.00-18.00",
+      "note": "La biblioteca è aperta solo su appuntamento."
+    },
+    {
+      "nome": "Valvassori Peroni",
+      "indirizzo": "Via Valvassori Peroni 56",
+      "municipio": "3",
+      "orari": "Lunedi: 14:30-19:00, da martedi a venerdi: 09:00 -19:00, sabato: 10:00-18:00",
+      "note": "Accesso agli scaffali e ritiro prenotazioni solo su appuntamento con App Affluences o telefono"
+    },
+    {
+      "nome": "Venezia",
+      "indirizzo": "Via Frisi 2",
+      "municipio": "3",
+      "orari": "lunedi: chiuso, martedi e giovedi: 09:30-14:30, mercoledi e venerdi: 14:00-19:00, sabato: 09:30-14:00",
+      "note": "accesso solo su appuntamento - sala studio e postazione internet chiuse"
+    },
+    {
+      "nome": "Vigentina",
+      "indirizzo": "Corso di Porta Vigentina 15",
+      "municipio": "1",
+      "orari": "Lunedi, mercoledi e venerdi:14:00-19:00, martedi e giovedi: 09:00-14:00, sabato: 10:00-14:00",
+      "note": "Ritiro prenotazioni su appuntamento"
+    },
+    {
+      "nome": "Villapizzone",
+      "indirizzo": "Via F. Grugnola 3",
+      "municipio": "8",
+      "orari": "lunedi: chiuso, martedi e giovedi: 09:00-14:00, mercoledi e venerdi: 14:00-19.00, sabato: 10:00-14:00",
+      "note": "La biblioteca rimane chiusa al pubblico. Altre biblioteche del Sistema Bibliotecario di Milano sono aperte con orario ridotto per servizi su prenotazione"
+    },
+    {
+      "nome": "Zara",
+      "indirizzo": "Viale Zara 100",
+      "municipio": "2",
+      "orari": "Lunedi: chiuso, martedi: 10:00-14:00, giovedi: 09:00-14:00, mercoledi e venerdi: 14:00-19:00, sabato: 10:00-14:00",
+      "note": "La biblioteca rimane chiusa al pubblico. Altre biblioteche del Sistema Bibliotecario di Milano sono aperte con orario ridotto per servizi su prenotazione"
+    }
+  ],
+  "recuperato_il": "2026-10-03T13:12:31+02:00",
+  "da_cache": false,
+  "avviso": null
+}

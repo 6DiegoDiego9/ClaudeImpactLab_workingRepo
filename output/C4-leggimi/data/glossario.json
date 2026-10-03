@@ -1,0 +1,55 @@
+{
+  "_descrizione": "Glossario dei termini a rischio (falsi amici). Curato dal team il 3/10/2026; da far rivedere a mediatori madrelingua. Le traduzioni nelle lingue dell'utente le scrive Claude a partire da queste definizioni in italiano e in inglese.",
+  "recuperato_il": "2026-10-03",
+  "termini": [
+    {
+      "termine": "attestazione di soggiorno",
+      "significato_it": "Documento dell'anagrafe per cittadini dell'Unione Europea (non italiani) e britannici che si iscrivono come residenti. NON e' il permesso di soggiorno e non riguarda le persone extra UE.",
+      "significato_en": "A registration certificate issued by the registry office to EU (non-Italian) and British citizens. It is NOT a residence permit and does not apply to non-EU nationals.",
+      "falso_amico": {
+        "dove": "Traduzione automatica del sito del Comune, pagina 'Attestazione di soggiorno per cittadini UE non italiani e britannici'",
+        "url_en": "https://www.comune.milano.it/en/servizi/anagrafe/attestazione-di-soggiorno-per-cittadini-ue-non-italiani-e-britannici",
+        "titolo_en": "Residence permit for non-Italian and British EU citizens",
+        "url_ar": "https://www.comune.milano.it/ar/servizi/anagrafe/attestazione-di-soggiorno-per-cittadini-ue-non-italiani-e-britannici",
+        "titolo_ar": "تصريح إقامة لمواطني الاتحاد الأوروبي من غير الإيطاليين والبريطانيين",
+        "verificato_il": "2026-10-03",
+        "errore": "'Residence permit' (e in arabo 'تصريح إقامة') significa 'permesso di soggiorno', un documento giuridicamente diverso rilasciato dalla Questura. Una persona extra UE puo' credere che quella pagina la riguardi."
+      }
+    },
+    {
+      "termine": "permesso di soggiorno",
+      "significato_it": "Titolo rilasciato dalla Questura che autorizza una persona extra UE a stare in Italia. Si chiede con il kit postale; mentre si aspetta vale la ricevuta delle Poste.",
+      "significato_en": "Residence permit issued by the Police (Questura) to non-EU nationals. Requested with the postal kit; while waiting, the post office receipt is the proof of application."
+    },
+    {
+      "termine": "residenza (iscrizione anagrafica)",
+      "significato_it": "Registrazione all'anagrafe del Comune all'indirizzo dove si vive abitualmente. Non e' un permesso di soggiorno. Per chi arriva dall'estero si chiede solo online (MOD_DDR_ESTERO).",
+      "significato_en": "Registration with the City registry office at the address where you usually live (\"residence registration\"). It is not a residence permit. People arriving from abroad apply online only (MOD_DDR_ESTERO)."
+    },
+    {
+      "termine": "ricevuta postale (del kit)",
+      "significato_it": "Ricevuta che l'ufficio postale da' quando si spedisce il kit per il permesso. Contiene codici personali per il Portale Immigrazione: non vanno mostrati ne' fotografati per altri.",
+      "significato_en": "The receipt the post office gives you when you send the permit kit. It contains personal codes for the Immigration Portal: do not share or photograph them for others."
+    },
+    {
+      "termine": "contratto di soggiorno",
+      "significato_it": "Contratto firmato allo Sportello Unico per l'immigrazione da chi lavora e dal datore di lavoro (lavoro subordinato). Non e' il contratto d'affitto.",
+      "significato_en": "Contract signed at the Immigration One-Stop Desk (Sportello Unico) by the worker and the employer. It is not a rental contract."
+    },
+    {
+      "termine": "nulla osta",
+      "significato_it": "Autorizzazione dello Sportello Unico all'ingresso per lavoro o per ricongiungimento familiare. Viene prima del visto.",
+      "significato_en": "Clearance from the Sportello Unico allowing entry for work or family reunification. It comes before the visa."
+    },
+    {
+      "termine": "domicilio",
+      "significato_it": "Luogo dove si hanno affari e interessi; diverso dalla residenza (KA-00430).",
+      "significato_en": "Place of business and interests; different from residence (KA-00430)."
+    },
+    {
+      "termine": "ResidenzaMi",
+      "significato_it": "Servizio per la residenza anagrafica delle persone senza dimora (KA-03249, KA-03252). Non e' il servizio per chi arriva dall'estero con una casa.",
+      "significato_en": "Service for registry residence of homeless people (KA-03249, KA-03252). Not the service for people arriving from abroad who have a home."
+    }
+  ]
+}

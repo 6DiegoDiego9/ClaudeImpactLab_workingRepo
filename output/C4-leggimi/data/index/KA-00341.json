@@ -1,0 +1,41 @@
+{
+ "id": "KA-00341",
+ "tipo": "faq",
+ "titolo": "Come chiedere il certificato di residenza?",
+ "domanda": "Come chiedere il certificato di residenza?",
+ "testo": "Per se stessi o per i componenti del proprio nucleo familiare:\nè necessario fare richiesta online attraverso il portale dell'anagrafe nazionale (ANPR) accedendo con SPID/CIE o prenotando un appuntamento allo sportello anagrafico tramite la pagina di servizio.\nPer terze persone:\nè necessario prenotare un appuntamento allo sportello anagrafico tramite la pagina di servizio.\nIn caso di difficoltà a scaricare il documento o a prenotare un appuntamento perché non in possesso di SPID/CIE, è possibile rivolgersi al Contact Center dalla sezione \"Hai ancora bisogno di aiuto?\".",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00341/Richiesta-certificato-di-residenza",
+ "lingua": "it",
+ "aggiornato_il": "2025-11-11",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2025-11-11T14:53:01+01:00",
+ "recuperato_il": "2026-10-03T13:04:13+02:00",
+ "categoria": "Anagrafe / Certificati anagrafici",
+ "titolo_breve": "Richiesta certificato di residenza",
+ "parole_chiave": [
+  "anagrafe",
+  "certificato residenza",
+  "richiesta online",
+  "SPID CIE"
+ ],
+ "link": [
+  {
+   "testo": "portale dell'anagrafe nazionale (ANPR)",
+   "url": "https://www.anagrafenazionale.interno.it/"
+  },
+  {
+   "testo": "appuntamento",
+   "url": "http://servizicrm.comune.milano.it/spec/certificatianagrafici/appuntamentosportello"
+  }
+ ],
+ "link_servizio": [
+  {
+   "titolo": "Certificati anagrafici",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/certificati-anagrafici"
+  },
+  {
+   "titolo": "Richiedi assistenza",
+   "url": "https://servizicrm.comune.milano.it/callasap/certificatianagrafici/informazioni?knowledgeArticleId=1187dee2-cf4a-f011-877a-000d3a648776"
+  }
+ ]
+}

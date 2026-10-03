@@ -1,0 +1,34 @@
+{
+ "id": "KA-02042",
+ "tipo": "faq",
+ "titolo": "Dove trovo il modulo di dichiarazione di cessazione Tari per utenze domestiche?",
+ "domanda": "Dove trovo il modulo di dichiarazione di cessazione Tari per utenze domestiche?",
+ "testo": "In caso di cessazione entro il bimestre di effettivo rilascio dei locali si suggerisce di utilizzare il servizio on line .\nIn caso di cessazione tardiva è necessario presentare il modulo di cessazione compilato e completo di documento di identità del dichiarante, allegando uno dei seguenti documenti:\n- dichiarazione del proprietario che attesti l’effettiva data di rilascio dei locali oppure verbale di riconsegna delle chiavi al proprietario;\n- ultima bolletta di chiusura utenze luce/gas;\n- copia della chiusura del contratto d’affitto oppure atto di vendita. Il solo cambio di residenza non dimostra la non occupazione dell’immobile.\nModalità di invio:\n- tramite mail agli indirizzi tassarifiuti@comune.milano.it oppure tassarifiuti@pec.comune.milano.it, specificando nell’oggetto “cessazione tardiva tari”;\n- presentazione all'ufficio Protocollo Generale del Comune di Milano, via Larga, 12 (accesso da via Pecorari 3) senza appuntamento (l'ufficio protocollo non fornisce consulenza sulle pratiche, ma ritira e protocolla i documenti.) Si raccomanda di conservare la ricevuta di protocollazione rilasciata dall’ufficio;\n- tramite posta raccomandata a/r a: Unità Tributo Rifiuti in via Silvio Pellico, 16 - 20121 Milano.",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02042/Modulo-dichiarazione-cessazione-Tari",
+ "lingua": "it",
+ "aggiornato_il": "2026-05-19",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2026-05-19T17:50:02+02:00",
+ "recuperato_il": "2026-10-03T13:07:44+02:00",
+ "categoria": "Tributi / Tari: dichiarazione di cessazione di occupazione di appartamenti e immobili",
+ "titolo_breve": "Modulo dichiarazione cessazione Tari",
+ "parole_chiave": [
+  "tari",
+  "modulo tari",
+  "cessazione tari",
+  "utenze domestiche tari",
+  "cessazione utenze domestiche tari"
+ ],
+ "link": [
+  {
+   "testo": "servizio on line",
+   "url": "https://formshd5.comune.milano.it/rwe2/module_preview.jsp?MODULE_TAG=TARIWEB_DICHIARAZIONE_CESSAZIONE"
+  }
+ ],
+ "link_servizio": [
+  {
+   "titolo": "Tari: dichiarazione di cessazione di occupazione di appartamenti e immobili",
+   "url": "https://www.comune.milano.it/servizi/tributi/tari-dichiarazione-di-cessazione-di-occupazione-di-appartamenti-e-immobili"
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+  "catturato_il": "2026-10-03T13:12:32+02:00",
+  "kit_permesso_8_lavorativi": {
+    "tipo": "lavorativi",
+    "n": 8,
+    "inizio": "2026-12-03",
+    "scadenza": {
+      "data": "2026-12-17",
+      "data_estesa": "giovedì 17 dicembre 2026",
+      "lavorativo": true,
+      "festivo": null,
+      "weekend": false
+    },
+    "regola": "8 giorni lavorativi dopo 2026-12-03: esclusi sabato, domenica e festivi nazionali, e Sant'Ambrogio (7 dicembre) a Milano.",
+    "prorogata": null
+  },
+  "residenza_20_calendario": {
+    "tipo": "calendario",
+    "n": 20,
+    "inizio": "2026-10-03",
+    "scadenza": {
+      "data": "2026-10-23",
+      "data_estesa": "venerdì 23 ottobre 2026",
+      "lavorativo": true,
+      "festivo": null,
+      "weekend": false
+    },
+    "regola": "20 giorni di calendario dal giorno successivo a 2026-10-03 (il giorno iniziale non si conta).",
+    "prorogata": null
+  },
+  "prorogata": {
+    "tipo": "calendario",
+    "n": 20,
+    "inizio": "2026-10-05",
+    "scadenza": {
+      "data": "2026-10-25",
+      "data_estesa": "domenica 25 ottobre 2026",
+      "lavorativo": false,
+      "festivo": null,
+      "weekend": true
+    },
+    "regola": "20 giorni di calendario dal giorno successivo a 2026-10-05 (il giorno iniziale non si conta).",
+    "prorogata": {
+      "data": "2026-10-26",
+      "data_estesa": "lunedì 26 ottobre 2026",
+      "lavorativo": true,
+      "festivo": null,
+      "weekend": false,
+      "nota": "La scadenza cade in un giorno non lavorativo: per la regola generale (art. 2963 c.c.) slitta al primo giorno lavorativo, ma verifica se vale per questo procedimento; la data prudente resta quella non prorogata."
+    }
+  },
+  "ambigua_8_giorni": {
+    "inizio": "2026-12-03",
+    "n": 8,
+    "calendario": {
+      "tipo": "calendario",
+      "n": 8,
+      "inizio": "2026-12-03",
+      "scadenza": {
+        "data": "2026-12-11",
+        "data_estesa": "venerdì 11 dicembre 2026",
+        "lavorativo": true,
+        "festivo": null,
+        "weekend": false
+      },
+      "regola": "8 giorni di calendario dal giorno successivo a 2026-12-03 (il giorno iniziale non si conta).",
+      "prorogata": null
+    },
+    "lavorativi": {
+      "tipo": "lavorativi",
+      "n": 8,
+      "inizio": "2026-12-03",
+      "scadenza": {
+        "data": "2026-12-17",
+        "data_estesa": "giovedì 17 dicembre 2026",
+        "lavorativo": true,
+        "festivo": null,
+        "weekend": false
+      },
+      "regola": "8 giorni lavorativi dopo 2026-12-03: esclusi sabato, domenica e festivi nazionali, e Sant'Ambrogio (7 dicembre) a Milano.",
+      "prorogata": null
+    },
+    "prudente": "calendario",
+    "differenza_giorni": 6,
+    "nota": "La fonte non dice se i giorni sono di calendario o lavorativi: mostro entrambe le date. Per sicurezza considera la data piu' vicina (calendario)."
+  },
+  "festivi_2026_2027": {
+    "2026-01-01": "Capodanno",
+    "2026-01-06": "Epifania",
+    "2026-04-05": "Pasqua",
+    "2026-04-06": "Lunedì dell'Angelo (Pasquetta)",
+    "2026-04-25": "Festa della Liberazione",
+    "2026-05-01": "Festa del Lavoro",
+    "2026-06-02": "Festa della Repubblica",
+    "2026-08-15": "Ferragosto (Assunzione)",
+    "2026-10-04": "San Francesco d'Assisi e Santa Caterina da Siena",
+    "2026-11-01": "Ognissanti",
+    "2026-12-07": "Sant'Ambrogio (patrono di Milano)",
+    "2026-12-08": "Immacolata Concezione",
+    "2026-12-25": "Natale",
+    "2026-12-26": "Santo Stefano",
+    "2027-01-01": "Capodanno",
+    "2027-01-06": "Epifania",
+    "2027-03-28": "Pasqua",
+    "2027-03-29": "Lunedì dell'Angelo (Pasquetta)",
+    "2027-04-25": "Festa della Liberazione",
+    "2027-05-01": "Festa del Lavoro",
+    "2027-06-02": "Festa della Repubblica",
+    "2027-08-15": "Ferragosto (Assunzione)",
+    "2027-10-04": "San Francesco d'Assisi e Santa Caterina da Siena",
+    "2027-11-01": "Ognissanti",
+    "2027-12-07": "Sant'Ambrogio (patrono di Milano)",
+    "2027-12-08": "Immacolata Concezione",
+    "2027-12-25": "Natale",
+    "2027-12-26": "Santo Stefano"
+  }
+}

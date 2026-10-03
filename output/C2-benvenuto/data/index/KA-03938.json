@@ -1,0 +1,33 @@
+{
+ "id": "KA-03938",
+ "tipo": "faq",
+ "titolo": "Sono una cittadina/un cittadino straniera/o che ha richiesto la residenza. Quanto tempo ci vuole per ottenere l'iscrizione anagrafica?",
+ "domanda": "Sono una cittadina/un cittadino straniera/o che ha richiesto la residenza. Quanto tempo ci vuole per ottenere l'iscrizione anagrafica?",
+ "testo": "Per verificare lo stato della pratica è necessario inviare una richiesta dalla sezione \"Hai ancora bisogno di aiuto?\".",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03938/Sollecito-prima-iscrizione-cittadini-stranieri",
+ "lingua": "it",
+ "aggiornato_il": "2025-11-24",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2025-11-24T22:56:06+01:00",
+ "recuperato_il": "2026-10-03T13:03:30+02:00",
+ "categoria": "Anagrafe / Cambio di residenza per persone straniere provenienti dall’estero",
+ "titolo_breve": "Sollecito prima iscrizione cittadini stranieri",
+ "parole_chiave": [
+  "residenza stranieri",
+  "sollecito residenza stranieri",
+  "prima iscrizione cittadini stranieri",
+  "sollecito prima iscrizione cittadini stranieri",
+  "sollecito prima iscrizione stranieri"
+ ],
+ "link": [],
+ "link_servizio": [
+  {
+   "titolo": "Cambio di residenza per persone straniere provenienti dall’estero",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza-per-persone-straniere-provenienti-dall-estero"
+  },
+  {
+   "titolo": "Richiedi assistenza",
+   "url": "https://servizicrm.comune.milano.it/spec/richiestaresidenzapersonestraniere/informazioni?knowledgeArticleId=4862c046-80c9-f011-bbd2-7c1e5236e249"
+  }
+ ]
+}

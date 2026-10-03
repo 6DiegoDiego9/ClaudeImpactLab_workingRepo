@@ -1,0 +1,37 @@
+{
+ "id": "KA-00325",
+ "tipo": "faq",
+ "titolo": "Come controllo lo stato della richiesta del cambio di residenza?",
+ "domanda": "Come controllo lo stato della richiesta del cambio di residenza?",
+ "testo": "Per controllare lo stato della richiesta di cambio di residenza è necessario consultare il proprio Fascicolo del Cittadino, accedendo con SPID o CIE.\nAccedere alla sezione \"le mie informazioni\" e da qui selezionare \" i miei dati e i miei familiari\" ; nel box \"dati anagrafici e stato civile\" è riportato l'indirizzo di residenza presente nei sistemi anagrafici.\nSe l'indirizzo è stato aggiornato la pratica è stata avviata.\nPer ricevere ulteriori informazioni sul procedimento in corso, inviare una richiesta dalla sezione \"Hai ancora bisogno di aiuto?\".",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00325/Verifica-stato-pratica-di-residenza",
+ "lingua": "it",
+ "aggiornato_il": "2026-08-13",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2026-08-13T16:06:43+02:00",
+ "recuperato_il": "2026-10-03T13:01:45+02:00",
+ "categoria": "Anagrafe / Cambio di residenza per persone straniere provenienti dall’estero",
+ "titolo_breve": "Verifica stato pratica di residenza",
+ "parole_chiave": [
+  "anagrafe",
+  "residenti",
+  "stato",
+  "pratica"
+ ],
+ "link": [
+  {
+   "testo": "i miei dati e i miei familiari\"",
+   "url": "https://fascicolo.comune.milano.it/familiari"
+  }
+ ],
+ "link_servizio": [
+  {
+   "titolo": "Cambio di residenza per persone straniere provenienti dall’estero",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza-per-persone-straniere-provenienti-dall-estero"
+  },
+  {
+   "titolo": "Richiedi assistenza",
+   "url": "https://servizicrm.comune.milano.it/spec/statopraticaresidenza/informazioni?knowledgeArticleId=10aebb84-cf4a-f011-877a-000d3a648776"
+  }
+ ]
+}

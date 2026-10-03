@@ -1,0 +1,39 @@
+{
+ "id": "KA-00546",
+ "tipo": "faq",
+ "titolo": "Se non possiedo la Carta di Identità Elettronica (CIE) o lo SPID, come posso richiedere un certificato anagrafico?",
+ "domanda": "Se non possiedo la Carta di Identità Elettronica (CIE) o lo SPID, come posso richiedere un certificato anagrafico?",
+ "testo": "È necessario prenotare un appuntamento chiedendo assistenza al Contact Center dalla sezione \"Hai ancora bisogno di aiuto?\".",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00546/Certificati-anagrafici-senza-SPID-o-CIE",
+ "lingua": "it",
+ "aggiornato_il": "2025-11-07",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2025-11-07T18:52:54+01:00",
+ "recuperato_il": "2026-10-03T13:07:12+02:00",
+ "categoria": "Anagrafe / Certificati anagrafici",
+ "titolo_breve": "Certificati anagrafici senza SPID o Carta di Identità",
+ "parole_chiave": [
+  "anagrafe",
+  "certificato",
+  "appuntamento",
+  "telefono",
+  "carta d&#x27;identit&#xE0;",
+  "elettronica"
+ ],
+ "link": [
+  {
+   "testo": "appuntamento",
+   "url": "http://servizicrm.comune.milano.it/spec/certificatianagrafici/appuntamentosportello"
+  }
+ ],
+ "link_servizio": [
+  {
+   "titolo": "Certificati anagrafici",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/certificati-anagrafici"
+  },
+  {
+   "titolo": "Richiedi assistenza",
+   "url": "https://servizicrm.comune.milano.it/callasap/certificatianagrafici/informazioni?knowledgeArticleId=d6f10aab-ce4a-f011-877a-7c1e5276da6f"
+  }
+ ]
+}

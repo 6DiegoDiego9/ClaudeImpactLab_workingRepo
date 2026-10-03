@@ -1,0 +1,239 @@
+{
+  "catturato_il": "2026-10-03T13:12:27+02:00",
+  "ds549": {
+    "slug": "ds549-sedi-dei-servizi-anagrafici",
+    "identificativo": "DS549",
+    "id_ckan": "fd54c20c-f677-402e-969d-f71ae189de75",
+    "titolo": "Sedi dei servizi anagrafici",
+    "descrizione": "Il dataset riporta l'elenco delle sedi anagrafiche presenti nel comune di Milano, corredate di orari di apertura al pubblico, coordinate geografiche e recapiti di contatto.",
+    "risorse": [
+      {
+        "id": "48b24517-765e-4f6f-8b30-9094a212eb85",
+        "nome": "DS549_Sportelli_Di_Quartiere_Edit_layer_0_Sedi_Servizi_Anagrafici_4326_final.csv",
+        "formato": "CSV",
+        "url": "https://dati.comune.milano.it/dataset/fd54c20c-f677-402e-969d-f71ae189de75/resource/48b24517-765e-4f6f-8b30-9094a212eb85/download/sportelli_di_quartiere_edit_layer_0_sedi_servizi_anagrafici_4326_final.csv",
+        "datastore_active": true,
+        "last_modified": "2026-01-28T05:33:35.525179"
+      },
+      {
+        "id": "d5c0d4be-e1f3-4150-b04d-b2cf7ad0bc2b",
+        "nome": "DS549_Sportelli_Di_Quartiere_Edit_layer_0_Sedi_Servizi_Anagrafici_4326_final.json",
+        "formato": "JSON",
+        "url": "https://dati.comune.milano.it/dataset/fd54c20c-f677-402e-969d-f71ae189de75/resource/d5c0d4be-e1f3-4150-b04d-b2cf7ad0bc2b/download/sportelli_di_quartiere_edit_layer_0_sedi_servizi_anagrafici_4326_final.json",
+        "datastore_active": false,
+        "last_modified": "2026-01-28T05:34:01.198327"
+      },
+      {
+        "id": "e4c5b3ac-6bf6-4d0d-bca7-87a49f496274",
+        "nome": "DS549_Sportelli_Di_Quartiere_Edit_layer_0_Sedi_Servizi_Anagrafici_4326_final.geojson",
+        "formato": "GeoJSON",
+        "url": "https://dati.comune.milano.it/dataset/fd54c20c-f677-402e-969d-f71ae189de75/resource/e4c5b3ac-6bf6-4d0d-bca7-87a49f496274/download/sportelli_di_quartiere_edit_layer_0_sedi_servizi_anagrafici_4326_final.geojson",
+        "datastore_active": false,
+        "last_modified": "2026-01-28T05:33:40.684748"
+      }
+    ],
+    "temporal_start": "2026-01-28",
+    "temporal_end": "2026-01-28",
+    "frequency": "DAILY",
+    "modified": "2026-01-28",
+    "metadata_modified": "2026-05-08T10:29:49.614301",
+    "avviso_freschezza": null,
+    "url_pagina": "https://dati.comune.milano.it/dataset/ds549-sedi-dei-servizi-anagrafici",
+    "recuperato_il": "2026-10-03T13:12:20+02:00",
+    "da_cache": false
+  },
+  "ds551": {
+    "slug": "ds551_scuole-di-italiano-per-stranieri-e-cpia",
+    "identificativo": "DS551",
+    "id_ckan": "674db47f-7d50-45a4-9fcc-2c50c7c10c7c",
+    "titolo": "Scuole di italiano per stranieri e CPIA",
+    "descrizione": "Il dataset riporta l'elenco delle sedi delle scuole d’italiano per stranieri e CPIA (Centro Provinciale per l’Istruzione degli Adulti) con i rispettivi indirizzi e le corredate coordinate geografiche. L'elenco fa parte di un gruppo di dataset attinente al progetto Hackathon-Service4Migrants tenutosi il 10 - 11 marzo 2018 al Politecnico di Milano, nell’ambito del progetto europeo open4citizens.",
+    "risorse": [
+      {
+        "id": "f04c6715-0dd0-4821-949d-f53fa56df8f5",
+        "nome": "ds551_Scuole_di_Italiano_e_CPIA_hac.csv",
+        "formato": "CSV",
+        "url": "https://dati.comune.milano.it/dataset/674db47f-7d50-45a4-9fcc-2c50c7c10c7c/resource/f04c6715-0dd0-4821-949d-f53fa56df8f5/download/ds551_scuole_di_italiano_e_cpia_hac_loc_final_.csv",
+        "datastore_active": true,
+        "last_modified": "2021-08-20T11:58:43.764757"
+      },
+      {
+        "id": "1e0cf73d-0761-48db-826e-f4f495c8ce7c",
+        "nome": "ds551_Scuole_di_Italiano_e_CPIA_hac.json",
+        "formato": "JSON",
+        "url": "https://dati.comune.milano.it/dataset/674db47f-7d50-45a4-9fcc-2c50c7c10c7c/resource/1e0cf73d-0761-48db-826e-f4f495c8ce7c/download/ds551_scuole_di_italiano_e_cpia_hac_loc_final_.json",
+        "datastore_active": false,
+        "last_modified": "2022-09-29T08:04:44.653316"
+      },
+      {
+        "id": "c7bc94bf-64c2-4877-ab18-3164db657da4",
+        "nome": "ds551_Scuole_di_Italiano_e_CPIA_hac.geojson",
+        "formato": "GeoJSON",
+        "url": "https://dati.comune.milano.it/dataset/674db47f-7d50-45a4-9fcc-2c50c7c10c7c/resource/c7bc94bf-64c2-4877-ab18-3164db657da4/download/ds551_scuole_di_italiano_e_cpia_hac_loc_final_.geojson",
+        "datastore_active": false,
+        "last_modified": "2022-09-29T08:04:50.455526"
+      }
+    ],
+    "temporal_start": "2018-03-10",
+    "temporal_end": "2018-03-11",
+    "frequency": "IRREG",
+    "modified": "2021-08-20",
+    "metadata_modified": "2026-05-08T10:29:47.616709",
+    "avviso_freschezza": "Copertura temporale ferma al 2018-03-11 (oltre 2 anni fa): dato vecchio.",
+    "url_pagina": "https://dati.comune.milano.it/dataset/ds551_scuole-di-italiano-per-stranieri-e-cpia",
+    "recuperato_il": "2026-10-03T13:12:22+02:00",
+    "da_cache": false
+  },
+  "ds2216": {
+    "slug": "ds2216-rilevazione-qualita-servizio-richieste-residenza-persone-straniere-da-estero-anno-2023",
+    "identificativo": "DS2216",
+    "id_ckan": "cbd87cc7-e919-43eb-ac13-98f0d67d583c",
+    "titolo": "Rilevazione qualità del servizio anno 2023 - Richieste residenza per persone straniere provenienti dall'estero",
+    "descrizione": "Il dataset contiene il dettaglio delle risposte (*) al questionario per la rilevazione della soddisfazione degli utenti che utilizzano il servizio online di richiesta di residenza per persone straniere provenienti dall'estero, attivata a novembre 2020 in ottemperanza alle indicazioni del Codice dell’Amministrazione Digitale (D.Lgs. 82/2005, art. 7, c.3 - modificato da D.Lgs. 179/16, art. 8,…",
+    "risorse": [
+      {
+        "id": "eacf9423-d8da-43da-801b-d288595191fe",
+        "nome": "ds2216-rilevazione-qualita-servizio-richieste-residenza-stranieri-da-estero-2023.csv",
+        "formato": "CSV",
+        "url": "https://dati.comune.milano.it/dataset/cbd87cc7-e919-43eb-ac13-98f0d67d583c/resource/eacf9423-d8da-43da-801b-d288595191fe/download/ds2216-rilevazione-qualita-servizio-richieste-residenza-stranieri-da-estero-2023.csv",
+        "datastore_active": true,
+        "last_modified": "2024-01-18T13:56:40.110904"
+      },
+      {
+        "id": "360cefcf-b1af-4fea-b4e1-887e83adac52",
+        "nome": "ds2216-rilevazione-qualita-servizio-richieste-residenza-stranieri-da-estero-2023.json",
+        "formato": "JSON",
+        "url": "https://dati.comune.milano.it/dataset/cbd87cc7-e919-43eb-ac13-98f0d67d583c/resource/360cefcf-b1af-4fea-b4e1-887e83adac52/download/ds2216-rilevazione-qualita-servizio-richieste-residenza-stranieri-da-estero-2023.json",
+        "datastore_active": false,
+        "last_modified": "2024-01-18T13:56:43.743106"
+      }
+    ],
+    "temporal_start": "2023-01-01",
+    "temporal_end": "2023-12-31",
+    "frequency": "NEVER",
+    "modified": "2024-01-18",
+    "metadata_modified": "2026-05-08T10:03:26.979438",
+    "avviso_freschezza": "Copertura temporale ferma al 2023-12-31 (oltre 2 anni fa): dato vecchio. Frequenza di aggiornamento NEVER: il dataset non viene aggiornato (va bene per dati storici o indagini una tantum, non per informazioni operative come sedi e orari).",
+    "url_pagina": "https://dati.comune.milano.it/dataset/ds2216-rilevazione-qualita-servizio-richieste-residenza-persone-straniere-da-estero-anno-2023",
+    "recuperato_il": "2026-10-03T13:12:23+02:00",
+    "da_cache": false
+  },
+  "ds1702": {
+    "slug": "ds1702-rilevazione-qualita-servizio-richieste-residenza-anno-2022",
+    "identificativo": "DS1702",
+    "id_ckan": "f34676f9-6637-4bc9-bbae-2caa8ddeb3eb",
+    "titolo": "Rilevazione qualità del servizio anno 2022 - Richieste residenza",
+    "descrizione": "Il dataset contiene il dettaglio delle risposte (*) al questionario per la rilevazione della soddisfazione degli utenti che utilizzano il servizio online di richiesta di residenza, cambio residenza e indirizzo, attivata a novembre 2020 in ottemperanza alle indicazioni del Codice dell’Amministrazione Digitale (D.Lgs. 82/2005, art. 7, c.3 - modificato da D.Lgs. 179/16, art. 8, c.1). Il…",
+    "risorse": [
+      {
+        "id": "f5625e59-8681-480e-a6be-996f3b83b6e7",
+        "nome": "ds1702-rilevazione-qualita-servizio-richieste-residenza-2022.csv",
+        "formato": "CSV",
+        "url": "https://dati.comune.milano.it/dataset/f34676f9-6637-4bc9-bbae-2caa8ddeb3eb/resource/f5625e59-8681-480e-a6be-996f3b83b6e7/download/ds1702-rilevazione-qualita-servizio-richieste-residenza-2022.csv",
+        "datastore_active": true,
+        "last_modified": "2023-02-01T12:47:29.073998"
+      },
+      {
+        "id": "10f44972-cbf9-4aa2-a848-0835034530f6",
+        "nome": "ds1702-rilevazione-qualita-servizio-richieste-residenza-2022.json",
+        "formato": "JSON",
+        "url": "https://dati.comune.milano.it/dataset/f34676f9-6637-4bc9-bbae-2caa8ddeb3eb/resource/10f44972-cbf9-4aa2-a848-0835034530f6/download/ds1702-rilevazione-qualita-servizio-richieste-residenza-2022.json",
+        "datastore_active": false,
+        "last_modified": "2023-02-01T12:47:31.443300"
+      }
+    ],
+    "temporal_start": "2022-01-01",
+    "temporal_end": "2022-12-31",
+    "frequency": "NEVER",
+    "modified": "2023-02-01",
+    "metadata_modified": "2026-05-08T10:11:24.311118",
+    "avviso_freschezza": "Copertura temporale ferma al 2022-12-31 (oltre 2 anni fa): dato vecchio. Frequenza di aggiornamento NEVER: il dataset non viene aggiornato (va bene per dati storici o indagini una tantum, non per informazioni operative come sedi e orari).",
+    "url_pagina": "https://dati.comune.milano.it/dataset/ds1702-rilevazione-qualita-servizio-richieste-residenza-anno-2022",
+    "recuperato_il": "2026-10-03T13:12:24+02:00",
+    "da_cache": false
+  },
+  "ds235": {
+    "slug": "ds235-sociale-pediatri-libera-scelta",
+    "identificativo": "DS235",
+    "id_ckan": "b48fdaec-a868-47a8-8b59-fc9ed65c84a4",
+    "titolo": "Sanità: pediatri di libera scelta",
+    "descrizione": "Il dataset contiene l'elenco dei medici pediatri che operano sul territorio del Comune di Milano. Eventuali duplicati sono riconducibili a medici che prestano servizio su più ambulatori differenti.",
+    "risorse": [
+      {
+        "id": "22b05e1f-c5d2-4468-90e5-c098977856ef",
+        "nome": "DS235_20261001_PLS_final.csv",
+        "formato": "CSV",
+        "url": "https://dati.comune.milano.it/dataset/b48fdaec-a868-47a8-8b59-fc9ed65c84a4/resource/22b05e1f-c5d2-4468-90e5-c098977856ef/download/20261001_pls_final.csv",
+        "datastore_active": true,
+        "last_modified": "2026-09-30T23:45:36.142507"
+      },
+      {
+        "id": "e97439af-d0e4-4710-8b86-2b7de9c063ff",
+        "nome": "DS235_20261001_PLS_final.json",
+        "formato": "JSON",
+        "url": "https://dati.comune.milano.it/dataset/b48fdaec-a868-47a8-8b59-fc9ed65c84a4/resource/e97439af-d0e4-4710-8b86-2b7de9c063ff/download/20261001_pls_final.json",
+        "datastore_active": false,
+        "last_modified": "2026-09-30T23:46:02.670481"
+      },
+      {
+        "id": "aeef59db-83cb-4316-99ed-9f67e8bb0df9",
+        "nome": "DS235_20261001_PLS_final.geojson",
+        "formato": "GeoJSON",
+        "url": "https://dati.comune.milano.it/dataset/b48fdaec-a868-47a8-8b59-fc9ed65c84a4/resource/aeef59db-83cb-4316-99ed-9f67e8bb0df9/download/20261001_pls_final.geojson",
+        "datastore_active": false,
+        "last_modified": "2026-09-30T23:45:41.647454"
+      }
+    ],
+    "temporal_start": "2026-10-01",
+    "temporal_end": "2026-10-01",
+    "frequency": "WEEKLY_2",
+    "modified": "2026-10-01",
+    "metadata_modified": "2026-09-30T23:46:02.695724",
+    "avviso_freschezza": null,
+    "url_pagina": "https://dati.comune.milano.it/dataset/ds235-sociale-pediatri-libera-scelta",
+    "recuperato_il": "2026-10-03T13:12:26+02:00",
+    "da_cache": false
+  },
+  "ds47": {
+    "slug": "ds47-istruzione-asili-nido-localizzazione-delle-strutture",
+    "identificativo": "DS47",
+    "id_ckan": "443d69ac-8487-4707-b18b-04269a880a7e",
+    "titolo": "Istruzione: Asili Nido - localizzazione delle strutture",
+    "descrizione": "Il dataset contiene, per ogni singola organizzazione, alcune informazioni di carattere generale, come il nominativo della stessa, l’indirizzo e la classe di età (lattanti, medio e grandi). Il presente dataset è stato rilasciato dal comune di Milano.",
+    "risorse": [
+      {
+        "id": "372d6b0e-af5b-4dad-a9c3-4fa0318a7dc8",
+        "nome": "ds47_nidi_infanzia.csv",
+        "formato": "CSV",
+        "url": "https://dati.comune.milano.it/dataset/443d69ac-8487-4707-b18b-04269a880a7e/resource/372d6b0e-af5b-4dad-a9c3-4fa0318a7dc8/download/ds47_nidi_infanzia.csv",
+        "datastore_active": true,
+        "last_modified": "2021-04-12T08:03:04.834819"
+      },
+      {
+        "id": "015ee4e7-4167-42bb-b3a4-3e651acd739b",
+        "nome": "ds47_nidi_infanzia.json",
+        "formato": "JSON",
+        "url": "https://dati.comune.milano.it/dataset/443d69ac-8487-4707-b18b-04269a880a7e/resource/015ee4e7-4167-42bb-b3a4-3e651acd739b/download/ds47_nidi_infanzia.json",
+        "datastore_active": false,
+        "last_modified": "2021-04-12T08:05:01.218111"
+      },
+      {
+        "id": "a91230b8-0307-447d-bec3-9e8af2f3e426",
+        "nome": "ds47_nidi_infanzia.geojson",
+        "formato": "GeoJSON",
+        "url": "https://dati.comune.milano.it/dataset/443d69ac-8487-4707-b18b-04269a880a7e/resource/a91230b8-0307-447d-bec3-9e8af2f3e426/download/ds47_nidi_infanzia.geojson",
+        "datastore_active": false,
+        "last_modified": "2021-04-12T08:06:05.156843"
+      }
+    ],
+    "temporal_start": "2016-01-01",
+    "temporal_end": "2019-12-31",
+    "frequency": "NEVER",
+    "modified": "2021-04-12",
+    "metadata_modified": "2026-05-08T10:13:34.739910",
+    "avviso_freschezza": "Copertura temporale ferma al 2019-12-31 (oltre 2 anni fa): dato vecchio. Frequenza di aggiornamento NEVER: il dataset non viene aggiornato (va bene per dati storici o indagini una tantum, non per informazioni operative come sedi e orari).",
+    "url_pagina": "https://dati.comune.milano.it/dataset/ds47-istruzione-asili-nido-localizzazione-delle-strutture",
+    "recuperato_il": "2026-10-03T13:12:27+02:00",
+    "da_cache": false
+  }
+}

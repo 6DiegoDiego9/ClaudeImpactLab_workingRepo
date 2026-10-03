@@ -1,0 +1,41 @@
+{
+ "id": "KA-03059",
+ "tipo": "faq",
+ "titolo": "Ho bisogno di assistenza sulla mia situazione Tari per un'utenza domestica, a chi posso rivolgermi?",
+ "domanda": "Ho bisogno di assistenza sulla mia situazione Tari per un'utenza domestica, a chi posso rivolgermi?",
+ "testo": "Per assistenza sulla propria situazione TARI, è possibile scrivere agli uffici tramite l'apposito form online .\nIl modulo può essere compilato:\n- con autenticazione tramite SPID o CIE\n- oppure senza registrazione, indicando nome, cognome ed email.\nAll’interno del modulo è necessario fornire alcune informazioni utili per l’assistenza:\n- codice Fiscale\n- codice contribuente (indicato nella prima pagina dell’avviso di pagamento)\n- anno del tributo\n- numero dell’avviso (codice numerico di 18 caratteri riportato nel frontespizio dell’avviso).\nIn caso di difficoltà con il pagamento online, è opportuno indicare anche il codice avviso PagoPA (18 cifre), disponibile nell’avviso di pagamento PagoPA alla voce Codice avviso PagoPA.\nPer ulteriore supporto, consultare la sezione \"Hai ancora bisogno di aiuto?\".",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03059/Richiesta-assistenza-TARI-utenza-domestica",
+ "lingua": "it",
+ "aggiornato_il": "2026-02-10",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2026-02-10T12:14:18+01:00",
+ "recuperato_il": "2026-10-03T13:07:49+02:00",
+ "categoria": "Tributi / Assistenza e consulenza riguardo i tributi - Info Tributi",
+ "titolo_breve": "Richiesta assistenza TARI utenza domestica",
+ "parole_chiave": [
+  "Tari",
+  "assistenza Tari",
+  "posizione Tari",
+  "problema Tari",
+  "tributi",
+  "aiuto tari",
+  "assistenza utenza domestica tari",
+  "supporto tari"
+ ],
+ "link": [
+  {
+   "testo": "form online",
+   "url": "https://servizicrm.comune.milano.it/spec/assistenza/tari?knowledgeArticleId=ef013793-187d-f011-b4cc-7c1e52764bd6"
+  }
+ ],
+ "link_servizio": [
+  {
+   "titolo": "Assistenza e consulenza riguardo i tributi - Info Tributi",
+   "url": "https://www.comune.milano.it/servizi/tributi/assistenza-e-consulenza-riguardo-i-tributi-info-tributi"
+  },
+  {
+   "titolo": "Richiedi assistenza",
+   "url": "https://servizicrm.comune.milano.it/callasap/assistenza/tari?knowledgeArticleId=ef013793-187d-f011-b4cc-7c1e52764bd6"
+  }
+ ]
+}

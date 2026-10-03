@@ -1,0 +1,37 @@
+{
+ "id": "KA-01813",
+ "tipo": "faq",
+ "titolo": "Come presento una dichiarazione di variazione del numero di occupanti della casa per la Tari?",
+ "domanda": "Come presento una dichiarazione di variazione del numero di occupanti della casa per la Tari?",
+ "testo": "Accedere al servizio online dalla pagina dedicata.\nIl servizio è disponibile sia per persone fisiche che per persone giuridiche. I privati devono accedere con SPID, le persone giuridiche possono presentarle tramite ID Azienda assegnato dal Comune di Milano.",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01813/Modalita-presentazione-dichiarazione-Tari",
+ "lingua": "it",
+ "aggiornato_il": "2026-05-19",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2026-05-19T18:49:23+02:00",
+ "recuperato_il": "2026-10-03T13:07:17+02:00",
+ "categoria": "Tributi / Tari: dichiarazione di variazione del numero di occupanti",
+ "titolo_breve": "Presentazione dichiarazione variazione occupanti Tari",
+ "parole_chiave": [
+  "tributi",
+  "tari",
+  "variazione tari",
+  "dichiarazione tari",
+  "utenza domestica tari",
+  "occupanti tari",
+  "dichiarazione variazione occupanti tari",
+  "dichiarazione variazione tari"
+ ],
+ "link": [
+  {
+   "testo": "servizio online",
+   "url": "https://formshd5.comune.milano.it/rwe2/module_preview.jsp?MODULE_TAG=TARIWEB_DICHIARAZIONE_VARIAZIONE_OCCUPANTI"
+  }
+ ],
+ "link_servizio": [
+  {
+   "titolo": "Tari: dichiarazione di variazione del numero di occupanti",
+   "url": "https://www.comune.milano.it/servizi/tributi/tari-dichiarazione-di-variazione-del-numero-di-occupanti"
+  }
+ ]
+}

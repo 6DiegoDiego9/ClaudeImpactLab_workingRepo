@@ -1,0 +1,33 @@
+{
+ "id": "KA-03937",
+ "tipo": "faq",
+ "titolo": "Sono una cittadina/un cittadino straniero. Ho effettuato il cambio di residenza sul portale del Comune di Milano, ma non risulto ancora residente. Come posso sapere a che punto è la mia pratica?",
+ "domanda": "Sono una cittadina/un cittadino straniero. Ho effettuato il cambio di residenza sul portale del Comune di Milano, ma non risulto ancora residente. Come posso sapere a che punto è la mia pratica?",
+ "testo": "Per verificare lo stato della pratica è necessario inviare una richiesta dalla sezione \"Hai ancora bisogno di aiuto?\".",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03937/Sollecito-iscrizione-anagrafica-stranieri",
+ "lingua": "it",
+ "aggiornato_il": "2025-11-25",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2025-11-25T13:37:29+01:00",
+ "recuperato_il": "2026-10-03T13:03:25+02:00",
+ "categoria": "Anagrafe / Cambio di residenza per persone straniere provenienti dall’estero",
+ "titolo_breve": "Sollecito iscrizione anagrafica stranieri",
+ "parole_chiave": [
+  "iscrizione anagrafica stranieri",
+  "pratica iscrizione anagrafica stranieri",
+  "cittadini stranieri",
+  "sollecito iscrizione anagrafica stranieri",
+  "sollecito iscrizione anagrafica cittadini stranieri"
+ ],
+ "link": [],
+ "link_servizio": [
+  {
+   "titolo": "Cambio di residenza per persone straniere provenienti dall’estero",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza-per-persone-straniere-provenienti-dall-estero"
+  },
+  {
+   "titolo": "Richiedi assistenza",
+   "url": "https://servizicrm.comune.milano.it/spec/richiestaresidenzapersonestraniere/informazioni?knowledgeArticleId=4662c046-80c9-f011-bbd2-7c1e5236e249"
+  }
+ ]
+}

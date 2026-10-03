@@ -1,0 +1,61 @@
+{
+ "id": "comune:anagrafe/richiesta-di-residenza-per-persone-straniere-provenienti-dall-estero/modulistica-richiesta-di-residenza-per-persone-straniere-provenienti-dall-estero",
+ "tipo": "pagina_comune",
+ "titolo": "Modulistica: richiesta di residenza per persone straniere provenienti dall’estero",
+ "testo": "Modulistica: richiesta di residenza per persone straniere provenienti dall’estero\nPrima di avviare la richiesta di residenza , prepara la documentazione da allegare.\n- La piattaforma accetta documenti di tipo gif, jpeg, jpg, pdf, tiff, tff\n- il peso massimo di ciascun allegato non può superare i 7MB.\nAttenzione: eventuali file inviati via e-mail non verranno presi in considerazione.\nUltimo aggiornamento: 16/06/2026\nDocumentazione di base per tutti\nDocumentazione da includere in ogni tipologia di richiesta\n- modulo Consenso del componente già residente per inserimento nello stato di famiglia (da presentare solo se non sussiste il vincolo di parentela per autorizzare l'iscrizione nello stesso stato di famiglia)\nConsenso del componente già residente per inserimento nello stato di famiglia\nEstensione - Dimensione\n- copia fronte/retro del documento di identità in corso di validità\n- chi è in possesso di patente e/o libretto di circolazione emessi dall'autorità italiana deve indicarlo all'interno del modulo\nDocumentazione relativa alla cittadinanza\nIn base al Paese d'origine:\n- Per persone con cittadinanza UE\nElenco documenti per persone provenienti da Paesi UE\nEstensione - Dimensione\nDichiarazione di composizione della famiglia MOD. EURO 1\nEstensione - Dimensione\nDichiarazione di vivenza a carico MOD. EURO 2\nEstensione - Dimensione\nDichiarazione motivi del soggiorno MOD. EURO 3\nEstensione - Dimensione\n- Per persone con cittadinanza extra UE\nElenco documenti per persone provenienti da Paesi extraUE\nEstensione - Dimensione\nDocumentazione relativa all'abitazione\nPer dimostrare il tipo di occupazione dell'immobile\n- Per chi è proprietario dell'immobile\n- copia del documento che attesta il rogito\n- Per chi ha un contratto di locazione\n- Se l'immobile è di Edilizia Residenziale Pubblica\n- copia del contratto di locazione o del verbale di consegna dell’immobile sottoscritti dall’Ente Gestore\n- se la richiesta riguarda l’ampliamento del nucleo familiare: allegare l'autorizzazione rilasciata dall'Ente Gestore\n- Se il contratto non è registrato o è in corso di registrazione presso l'Agenzia delle Entrate\n- copia del contratto di locazione\n- Per chi ha l'immobile in comodato gratuito\n- Se il contratto non è registrato o è in corso di registrazione presso l'Agenzia delle Entrate\n- copia del contratto di comodato\n- Se il contratto è verbale\nDichiarazione di assenso dell'affittuario o del proprietario\nEstensione - Dimensione\nIndicare la natura del contratto\n- Per chi è ospite\nDichiarazione di assenso dell'affittuario o del proprietario\nEstensione - Dimensione\nIndicare i dati anagrafici del soggetto che ospita e gli estremi del rogito o della registrazione del contratto di locazione riguardanti l'immobile\n- Per chi è al servizio del proprietario o dell’affittuario (colf, badanti o altri soggetti)\n- copia del contratto di lavoro esistente tra lavoratore e proprietario/affittuario\nDocumentazione per il trasferimento di minori\nDichiarazioni specifiche per il trasferimento di minori\nDichiarazione di consenso del genitore che non trasferisce la residenza\nEstensione - Dimensione\nDichiarazione delle generalità del genitore assente\nEstensione - Dimensione\nServizi correlati\nCambio di residenza per persone straniere provenienti dall’estero\nRichiedi",
+ "url": "https://www.comune.milano.it/servizi/anagrafe/richiesta-di-residenza-per-persone-straniere-provenienti-dall-estero/modulistica-richiesta-di-residenza-per-persone-straniere-provenienti-dall-estero",
+ "lingua": "it",
+ "aggiornato_il": "2026-06-16",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "recuperato_il": "2026-10-03T13:09:39+02:00",
+ "link": [
+  {
+   "testo": "richiesta di residenza",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/richiesta-di-residenza-per-persone-straniere-provenienti-dall-estero"
+  },
+  {
+   "testo": "Consenso del componente già residente per inserimento nello stato di famiglia",
+   "url": "https://www.comune.milano.it/documents/20118/42443/Consenso+del+componente+gi%C3%A0+residente+per+inserimento+nello+stato+di+famiglia.pdf/16ffbf4c-ba8d-ba14-b29e-8b61b5378a19?version=1.0&t=1743091608074&download=true"
+  },
+  {
+   "testo": "Elenco documenti per persone provenienti da Paesi UE",
+   "url": "https://www.comune.milano.it/documents/20118/42443/Elenco+documenti+per+persone+provenienti+da+Paesi+UE.pdf/e72d4e62-afff-a7e7-41ee-14face3ed2ca?version=1.0&t=1743091608040&download=true"
+  },
+  {
+   "testo": "Dichiarazione di composizione della famiglia MOD. EURO 1",
+   "url": "https://www.comune.milano.it/documents/20118/42443/Dichiarazione+di+composizione+della+famiglia+MOD+EURO+1.pdf/f651c724-0a37-16e6-6677-b7f9c55207c6?version=1.0&t=1743091608044&download=true"
+  },
+  {
+   "testo": "Dichiarazione di vivenza a carico MOD. EURO 2",
+   "url": "https://www.comune.milano.it/documents/20118/42443/Dichiarazione+di+vivenza+a+carico+MOD+EURO+2.pdf/5fe46d3d-0884-f00f-837b-4c47c22538d8?version=1.0&t=1743091608049&download=true"
+  },
+  {
+   "testo": "Dichiarazione motivi del soggiorno MOD. EURO 3",
+   "url": "https://www.comune.milano.it/documents/20118/42443/Dichiarazione+motivi+del+soggiorno+MOD+EURO+3.pdf/38eaf923-2ae3-0208-4771-b5b49b82f1a5?version=1.0&t=1743091608053&download=true"
+  },
+  {
+   "testo": "Elenco documenti per persone provenienti da Paesi extraUE",
+   "url": "https://www.comune.milano.it/documents/20118/42443/Elenco+documenti+per+persone+provenienti+da+Paesi+extraUE.pdf/f59656a6-d8aa-7960-fc88-60daf732aeb3?version=1.0&t=1743091608057&download=true"
+  },
+  {
+   "testo": "Dichiarazione di assenso dell'affittuario o del proprietario",
+   "url": "https://www.comune.milano.it/documents/20118/42443/Dichiarazione+di+assenso+dell%27affittuario+o+del+proprietario.pdf/072fa8f9-a507-9610-8597-39687b6083da?version=1.0&t=1743091608061&download=true"
+  },
+  {
+   "testo": "Dichiarazione di consenso del genitore che non trasferisce la residenza",
+   "url": "https://www.comune.milano.it/documents/20118/42443/Dichiarazione+di+consenso+del+genitore+che+non+trasferisce+la+residenza.pdf/fb9da10d-ccba-f43b-b11b-c8bd169215a7?version=1.0&t=1743091608070&download=true"
+  },
+  {
+   "testo": "Dichiarazione delle generalità del genitore assente",
+   "url": "https://www.comune.milano.it/documents/20118/42443/Dichiarazione+delle+generalit%C3%A0+del+genitore+assente.pdf/956f5b82-6707-6aaf-d1f0-be3b2b11dad8?version=1.0&t=1743091608065&download=true"
+  },
+  {
+   "testo": "Cambio di residenza per persone straniere provenienti dall’estero",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza-per-persone-straniere-provenienti-dall-estero"
+  },
+  {
+   "testo": "Richiedi",
+   "url": "https://formshd4.comune.milano.it/rwe2/module_preview.jsp?MODULE_TAG=MOD_DDR_ESTERO"
+  }
+ ]
+}

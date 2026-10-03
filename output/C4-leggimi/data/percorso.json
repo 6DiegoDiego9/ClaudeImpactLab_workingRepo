@@ -1,0 +1,113 @@
+{
+  "_descrizione": "Percorso dei primi passi a Milano per persone straniere extra UE arrivate dall'estero. Grafo curato a mano dal team il 3/10/2026: ogni nodo ha la sua fonte con data. Claude ragiona su questo grafo, non lo genera. Prototipo non ufficiale.",
+  "recuperato_il": "2026-10-03",
+  "nodi": [
+    {
+      "id": "ingresso",
+      "titolo": "Ingresso in Italia",
+      "descrizione": "Arrivo con visto. Per lavoro subordinato o ricongiungimento c'e' un nulla osta dello Sportello Unico per l'immigrazione (Prefettura).",
+      "documenti_tipici": ["passaporto", "visto di ingresso", "nulla osta dello Sportello Unico"],
+      "sblocca": ["sportello_unico_cf", "kit_permesso"],
+      "fonti": [
+        {"id": "D.Lgs. 286/1998, art. 5, c. 2", "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1998-07-25;286", "data": "verificato su Normattiva il 3/10/2026"}
+      ]
+    },
+    {
+      "id": "sportello_unico_cf",
+      "titolo": "Sportello Unico: contratto di soggiorno e codice fiscale",
+      "descrizione": "Per lavoro subordinato si firma il contratto di soggiorno allo Sportello Unico. Per lavoro subordinato e ricongiungimento il codice fiscale lo attribuisce lo Sportello Unico. Il canale consolare e' per chi risiede all'estero: e' un ramo diverso, non un conflitto.",
+      "documenti_prodotti": ["contratto di soggiorno", "codice fiscale"],
+      "fonti": [
+        {"id": "Agenzia delle Entrate - Codice fiscale per cittadini stranieri", "url": "https://www.agenziaentrate.gov.it/portale/codice-fiscale-e-tessera-sanitaria/che-cos-cittadini", "data": "verificata il 3/10/2026"}
+      ]
+    },
+    {
+      "id": "kit_permesso",
+      "titolo": "Kit postale per il permesso di soggiorno",
+      "descrizione": "La richiesta di permesso si presenta con il kit all'ufficio postale entro otto giorni lavorativi dall'ingresso (art. 5, c. 2, D.Lgs. 286/1998; Poste semplifica con '8 giorni': non e' un conflitto). L'ufficio postale rilascia una ricevuta. La ricevuta contiene anche i codici di accesso al Portale Immigrazione: Leggimi non li legge e non li trascrive mai.",
+      "termine": {"giorni": 8, "tipo": "lavorativi", "da": "data di ingresso", "fonte": "D.Lgs. 286/1998, art. 5, c. 2"},
+      "documenti_prodotti": ["ricevuta dell'ufficio postale (richiesta di permesso di soggiorno)", "lettera di convocazione in Questura per i rilievi"],
+      "sblocca": ["residenza_online"],
+      "fonti": [
+        {"id": "Poste Italiane - Guida al rilascio e rinnovo del permesso di soggiorno", "url": "https://www.poste.it/guida-rilascio-e-rinnovo-permesso-di-soggiorno", "data": "verificata il 3/10/2026"},
+        {"id": "D.Lgs. 286/1998, art. 5, c. 2", "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1998-07-25;286", "data": "verificato il 3/10/2026"}
+      ]
+    },
+    {
+      "id": "residenza_online",
+      "titolo": "Domanda di residenza (iscrizione anagrafica) dall'estero: SOLO ONLINE",
+      "descrizione": "Chi arriva dall'estero chiede la residenza SOLO online con il servizio dedicato (modulo MOD_DDR_ESTERO), caricando le scansioni dei documenti (gif/jpeg/pdf/tiff fino a 7MB per allegato). I file mandati per email non vengono considerati. NON si portano documenti allo sportello anagrafico. Termine: entro 20 giorni dalla data del trasferimento. Chi e' in attesa del primo permesso puo' gia' chiedere la residenza con la ricevuta postale (Allegato A, casi 3 e 4).",
+      "canale": {"tipo": "online", "nome": "Cambio di residenza per persone straniere provenienti dall'estero (MOD_DDR_ESTERO)", "url_servizio": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza-per-persone-straniere-provenienti-dall-estero", "url_modulo": "https://formshd4.comune.milano.it/rwe2/module_preview.jsp?MODULE_TAG=MOD_DDR_ESTERO"},
+      "termine": {"giorni": 20, "tipo": "calendario", "da": "data del trasferimento (arrivo all'indirizzo di Milano)", "fonte": "KA-00534"},
+      "documenti_per_caso": "vedi allegato_a",
+      "documenti_abitazione": [
+        {"situazione": "lavoro per chi abita la casa (es. colf o badante convivente)", "documento": "copia del contratto di lavoro", "fonte": "KA-00594"},
+        {"situazione": "entro nello stato di famiglia di una persona gia' residente allo stesso indirizzo", "documento": "assenso dell'aggregante (modulo nella pagina Modulistica)", "fonte": "KA-00330 e pagina Modulistica", "nota": "da verificare con l'operatore caso per caso"}
+      ],
+      "aiuto": "Milano Welcome Center (via Sammartini 75): orienta e accompagna, riceve con o senza appuntamento (KA-02803). Puo' aiutare anche una persona di fiducia. Non e' verificato che il Welcome Center compili o invii la domanda al posto della persona.",
+      "domande_aperte": [
+        "Non e' verificato se l'invio del modulo MOD_DDR_ESTERO richieda SPID o CIE (il modulo ha un pulsante 'Accedi', ma il requisito non e' dichiarato). E' una domanda aperta da chiedere al Comune."
+      ],
+      "fonti": [
+        {"id": "KA-00330", "data": "2026-07-23"},
+        {"id": "KA-00489", "data": "2025-10-02"},
+        {"id": "KA-00534", "data": "2025-08-23"},
+        {"id": "KA-00594", "data": "2025-07-02"},
+        {"id": "Allegato A (PDF del Comune)", "url": "https://www.comune.milano.it/documents/20118/42443/Elenco+documenti+per+persone+provenienti+da+Paesi+extraUE.pdf/f59656a6-d8aa-7960-fc88-60daf732aeb3?version=1.0&t=1743091608057&download=true", "data": "recuperato il 3/10/2026"},
+        {"id": "comune:anagrafe/cambio-di-residenza-per-persone-straniere-provenienti-dall-estero", "data": "2026-07-27"},
+        {"id": "comune:anagrafe/richiesta-di-residenza-per-persone-straniere-provenienti-dall-estero/modulistica-richiesta-di-residenza-per-persone-straniere-provenienti-dall-estero", "data": "2026-06-16"}
+      ],
+      "sblocca": ["stato_pratica", "tari", "cie"]
+    },
+    {
+      "id": "stato_pratica",
+      "titolo": "Dopo la domanda: stato della pratica e sollecito",
+      "descrizione": "Gli effetti giuridici dell'iscrizione decorrono dalla data di presentazione. Lo stato si vede nel Fascicolo del Cittadino, che richiede SPID o CIE (KA-00325, KA-03731). Senza SPID si chiede con il modulo 'Hai ancora bisogno di aiuto?' (KA-03938): manca il self-service, il canale esiste. Se la pratica non e' conclusa entro 45 giorni si puo' sollecitare all'Ufficio Protocollo, ad accesso libero lun-ven 8:30-12:00 e 14:00-15:30 (KA-00596).",
+      "termine": {"giorni": 45, "tipo": "calendario", "da": "data di presentazione della domanda", "fonte": "KA-00596"},
+      "fonti": [
+        {"id": "KA-00325", "data": "2026-08-13"},
+        {"id": "KA-03731", "data": "2026-06-02"},
+        {"id": "KA-03938", "data": "2025-11-24"},
+        {"id": "KA-00596", "data": "2025-09-23"},
+        {"id": "comune:anagrafe/cambio-di-residenza-per-persone-straniere-provenienti-dall-estero", "data": "2026-07-27"}
+      ]
+    },
+    {
+      "id": "tari",
+      "titolo": "TARI (tassa rifiuti) per nuova occupazione",
+      "descrizione": "Chi occupa un'abitazione dichiara la nuova occupazione TARI entro 90 giorni (KA-02121). La firma l'intestatario della scheda di famiglia: chiedi sempre 'sei tu l'intestatario?'. Una colf convivente in genere non e' l'intestataria: da verificare con l'operatore.",
+      "termine": {"giorni": 90, "tipo": "calendario", "da": "inizio occupazione", "fonte": "KA-02121"},
+      "fonti": [{"id": "KA-00489", "data": "2025-10-02"}, {"id": "KA-02121", "data": "2026-05-06"}, {"id": "KA-01955", "data": "2026-05-06"}]
+    },
+    {
+      "id": "cie",
+      "titolo": "Carta d'identita' elettronica (CIE), passo successivo",
+      "descrizione": "Per la prima CIE una persona extra UE porta tessera sanitaria o codice fiscale, una fototessera, il permesso o la carta di soggiorno (o la ricevuta di rinnovo se scaduto) e un altro documento valido (KA-00393). Si prende appuntamento (KA-00578). Non e' verificato che la CIE richieda gia' la residenza a Milano. Le sedi anagrafiche (ds549) lavorano su appuntamento: servono per questi passi successivi, NON per la domanda di residenza dall'estero.",
+      "fonti": [{"id": "KA-00393", "data": "2025-10-23"}, {"id": "KA-00578", "data": "2025-10-23"}, {"id": "ds549-sedi-dei-servizi-anagrafici", "data": "risorse aggiornate il 28/01/2026"}]
+    },
+    {
+      "id": "spid",
+      "titolo": "SPID (identita' digitale)",
+      "descrizione": "SPID NON dipende dalla residenza: dipende dal codice fiscale e da un documento accettato dal gestore; i requisiti variano per gestore. Non presentare la catena residenza -> CIE -> SPID come un blocco rigido.",
+      "fonti": [{"id": "KA-00309", "data": "2025-07-01"}]
+    },
+    {
+      "id": "ssn",
+      "titolo": "Iscrizione al Servizio Sanitario Nazionale (ASST)",
+      "descrizione": "NODO DA VERIFICARE. Non abbiamo una fonte verificata su prerequisiti e tempi. Non dire che dipende dalla residenza. Rimanda al Welcome Center o all'ASST.",
+      "da_verificare": true,
+      "fonti": []
+    }
+  ],
+  "conflitti_tra_fonti": [
+    {
+      "tema": "Prenotazione allo sportello anagrafico senza SPID",
+      "dettaglio": "Le note di ds549 dicono che la prenotazione e' possibile 'sia con un'utenza SPID che senza necessita' di registrazione', ma il link di prenotazione nella pagina 'Cambio di residenza' porta al login SPID/CIE/eIDAS. Incoerenza tra fonti: segnalarla, non risolverla."
+    }
+  ],
+  "fuori_ambito": [
+    "permesso scaduto da tempo, diniego, espulsione, ricorsi",
+    "minori non accompagnati",
+    "pareri sull'esito di una pratica"
+  ]
+}

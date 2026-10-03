@@ -1,0 +1,29 @@
+{
+ "id": "KA-03731",
+ "tipo": "faq",
+ "titolo": "Posso accedere al Fascicolo del Cittadino senza SPID o CIE?",
+ "domanda": "Posso accedere al Fascicolo del Cittadino senza SPID o CIE?",
+ "testo": "No, non è possibile accedere al Fascicolo del Cittadino senza SPID o CIE.\nPoiché il Fascicolo del Cittadino contiene le informazioni anagrafiche del nucleo famigliare, dei servizi educativi e della mobilità, oltre che i documenti tributari dei cittadini, per motivi di sicurezza richiede l'accesso con un’identità digitale certificata SPID o CIE.\nNon sono previsti account con username e password del Comune.",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03731/Accesso-al-Fascicolo-del-Cittadino-senza-SPID-o-CIE",
+ "lingua": "it",
+ "aggiornato_il": "2026-06-02",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2026-06-02T15:00:48+02:00",
+ "recuperato_il": "2026-10-03T13:03:20+02:00",
+ "categoria": "App e fascicolo del cittadino / Fascicolo del Cittadino",
+ "titolo_breve": "Accesso al Fascicolo del Cittadino senza SPID o CIE",
+ "parole_chiave": [
+  "fascicolo",
+  "fascicolo del cittadino",
+  "accesso",
+  "SPID",
+  "CIE"
+ ],
+ "link": [],
+ "link_servizio": [
+  {
+   "titolo": "Fascicolo del Cittadino",
+   "url": "https://www.comune.milano.it/servizi/fascicolo-del-cittadino"
+  }
+ ]
+}

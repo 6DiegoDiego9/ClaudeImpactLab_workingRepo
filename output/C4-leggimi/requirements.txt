@@ -1,0 +1,8 @@
+# Nucleo condiviso Claude Impact Lab Milano - nessuna dipendenza nuova oltre a quelle gia' installate
+anthropic==1.11.0
+httpx==0.28.1
+python-dotenv==1.2.4
+# per i prototipi (FastAPI + frontend statico)
+fastapi==0.142.2
+uvicorn[standard]==0.54.0
+python-multipart==0.0.32

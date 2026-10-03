@@ -1,0 +1,34 @@
+{
+ "id": "KA-02120",
+ "tipo": "faq",
+ "titolo": "Come presento una dichiarazione di occupazione Tari per un'utenza domestica?",
+ "domanda": "Come presento una dichiarazione di occupazione Tari per un'utenza domestica?",
+ "testo": "Accedere al servizio online dedicato, con SPID/CIE. Il servizio è disponibile sia per persone fisiche che per persone giuridiche.\nI privati possono presentare la dichiarazione online con SPID, le persone giuridiche possono accedere al servizio tramite ID Azienda assegnato dal Comune di Milano.\nCompletata la procedura online, il sistema invia una ricevuta di conferma.",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02120/Presentazione-dichiarazione-Tari-online",
+ "lingua": "it",
+ "aggiornato_il": "2026-05-06",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2026-05-06T15:19:13+02:00",
+ "recuperato_il": "2026-10-03T13:07:33+02:00",
+ "categoria": "Tributi / Tari: dichiarazione di occupazione di appartamenti e immobili",
+ "titolo_breve": "Presentazione dichiarazione Tari",
+ "parole_chiave": [
+  "tributi",
+  "tari",
+  "dichiarazione occupazione tari",
+  "utenza domestica tari",
+  "occupazione tari utenza domestica"
+ ],
+ "link": [
+  {
+   "testo": "servizio online",
+   "url": "https://formshd5.comune.milano.it/rwe2/module_preview.jsp?MODULE_TAG=TARIWEB_DICHIARAZIONE_OCCUPAZIONE"
+  }
+ ],
+ "link_servizio": [
+  {
+   "titolo": "Tari: dichiarazione di occupazione di appartamenti e immobili",
+   "url": "https://www.comune.milano.it/servizi/tributi/tari-dichiarazione-di-occupazione-di-appartamenti-e-immobili"
+  }
+ ]
+}

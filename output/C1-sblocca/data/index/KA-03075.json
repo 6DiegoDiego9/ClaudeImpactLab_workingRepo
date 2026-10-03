@@ -1,0 +1,42 @@
+{
+ "id": "KA-03075",
+ "tipo": "faq",
+ "titolo": "Cosa fare se non riesco a utilizzare SPID per presentare una domanda?",
+ "domanda": "Cosa fare se non riesco a utilizzare SPID per presentare una domanda?",
+ "testo": "Per ricevere assistenza alla compilazione, prenotare un appuntamento presso gli spazi WeMi accedendo alla piattaforma WeMI .\nIn caso di difficoltà nella prenotazione, rivolgersi al Contact Center dalla sezione \"Hai ancora bisogno di aiuto?\" oppure accedere alla piattaforma WeMi .",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03075/SPID-non-utilizzabile-come-presentare-domanda",
+ "lingua": "it",
+ "aggiornato_il": "2026-03-13",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2026-03-13T15:09:18+01:00",
+ "recuperato_il": "2026-10-03T13:06:56+02:00",
+ "categoria": "Welfare / Sistema WeMi",
+ "titolo_breve": "SPID non utilizzabile: come presentare domanda",
+ "parole_chiave": [
+  "SPID",
+  "problemi accesso WeMi",
+  "assistenza WeMi",
+  "compilazione domanda WeMi",
+  "supporto digitale"
+ ],
+ "link": [
+  {
+   "testo": "appuntamento",
+   "url": "http://servizicrm.comune.milano.it/spec/servizisociali/spaziwemi/login"
+  },
+  {
+   "testo": "WeMI",
+   "url": "https://wemi.comune.milano.it/"
+  }
+ ],
+ "link_servizio": [
+  {
+   "titolo": "Sistema WeMi",
+   "url": "https://www.comune.milano.it/servizi/welfare/sistema-wemi"
+  },
+  {
+   "titolo": "Richiedi assistenza",
+   "url": "https://servizicrm.comune.milano.it/callasap/servizisociali/wemiinformazioni?knowledgeArticleId=438eada8-037e-f011-b4cb-6045bde08c83"
+  }
+ ]
+}

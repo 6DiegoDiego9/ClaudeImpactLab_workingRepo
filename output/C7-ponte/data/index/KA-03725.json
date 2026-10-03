@@ -1,0 +1,38 @@
+{
+ "id": "KA-03725",
+ "tipo": "faq",
+ "titolo": "Non riesco ad accedere al Fascicolo del Cittadino: da dove comincio?",
+ "domanda": "Non riesco ad accedere al Fascicolo del Cittadino: da dove comincio?",
+ "testo": "Per accedere al Fascicolo del Cittadino dal Portale del Comune di Milano devi selezionare la voce Accedi al Fascicolo del Cittadino presente nella barra rossa in alto a destra della Home Page, oppure dalla pagina di servizio dedicata .\nRicorda che per accedere al Fascicolo del Cittadino è necessario utilizzare un’identità digitale attiva (SPID, CIE).\nControlla anche che il browser sia aggiornato e che la connessione funzioni bene: a volte basta cambiare browser o dispositivo per risolvere eventuali problemi.",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03725/Impossibile-accedere-al-Fascicolo-del-Cittadino",
+ "lingua": "it",
+ "aggiornato_il": "2026-07-07",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2026-07-07T12:06:43+02:00",
+ "recuperato_il": "2026-10-03T13:06:45+02:00",
+ "categoria": "App e fascicolo del cittadino / Fascicolo del Cittadino",
+ "titolo_breve": "Impossibile accedere al Fascicolo del Cittadino",
+ "parole_chiave": [
+  "fascicolo",
+  "fascicolo del cittadino",
+  "accesso",
+  "SPID",
+  "CIE"
+ ],
+ "link": [
+  {
+   "testo": "Comune di Milano",
+   "url": "https://www.comune.milano.it/"
+  },
+  {
+   "testo": "pagina di servizio dedicata",
+   "url": "https://www.comune.milano.it/servizi/fascicolo-del-cittadino"
+  }
+ ],
+ "link_servizio": [
+  {
+   "titolo": "Fascicolo del Cittadino",
+   "url": "https://www.comune.milano.it/servizi/fascicolo-del-cittadino"
+  }
+ ]
+}

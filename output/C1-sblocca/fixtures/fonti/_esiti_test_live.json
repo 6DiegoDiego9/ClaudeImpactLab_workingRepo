@@ -1,0 +1,71 @@
+{
+  "eseguito_il": "2026-10-03T13:12:37+02:00",
+  "esiti": [
+    {
+      "test": "test_indice_locale",
+      "esito": "PASS",
+      "dettaglio": "113 documenti {'faq': 89, 'pagina_comune': 10, 'guida_yesmilano': 14}; top1: iscrizione anagrafica dal→comune:anagrafe/cambio-di-residenza; dichiarazione TARI nuova →KA-01955; carta d'identità cittadin→KA-00564",
+      "secondi": 0.3
+    },
+    {
+      "test": "test_faq_live_confronto",
+      "esito": "PASS",
+      "dettaglio": "UA dichiarato -> bloccato: https://www.comune.milano.it/o; residenza_it:ok@1, residenza_en:ok@4, residenza_tl:no, residenza_ar:no, tari_it:ok@1, tari_en:ok@2, tari_ar:no",
+      "secondi": 25.6
+    },
+    {
+      "test": "test_get_faq_article",
+      "esito": "PASS",
+      "dettaglio": "KA-00325 agg. 2026-08-13: Come controllo lo stato della richiesta del cambio; KA-02121 agg. 2026-05-06: Entro quando devo presentare la dichiarazione per ",
+      "secondi": 0.0
+    },
+    {
+      "test": "test_ckan_dataset_meta",
+      "esito": "PASS",
+      "dettaglio": "ds549: fine 2026-01-28 freq DAILY; ds551: fine 2018-03-11 freq IRREG AVVISO; ds2216: fine 2023-12-31 freq NEVER AVVISO; ds1702: fine 2022-12-31 freq NEVER AVVISO; ds235: fine 2026-10-01 freq WEEKLY_2; ds47: fine 2019-12-31 freq NEVER AVVISO",
+      "secondi": 7.9
+    },
+    {
+      "test": "test_ckan_search",
+      "esito": "PASS",
+      "dettaglio": "ds74-popolazione-residenti-stranieri-cit, ds75-popolazione-residenti-stranieri-cit, ds27-popolazione-residenti-cittadinanza-",
+      "secondi": 0.8
+    },
+    {
+      "test": "test_ckan_sql_ds549",
+      "esito": "PASS",
+      "dettaglio": "13 sedi in ds549; LIMIT aggiunto/ridotto a 200; 4 guardie ok",
+      "secondi": 1.2
+    },
+    {
+      "test": "test_sedi_anagrafiche",
+      "esito": "PASS",
+      "dettaglio": "13 sedi; Municipio 2: via Padova 118",
+      "secondi": 0.6
+    },
+    {
+      "test": "test_sparql",
+      "esito": "PASS",
+      "dettaglio": "immigrazione {'2019': 46626, '2020': 35763, '2021': 38465, '2022': 46261, '2023': 58934, '2024': 54973, '2025': 50777, '2026': 22782}; 26 biblioteche con orari; 3 guardie ok",
+      "secondi": 1.4
+    },
+    {
+      "test": "test_fetch_page_snapshot",
+      "esito": "PASS",
+      "dettaglio": "www.comune.milano.it: fonte=indice_locale waf_bloccato=True agg=2026-07-27; studyandwork.yesmilano.it: fonte=indice_locale waf_bloccato=True agg=None",
+      "secondi": 1.1
+    },
+    {
+      "test": "test_date_e_ics",
+      "esito": "PASS",
+      "dettaglio": "kit 03/12->17/12 (Milano) / 16/12 (naz.); residenza 03/10->23/10; ICS ok (CRLF, folding, VALARM)",
+      "secondi": 0.0
+    },
+    {
+      "test": "test_claude_client_mock",
+      "esito": "PASS",
+      "dettaglio": "3 turni, 3 tool (2 paralleli in un solo messaggio user, 1 is_error), JSON finale ok; fallback 400 -> retry senza; refusal e max_tokens gestiti; has_credentials=False",
+      "secondi": 4.6
+    }
+  ]
+}

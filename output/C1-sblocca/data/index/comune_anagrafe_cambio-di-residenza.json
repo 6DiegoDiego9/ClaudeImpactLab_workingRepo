@@ -1,0 +1,97 @@
+{
+ "id": "comune:anagrafe/cambio-di-residenza",
+ "tipo": "pagina_comune",
+ "titolo": "Cambio di residenza",
+ "testo": "Cambio di residenza\nRichiedi\nIl servizio è rivolto a persone italiane e straniere che arrivano da un altro Comune italiano o cambiano indirizzo all’interno di Milano e alle persone italiane che sono rientrate in Italia dall’estero (se iscritte all’AIRE).\nPer accedere al servizio occorre collegarsi al sito dell' Anagrafe Nazionale ed essere in possesso di SPID o CIE .\nChi cambia città o indirizzo deve comunicarlo all'Ufficio Anagrafe entro 20 giorni dal trasferimento.\n- L’iscrizione anagrafica avviene nei due giorni lavorativi successivi alla dichiarazione\n- a seguire, il Comune accerta la sussistenza dei requisiti previsti.\nAi fini della TARI (Tassa rifiuti), quando cambi indirizzo o residenza ricordati di dichiarare la nuova situazione abitativa .\nUltimo aggiornamento: 16/06/2026\nHai bisogno di aiuto?\nVai agli approfondimenti\nEffetti giuridici delle iscrizioni anagrafiche\nGli effetti giuridici delle iscrizioni anagrafiche hanno inizio dalla data di presentazione della dichiarazione.\nTuttavia, se gli accertamenti danno esiti negativi, il procedimento si interrompe. Il Comune invia una comunicazione al richiedente, che potrà replicare presentando memorie o documenti utili all'istruttoria.\nIn caso di false dichiarazioni viene informata l’autorità giudiziaria. Si ricorda che chi dichiara il falso a un pubblico ufficiale decade dai benefici e incorre in sanzioni penali.\nRiferimenti normativi\n- DPR n. 223/1989, Regolamento Anagrafico\n- DPR n. 445/2000, articoli 75 e 76\n- DL n.5 del 9 febbraio 2012\n- DL 28.03.2014, n. 47, “Misure urgenti per emergenza abitativa, per il mercato delle costruzioni e per Expo 2015\", pubblicato sulla G.U. in data 28.03.2014 ed entrato in vigore il 29.03.2014, all'articolo 5 “Lotta all'occupazione abusiva”\nAttestazioni di soggiorno per cittadini stranieri appartenenti all'Unione Europea\n- Direttiva Unione Europea 2004/38/CE\n- D.Lgs 30/2007 (il D. Lgs. n. 30/2007 si applica anche ai cittadini appartenenti ai seguenti Stati: Islanda, Liechteinstein, Norvegia, Svizzera, San Marino, Principato di Monaco, Principato di Andorra, Città del Vaticano)\nAttestazioni di soggiorno per cittadini britannici\n- Circolare del Ministero dell'Interno n. 3/2020\nIscrizione anagrafica dei cittadini stranieri appartenenti all'UE\n- Convenzione dell’Aja, 1961\n- D.P.R. 445/2000, articoli 75 e 76\n- Direttiva 2004/38/CE\n- D.Lgs. n. 30/2007 (il D. Lgs. n. 30/2007 si applica anche ai cittadini appartenenti ai seguenti Stati: Islanda, Liechtenstein, Norvegia, Svizzera, San Marino, Principato di Monaco, Principato di Andorra, Città del Vaticano)\n- D.L. n.5 del 9 febbraio 2012\n- D.L. 28.03.2014, n. 47 “Misure urgenti per emergenza abitativa, per il mercato delle costruzioni e per Expo 2015”, pubblicato sulla G.U. in data 28.03.2014 ed entrato in vigore il 29.03.2014, articolo 5 “Lotta all'occupazione abusiva”\nIscrizione anagrafica dei cittadini stranieri extra UE\n- Convenzione dell'Aja, 1961\n- D.L. 28.03.2014, n. 47 “Misure urgenti per emergenza abitativa, per il mercato delle costruzioni e per Expo 2015”, pubblicato sulla G.U. in data 28.03.2014 ed entrato in vigore il 29.03.2014, articolo 5 “Lotta all'occupazione abusiva”\nRichiesta della cittadinanza italiana\n- Legge n. 91 del 5/2/1992, nota come Legge Martelli\n- Legge n. 379 del 14/2/2000\n- Decreto Ministeriale o Decreto del Presidente della Repubblica indicazioni della Prefettura di Milano del 27 maggio 2013\nRinnovo dichiarazione dimora abituale per cittadini extracomunitari\n- Art. 7, comma 3, D.P.R. 30 maggio 1989, n. 223 come sostituito dall'articolo 15, comma 2, D.P.R. 31 agosto 1999, n. 394\nServizi correlati\nCambio di residenza per persone straniere provenienti dall’estero\nRichiedi\nTrasferimento di residenza all'estero per persone italiane (iscrizione AIRE)\nEffettua iscrizione\nResidenzaMi - residenza anagrafica per persone senza dimora\nCertificato di cancellazione anagrafica per irreperibilità\nPrenota appuntamento",
+ "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza",
+ "lingua": "it",
+ "aggiornato_il": "2026-06-16",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "recuperato_il": "2026-10-03T13:09:45+02:00",
+ "link": [
+  {
+   "testo": "Richiedi",
+   "url": "https://www.anagrafenazionale.interno.it/servizi-al-cittadino/"
+  },
+  {
+   "testo": "dichiarare la nuova situazione abitativa",
+   "url": "https://www.comune.milano.it/servizi/tributi/tari-dichiarazione-di-occupazione-di-appartamenti-e-immobili"
+  },
+  {
+   "testo": "DPR n. 223/1989, Regolamento Anagrafico",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1989-05-30;223!vig=2017-12-07"
+  },
+  {
+   "testo": "DPR n. 445/2000, articoli 75 e 76",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2000-12-28;445"
+  },
+  {
+   "testo": "DL n.5 del 9 febbraio 2012",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2012-02-09;5"
+  },
+  {
+   "testo": "DL 28.03.2014, n. 47, “Misure urgenti per emergenza abitativa, per il mercato delle costruzioni e per Expo 2015\", pubbli",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto-legge:2014-03-28;47"
+  },
+  {
+   "testo": "Direttiva Unione Europea 2004/38/CE",
+   "url": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2004:229:0035:0048:it:PDF"
+  },
+  {
+   "testo": "D.Lgs 30/2007 (il D. Lgs. n. 30/2007 si applica anche ai cittadini appartenenti ai seguenti Stati: Islanda, Liechteinste",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2007-02-06;30"
+  },
+  {
+   "testo": "Circolare del Ministero dell'Interno n. 3/2020",
+   "url": "https://dait.interno.gov.it/servizi-demografici/circolari/circolare-n3-dell11-febbraio-2020"
+  },
+  {
+   "testo": "Convenzione dell’Aja, 1961",
+   "url": "https://prefettura.interno.gov.it/sites/default/files/32/2024-09/convenzione-aja_stato-applicazione.pdf"
+  },
+  {
+   "testo": "D.P.R. 445/2000, articoli 75 e 76",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2000-12-28;445~art75"
+  },
+  {
+   "testo": "Legge n. 91 del 5/2/1992, nota come Legge Martelli",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91!vig"
+  },
+  {
+   "testo": "Legge n. 379 del 14/2/2000",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2000;379"
+  },
+  {
+   "testo": "Art. 7, comma 3, D.P.R. 30 maggio 1989, n. 223 come sostituito dall'articolo 15, comma 2, D.P.R. 31 agosto 1999, n. 394",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1989-05-30;223!vig="
+  },
+  {
+   "testo": "Cambio di residenza per persone straniere provenienti dall’estero",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza-per-persone-straniere-provenienti-dall-estero"
+  },
+  {
+   "testo": "Richiedi",
+   "url": "https://formshd4.comune.milano.it/rwe2/module_preview.jsp?MODULE_TAG=MOD_DDR_ESTERO"
+  },
+  {
+   "testo": "Trasferimento di residenza all'estero per persone italiane (iscrizione AIRE)",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/trasferimento-di-residenza-all-estero-per-persone-italiane-iscrizione-aire-"
+  },
+  {
+   "testo": "Effettua iscrizione",
+   "url": "https://serviziconsolari.esteri.it/ScoFE/index.sco"
+  },
+  {
+   "testo": "ResidenzaMi - residenza anagrafica per persone senza dimora",
+   "url": "https://www.comune.milano.it/servizi/welfare/residenzami-residenza-anagrafica-per-persone-senza-dimora"
+  },
+  {
+   "testo": "Certificato di cancellazione anagrafica per irreperibilità",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/certificato-di-cancellazione-anagrafica-per-irreperibilita"
+  },
+  {
+   "testo": "Prenota appuntamento",
+   "url": "http://servizicrm.comune.milano.it/spec/certificatianagrafici/appuntamentosportello"
+  }
+ ]
+}

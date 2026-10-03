@@ -1,0 +1,347 @@
+{
+  "catturato_il": "2026-10-03T13:11:53+02:00",
+  "manifest": {
+    "costruito_il": "2026-10-03T13:11:38+02:00",
+    "documenti": 113,
+    "per_tipo": {
+      "faq": 89,
+      "pagina_comune": 10,
+      "guida_yesmilano": 14
+    }
+  },
+  "ricerche": {
+    "iscrizione anagrafica dall'estero senza SPID": {
+      "search_local": [
+        {
+          "id": "comune:anagrafe/cambio-di-residenza",
+          "tipo": "pagina_comune",
+          "titolo": "Cambio di residenza",
+          "estratto": "Trasferimento di residenza all'estero per persone italiane (iscrizione AIRE)",
+          "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza",
+          "aggiornato_il": "2026-06-16",
+          "recuperato_il": "2026-10-03T13:09:45+02:00",
+          "punteggio": 11.257
+        },
+        {
+          "id": "KA-00546",
+          "tipo": "faq",
+          "titolo": "Se non possiedo la Carta di Identità Elettronica (CIE) o lo SPID, come posso richiedere un certificato anagrafico?",
+          "estratto": "È necessario prenotare un appuntamento chiedendo assistenza al Contact Center dalla sezione \"Hai ancora bisogno di aiuto?\".",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00546/Certificati-anagrafici-senza-SPID-o-CIE",
+          "aggiornato_il": "2025-11-07",
+          "recuperato_il": "2026-10-03T13:07:12+02:00",
+          "punteggio": 11.241
+        },
+        {
+          "id": "comune:anagrafe/cambio-di-residenza-per-persone-straniere-provenienti-dall-estero",
+          "tipo": "pagina_comune",
+          "titolo": "Cambio di residenza per persone straniere provenienti dall’estero",
+          "estratto": "ResidenzaMi - residenza anagrafica per persone senza dimora",
+          "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza-per-persone-straniere-provenienti-dall-estero",
+          "aggiornato_il": "2026-07-27",
+          "recuperato_il": "2026-10-03T13:09:34+02:00",
+          "punteggio": 10.283
+        },
+        {
+          "id": "KA-03938",
+          "tipo": "faq",
+          "titolo": "Sono una cittadina/un cittadino straniera/o che ha richiesto la residenza. Quanto tempo ci vuole per ottenere l'iscrizione anagrafica?",
+          "estratto": "Per verificare lo stato della pratica è necessario inviare una richiesta dalla sezione \"Hai ancora bisogno di aiuto?\".",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03938/Sollecito-prima-iscrizione-cittadini-stranieri",
+          "aggiornato_il": "2025-11-24",
+          "recuperato_il": "2026-10-03T13:03:30+02:00",
+          "punteggio": 10.008
+        },
+        {
+          "id": "KA-03937",
+          "tipo": "faq",
+          "titolo": "Sono una cittadina/un cittadino straniero. Ho effettuato il cambio di residenza sul portale del Comune di Milano, ma non risulto ancora residente. Come posso sapere a che punto è la mia pratica?",
+          "estratto": "Per verificare lo stato della pratica è necessario inviare una richiesta dalla sezione \"Hai ancora bisogno di aiuto?\".",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03937/Sollecito-iscrizione-anagrafica-stranieri",
+          "aggiornato_il": "2025-11-25",
+          "recuperato_il": "2026-10-03T13:03:25+02:00",
+          "punteggio": 9.64
+        }
+      ],
+      "search_comune_faq": [
+        {
+          "ka": "KA-00546",
+          "domanda": "Se non possiedo la Carta di Identità Elettronica (CIE) o lo SPID, come posso richiedere un certificato anagrafico?",
+          "estratto_risposta": "È necessario prenotare un appuntamento chiedendo assistenza al Contact Center dalla sezione \"Hai ancora bisogno di aiuto?\".",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00546/Certificati-anagrafici-senza-SPID-o-CIE",
+          "categoria": "Anagrafe / Certificati anagrafici",
+          "aggiornato_il": "2025-11-07",
+          "recuperato_il": "2026-10-03T13:07:12+02:00",
+          "punteggio": 11.241,
+          "fonte": "indice_locale"
+        },
+        {
+          "ka": "KA-03938",
+          "domanda": "Sono una cittadina/un cittadino straniera/o che ha richiesto la residenza. Quanto tempo ci vuole per ottenere l'iscrizione anagrafica?",
+          "estratto_risposta": "Per verificare lo stato della pratica è necessario inviare una richiesta dalla sezione \"Hai ancora bisogno di aiuto?\".",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03938/Sollecito-prima-iscrizione-cittadini-stranieri",
+          "categoria": "Anagrafe / Cambio di residenza per persone straniere provenienti dall’estero",
+          "aggiornato_il": "2025-11-24",
+          "recuperato_il": "2026-10-03T13:03:30+02:00",
+          "punteggio": 10.008,
+          "fonte": "indice_locale"
+        },
+        {
+          "ka": "KA-03937",
+          "domanda": "Sono una cittadina/un cittadino straniero. Ho effettuato il cambio di residenza sul portale del Comune di Milano, ma non risulto ancora residente. Come posso sapere a che punto è la mia pratica?",
+          "estratto_risposta": "Per verificare lo stato della pratica è necessario inviare una richiesta dalla sezione \"Hai ancora bisogno di aiuto?\".",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03937/Sollecito-iscrizione-anagrafica-stranieri",
+          "categoria": "Anagrafe / Cambio di residenza per persone straniere provenienti dall’estero",
+          "aggiornato_il": "2025-11-25",
+          "recuperato_il": "2026-10-03T13:03:25+02:00",
+          "punteggio": 9.64,
+          "fonte": "indice_locale"
+        },
+        {
+          "ka": "KA-03731",
+          "domanda": "Posso accedere al Fascicolo del Cittadino senza SPID o CIE?",
+          "estratto_risposta": "No, non è possibile accedere al Fascicolo del Cittadino senza SPID o CIE. Poiché il Fascicolo del Cittadino contiene le informazioni anagrafiche del nucleo famigliare, dei servizi educativi e della mobilità, oltre che i documenti tributari dei cittadini, per motivi di sicurezza richiede l'accesso con un’identità digitale certificata SPID o CIE. Non sono previsti account con username e password del Comune.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03731/Accesso-al-Fascicolo-del-Cittadino-senza-SPID-o-CIE",
+          "categoria": "App e fascicolo del cittadino / Fascicolo del Cittadino",
+          "aggiornato_il": "2026-06-02",
+          "recuperato_il": "2026-10-03T13:03:20+02:00",
+          "punteggio": 8.761,
+          "fonte": "indice_locale"
+        },
+        {
+          "ka": "KA-01245",
+          "domanda": "Chi può essere iscritto alle Scuole dell'Infanzia del Comune di Milano?",
+          "estratto_risposta": "Possono essere iscritti alla scuola dell'infanzia le bambine e i bambini dai 3 ai 6 anni che nel momento di iscrizione sono: - appartenenti a nuclei familiari residenti a Milano; - appartenenti a nuclei familiari che stanno trasferendo la residenza nel Comune di Milano entro il termine per la presentazione delle domande di iscrizione; - presenti abitualmente nel Comune di Milano senza iscrizione anagrafica; - ospitati, con o senza genitore, presso una comunità a Milano. Si invitano le famiglie a consultare il Comunicato pubblicato annualmente dall'Amministrazione per avere le informazioni…",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01245/Requisiti-iscrizione-scuola-infanzia-Milano",
+          "categoria": "Scuola / Scuole dell'infanzia",
+          "aggiornato_il": "2026-07-06",
+          "recuperato_il": "2026-10-03T13:09:19+02:00",
+          "punteggio": 8.563,
+          "fonte": "indice_locale"
+        }
+      ]
+    },
+    "dichiarazione TARI nuova occupazione": {
+      "search_local": [
+        {
+          "id": "KA-01955",
+          "tipo": "faq",
+          "titolo": "Non riesco a presentare online la dichiarazione di nuova occupazione Tari: come posso fare?",
+          "estratto": "Nel caso in cui non sia possibile presentare la dichiarazione di nuova occupazione tramite il servizio online , è necessario scaricare il modulo e inviarlo compilato tramite una delle seguenti modalità:",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01955/Presentazione-dichiarazione-Tari-via-mail",
+          "aggiornato_il": "2026-05-06",
+          "recuperato_il": "2026-10-03T13:02:27+02:00",
+          "punteggio": 17.204
+        },
+        {
+          "id": "KA-01945",
+          "tipo": "faq",
+          "titolo": "Dove trovo il modulo di dichiarazione di nuova occupazione Tari per utenze domestiche?",
+          "estratto": "Si suggerisce di utilizzare il servizio online disponibile nella pagina dedicata. In caso di difficoltà, dalla stessa pagina, è possibile scaricare il modulo.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01945/Modulo-dichiarazione-Tari",
+          "aggiornato_il": "2026-05-11",
+          "recuperato_il": "2026-10-03T13:07:22+02:00",
+          "punteggio": 15.22
+        },
+        {
+          "id": "comune:tributi/tari-dichiarazione-di-occupazione-di-appartamenti-e-immobili",
+          "tipo": "pagina_comune",
+          "titolo": "Tari: dichiarazione di occupazione di appartamenti e immobili",
+          "estratto": "Ogni cambiamento della situazione abitativa incide sulla tariffa Tari e richiede la presentazione della dichiarazione di nuova occupazione, di cessazione di occupazione, di variazione del numero di occupanti non residenti o di metratura.",
+          "url": "https://www.comune.milano.it/servizi/tributi/tari-dichiarazione-di-occupazione-di-appartamenti-e-immobili",
+          "aggiornato_il": "2026-06-16",
+          "recuperato_il": "2026-10-03T13:10:00+02:00",
+          "punteggio": 14.808
+        },
+        {
+          "id": "KA-02121",
+          "tipo": "faq",
+          "titolo": "Entro quando devo presentare la dichiarazione per occupazione Tari per acquisto/affitto (locazione)?",
+          "estratto": "Entro 90 giorni dall'inizio del possesso o detenzione dell'immobile.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02121/Termine-dichiarazione-Tari-per-nuova-occupazione",
+          "aggiornato_il": "2026-05-06",
+          "recuperato_il": "2026-10-03T13:02:32+02:00",
+          "punteggio": 14.802
+        },
+        {
+          "id": "comune:tributi/tari-dichiarazione-di-cessazione-di-occupazione-di-appartamenti-e-immobili",
+          "tipo": "pagina_comune",
+          "titolo": "Tari: dichiarazione di cessazione di occupazione di appartamenti e immobili",
+          "estratto": "Ogni cambiamento della situazione abitativa incide sulla tariffa Tari e richiede la presentazione della dichiarazione di nuova occupazione, di cessazione di occupazione, di variazione del numero di occupanti non residenti o di metratura.",
+          "url": "https://www.comune.milano.it/servizi/tributi/tari-dichiarazione-di-cessazione-di-occupazione-di-appartamenti-e-immobili",
+          "aggiornato_il": "2026-06-16",
+          "recuperato_il": "2026-10-03T13:10:05+02:00",
+          "punteggio": 14.674
+        }
+      ],
+      "search_comune_faq": [
+        {
+          "ka": "KA-01955",
+          "domanda": "Non riesco a presentare online la dichiarazione di nuova occupazione Tari: come posso fare?",
+          "estratto_risposta": "Nel caso in cui non sia possibile presentare la dichiarazione di nuova occupazione tramite il servizio online , è necessario scaricare il modulo e inviarlo compilato tramite una delle seguenti modalità: - PEC: tassarifiuti@pec.comune.milano.it - E-mail: tassarifiuti@comune.milano.it. Indicare nel nome del messaggio: TARI Dichiarazione di occupazione, anno del tributo, codice fiscale del soggetto, denominazione. Indicare nel nome dell'allegato: TARI Dichiarazione di occupazione, anno del tributo, denominazione. È necessario allegare la dichiarazione e la documentazione richiesta. - consegna a…",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01955/Presentazione-dichiarazione-Tari-via-mail",
+          "categoria": "Tributi / Tari: dichiarazione di occupazione di appartamenti e immobili",
+          "aggiornato_il": "2026-05-06",
+          "recuperato_il": "2026-10-03T13:02:27+02:00",
+          "punteggio": 17.204,
+          "fonte": "indice_locale"
+        },
+        {
+          "ka": "KA-01945",
+          "domanda": "Dove trovo il modulo di dichiarazione di nuova occupazione Tari per utenze domestiche?",
+          "estratto_risposta": "Si suggerisce di utilizzare il servizio online disponibile nella pagina dedicata. In caso di difficoltà, dalla stessa pagina, è possibile scaricare il modulo.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01945/Modulo-dichiarazione-Tari",
+          "categoria": "Tributi / Tari: dichiarazione di occupazione di appartamenti e immobili",
+          "aggiornato_il": "2026-05-11",
+          "recuperato_il": "2026-10-03T13:07:22+02:00",
+          "punteggio": 15.22,
+          "fonte": "indice_locale"
+        },
+        {
+          "ka": "KA-02121",
+          "domanda": "Entro quando devo presentare la dichiarazione per occupazione Tari per acquisto/affitto (locazione)?",
+          "estratto_risposta": "Entro 90 giorni dall'inizio del possesso o detenzione dell'immobile.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02121/Termine-dichiarazione-Tari-per-nuova-occupazione",
+          "categoria": "Tributi / Tari: dichiarazione di occupazione di appartamenti e immobili",
+          "aggiornato_il": "2026-05-06",
+          "recuperato_il": "2026-10-03T13:02:32+02:00",
+          "punteggio": 14.802,
+          "fonte": "indice_locale"
+        },
+        {
+          "ka": "KA-02125",
+          "domanda": "Non ho presentato la dichiarazione Tari entro il termine dei 90 giorni dall'inizio occupazione/detenzione: cosa devo fare?",
+          "estratto_risposta": "È possibile regolarizzare la propria posizione tramite dichiarazione tardiva che consente una riduzione delle sanzioni. La dichiarazione tardiva di nuova occupazione si presenta con le stesse modalità della dichiarazione di occupazione ordinaria attraverso il servizio online . Le altre modalità possibili sono: - invio del modulo via email all'indirizzo tassarifiuti@comune.milano.it oppure via PEC a tassarifiuti@pec.comune.milano.it indicando nell’oggetto del messaggio: TARI Dichiarazione tardiva (occupazione, variazione o cessazione) - anno del tributo - codice fiscale del soggetto -…",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02125/Mancata-presentazione-dichiarazione-Tari",
+          "categoria": "Tributi / Tari: dichiarazione tardiva",
+          "aggiornato_il": "2026-05-06",
+          "recuperato_il": "2026-10-03T13:02:38+02:00",
+          "punteggio": 12.711,
+          "fonte": "indice_locale"
+        },
+        {
+          "ka": "KA-02119",
+          "domanda": "Cos'è la Tari?",
+          "estratto_risposta": "La Tari è la tassa dovuta per i servizi di raccolta, trasporto e smaltimento o recupero dei rifiuti urbani, calcolata in bimestri, che deve essere pagata da chiunque, nel territorio comunale, possieda o detenga locali o aree scoperte adibite a qualsiasi utilizzo. Nel caso di pluralità di possessori o detentori, il tributo è dovuto dagli stessi con vincolo di solidarietà tra di loro.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02119/Definizione-Tari",
+          "categoria": "Tributi / Tari: dichiarazione di occupazione di appartamenti e immobili",
+          "aggiornato_il": "2026-05-06",
+          "recuperato_il": "2026-10-03T13:07:28+02:00",
+          "punteggio": 12.086,
+          "fonte": "indice_locale"
+        }
+      ]
+    },
+    "carta d'identità cittadino extra UE": {
+      "search_local": [
+        {
+          "id": "KA-00564",
+          "tipo": "faq",
+          "titolo": "Quali documenti servono per rinnovare la Carta di Identità Elettronica (CIE) se sono una cittadina straniera/un cittadino straniero extra UE?",
+          "estratto": "- tessera sanitaria (Carta Nazionale dei Servizi) o codice fiscale",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00564/Rinnovo-CIE-per-cittadini-extra-UE-documenti-richiesti",
+          "aggiornato_il": "2025-10-30",
+          "recuperato_il": "2026-10-03T13:06:14+02:00",
+          "punteggio": 18.66
+        },
+        {
+          "id": "KA-00393",
+          "tipo": "faq",
+          "titolo": "Quali documenti servono per fare la Carta di Identità Elettronica (CIE) per la prima volta se sono una cittadina straniera/un cittadino straniero extra UE?",
+          "estratto": "- tessera sanitaria (Carta Nazionale dei Servizi) o codice fiscale",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00393/Prima-CIE-per-cittadini-extra-UE-documenti-necessari",
+          "aggiornato_il": "2025-10-23",
+          "recuperato_il": "2026-10-03T13:02:06+02:00",
+          "punteggio": 18.479
+        },
+        {
+          "id": "KA-00408",
+          "tipo": "faq",
+          "titolo": "Posso fare la Carta di Identità Elettronica (CIE) per mia figlia/mio figlio minore extra UE?",
+          "estratto": "La Carta di Identità Elettronica viene rilasciata solo ai minori che possiedono un permesso di soggiorno valido.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00408/CIE-per-minori-extra-UE-requisiti-necessari",
+          "aggiornato_il": "2025-10-23",
+          "recuperato_il": "2026-10-03T13:05:52+02:00",
+          "punteggio": 16.245
+        },
+        {
+          "id": "KA-00465",
+          "tipo": "faq",
+          "titolo": "Ogni quanto devo rinnovare la dichiarazione di dimora abituale se sono una cittadina/un cittadino extra UE?",
+          "estratto": "Entro 60 giorni dal rinnovo del permesso o dalla carta di soggiorno.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00465/Scadenza-rinnovo-dimora-abituale-per-cittadini-extra-UE",
+          "aggiornato_il": "2025-10-31",
+          "recuperato_il": "2026-10-03T13:04:55+02:00",
+          "punteggio": 13.724
+        },
+        {
+          "id": "KA-00295",
+          "tipo": "faq",
+          "titolo": "Sono una cittadina/un cittadino extra UE, posso rinnovare la dichiarazione di dimora abituale per la mia famiglia?",
+          "estratto": "Sì, se sono presenti sullo stesso permesso di soggiorno.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00295/Rinnovo-dimora-abituale-per-famiglie-extra-UE",
+          "aggiornato_il": "2025-07-01",
+          "recuperato_il": "2026-10-03T13:03:52+02:00",
+          "punteggio": 11.815
+        }
+      ],
+      "search_comune_faq": [
+        {
+          "ka": "KA-00564",
+          "domanda": "Quali documenti servono per rinnovare la Carta di Identità Elettronica (CIE) se sono una cittadina straniera/un cittadino straniero extra UE?",
+          "estratto_risposta": "Sono necessari: - tessera sanitaria (Carta Nazionale dei Servizi) o codice fiscale - una fototessera cartacea che rispetti i requisiti - il permesso di soggiorno o la carta di soggiorno valida - il documento scaduto o deteriorato. In caso di permesso di soggiorno scaduto, è sufficiente la ricevuta di rinnovo o la prenotazione sull'app della Questura (prenotafacile).",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00564/Rinnovo-CIE-per-cittadini-extra-UE-documenti-richiesti",
+          "categoria": "Anagrafe / Carta d'identità",
+          "aggiornato_il": "2025-10-30",
+          "recuperato_il": "2026-10-03T13:06:14+02:00",
+          "punteggio": 18.66,
+          "fonte": "indice_locale"
+        },
+        {
+          "ka": "KA-00393",
+          "domanda": "Quali documenti servono per fare la Carta di Identità Elettronica (CIE) per la prima volta se sono una cittadina straniera/un cittadino straniero extra UE?",
+          "estratto_risposta": "Sono necessari: - tessera sanitaria (Carta Nazionale dei Servizi) o codice fiscale - una fototessera cartacea che rispetti i requisiti - il permesso di soggiorno o la carta di soggiorno - un altro documento di identità valido In caso di permesso di soggiorno scaduto, è sufficiente la ricevuta di rinnovo o la prenotazione sull'app della questura (prenotafacile).",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00393/Prima-CIE-per-cittadini-extra-UE-documenti-necessari",
+          "categoria": "Anagrafe / Carta d'identità",
+          "aggiornato_il": "2025-10-23",
+          "recuperato_il": "2026-10-03T13:02:06+02:00",
+          "punteggio": 18.479,
+          "fonte": "indice_locale"
+        },
+        {
+          "ka": "KA-00408",
+          "domanda": "Posso fare la Carta di Identità Elettronica (CIE) per mia figlia/mio figlio minore extra UE?",
+          "estratto_risposta": "La Carta di Identità Elettronica viene rilasciata solo ai minori che possiedono un permesso di soggiorno valido. In alternativa, è necessaria l'iscrizione nel permesso di soggiorno di uno dei due genitori.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00408/CIE-per-minori-extra-UE-requisiti-necessari",
+          "categoria": "Anagrafe / Carta d'identità",
+          "aggiornato_il": "2025-10-23",
+          "recuperato_il": "2026-10-03T13:05:52+02:00",
+          "punteggio": 16.245,
+          "fonte": "indice_locale"
+        },
+        {
+          "ka": "KA-00465",
+          "domanda": "Ogni quanto devo rinnovare la dichiarazione di dimora abituale se sono una cittadina/un cittadino extra UE?",
+          "estratto_risposta": "Entro 60 giorni dal rinnovo del permesso o dalla carta di soggiorno. Per maggiori informazioni, consultare la pagina di servizio dedicata.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00465/Scadenza-rinnovo-dimora-abituale-per-cittadini-extra-UE",
+          "categoria": "Anagrafe / Rinnovo dichiarazione dimora abituale per persone extra UE",
+          "aggiornato_il": "2025-10-31",
+          "recuperato_il": "2026-10-03T13:04:55+02:00",
+          "punteggio": 13.724,
+          "fonte": "indice_locale"
+        },
+        {
+          "ka": "KA-00295",
+          "domanda": "Sono una cittadina/un cittadino extra UE, posso rinnovare la dichiarazione di dimora abituale per la mia famiglia?",
+          "estratto_risposta": "Sì, se sono presenti sullo stesso permesso di soggiorno.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00295/Rinnovo-dimora-abituale-per-famiglie-extra-UE",
+          "categoria": "Anagrafe / Rinnovo dichiarazione dimora abituale per persone extra UE",
+          "aggiornato_il": "2025-07-01",
+          "recuperato_il": "2026-10-03T13:03:52+02:00",
+          "punteggio": 11.815,
+          "fonte": "indice_locale"
+        }
+      ]
+    }
+  }
+}

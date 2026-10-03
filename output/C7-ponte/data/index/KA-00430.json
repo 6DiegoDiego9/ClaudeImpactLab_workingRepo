@@ -1,0 +1,27 @@
+{
+ "id": "KA-00430",
+ "tipo": "faq",
+ "titolo": "Qual è la differenza tra domicilio e residenza?",
+ "domanda": "Qual è la differenza tra domicilio e residenza?",
+ "testo": "La residenza è la dimora abituale presso l'indirizzo dichiarato.\nIl domicilio, che è il luogo in cui si stabilisce la propria sede di affari ed interessi, non è un dato rilevante e non viene registrato.",
+ "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00430/Differenza-tra-domicilio-e-residenza",
+ "lingua": "it",
+ "aggiornato_il": "2025-08-12",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "lastmod_sitemap": "2025-08-12T10:35:28+02:00",
+ "recuperato_il": "2026-10-03T13:04:34+02:00",
+ "categoria": "Anagrafe / Cambio di residenza",
+ "titolo_breve": "Differenza tra domicilio e residenza",
+ "parole_chiave": [
+  "anagrafe",
+  "residenti",
+  "domicilio"
+ ],
+ "link": [],
+ "link_servizio": [
+  {
+   "titolo": "Cambio di residenza",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza"
+  }
+ ]
+}

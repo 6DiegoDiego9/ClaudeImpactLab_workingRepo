@@ -1,0 +1,1499 @@
+{
+ "costruito_il": "2026-10-03T13:11:38+02:00",
+ "documenti": 113,
+ "per_tipo": {
+  "faq": 89,
+  "pagina_comune": 10,
+  "guida_yesmilano": 14
+ },
+ "ua_dichiarato": "ClaudeImpactLab-Milano-prototipo/0.1 (hackathon Claude Impact Lab Milano, Track 01; uso non commerciale; +https://github.com/Claude-Milano/impact-lab-oct-2026)",
+ "ua_browser_ripiego": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36",
+ "richieste_questa_esecuzione": 114,
+ "richieste_403_con_ua_dichiarato": 114,
+ "nota_waf": "Il WAF risponde 403 allo user-agent dichiarato; per questa raccolta una tantum di pagine pubbliche consentite da robots.txt si e' ripiegato su uno user-agent da browser standard, a ritmo lento (>= 2.5 s tra le richieste). Vedi README_CORE.md.",
+ "esiti": [
+  {
+   "url": "https://servizicrm.comune.milano.it/sitemap.xml",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00325/Verifica-stato-pratica-di-residenza",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00330/Richiestacambio-residenza-come-procedere",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00370/Residenza-con-permesso-di-soggiorno-in-rinnovo",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00372/Enti-che-ricevono-comunicazione-cambio-residenza",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00393/Prima-CIE-per-cittadini-extra-UE-documenti-necessari",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00489/Residenza-per-stranieri-dallestero-procedura",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00534/Termine-per-comunicare-cambio-residenza-giorni",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00596/Sollecito-pratica-residenza-oltre-giorni",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01955/Presentazione-dichiarazione-Tari-via-mail",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02121/Termine-dichiarazione-Tari-per-nuova-occupazione",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02125/Mancata-presentazione-dichiarazione-Tari",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02150/Quando-presentare-cessazione-TARI-utenze-domestiche",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02795/Milano-Welcome-Center-servizi",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02803/Milano-Welcome-Center-dove-trovare-informazioni",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02885/Come-prenotare-appuntamento-spazi-WeMi",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03707/Documenti-per-domanda-di-idoneita-abitativa",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03708/Sopralluogo-per-ottenere-lidoneita-abitativa",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03709/Costi-per-richiesta-di-idoneita-abitativa",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03731/Accesso-al-Fascicolo-del-Cittadino-senza-SPID-o-CIE",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03937/Sollecito-iscrizione-anagrafica-stranieri",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03938/Sollecito-prima-iscrizione-cittadini-stranieri",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-04007/Carte-identita-cartacee-fine-validita",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-04339/Carta-didentita-validita-dopo-i-70-anni",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-04449/Corso-italiano-per-stranieri",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00295/Rinnovo-dimora-abituale-per-famiglie-extra-UE",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00328/Residenza-con-permesso-per-ricongiungimento-familiare",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00329/Residenza-stranieri-in-affitto-documenti-immobile",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00331/Richiesta-attestazione-soggiorno-per-stranieri",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00341/Richiesta-certificato-di-residenza",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00373/Chi-puo-richiedere-attestazione-di-soggiorno",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00428/Residenza-in-comodato-gratuito-documenti-immobile",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00429/Residenza-stranieri-proprietari-documenti-immobile",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00430/Differenza-tra-domicilio-e-residenza",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00431/Residenza-per-studenti-stranieri-documenti",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00435/Documenti-per-attestazione-di-soggiorno",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00437/Requisiti-per-diritto-di-soggiorno-UE",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00465/Scadenza-rinnovo-dimora-abituale-per-cittadini-extra-UE",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00490/Aggiungere-figli-a-richiesta-residenza-gia-inviata",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00491/Residenza-per-stranieri-non-lavoratori-documenti",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00556/Residenza-per-familiari-di-cittadini-UE",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00594/Residenza-stranieri-lavoratori-domestici-documenti",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00597/Cambio-residenza-per-stranieri-gia-in-Italia",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00598/Documenti-per-residenza-con-permesso-di-soggiorno-valido",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03582/Cambio-di-residenza-documenti-cittadini-UE",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03931/Sollecito-pratica-cambio-residenza",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03249/ResidenzaMi-definizione",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03252/ResidenzaMi-a-chi-si-rivolge",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00408/CIE-per-minori-extra-UE-requisiti-necessari",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00410/Tempi-di-consegna-della-CIE",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00411/Definizione-della-Carta-dIdentita-Elettronica",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00552/Prima-richiesta-CIE-documenti-necessari",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00564/Rinnovo-CIE-per-cittadini-extra-UE-documenti-richiesti",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00578/Prenotazione-appuntamento-per-rilascio-CIE",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-04009/Carte-identita-cartacee-scadenza-dopo-agosto-2026",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-04355/Definizione-e-modalita-rilascio-documento-didentita-provvisorio",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03621/Accesso-servizi-online-con-CIE",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00309/Creazione-SPID-procedura-e-documenti-necessari",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03725/Impossibile-accedere-al-Fascicolo-del-Cittadino",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03732/Aiuto-per-accesso-al-Fascicolo-del-Cittadino-contatti",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03075/SPID-non-utilizzabile-come-presentare-domanda",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02883/Difficolta-utilizzo-SPID-per-presentazione-domanda",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00390/Certificati-anagrafici-con-SPID-o-CIE",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00546/Certificati-anagrafici-senza-SPID-o-CIE",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01813/Modalita-presentazione-dichiarazione-Tari",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01945/Modulo-dichiarazione-Tari",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02119/Definizione-Tari",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02120/Presentazione-dichiarazione-Tari-online",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01986/Presentazione-dichiarazione-cessazione-TARI",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02042/Modulo-dichiarazione-cessazione-Tari",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03059/Richiesta-assistenza-TARI-utenza-domestica",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-04281/Tari-bonus-sociale",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02793/Milano-Welcome-Center",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02798/Milano-Welcome-Center-supporto-a-persone-rifugiate",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02799/Milano-Welcome-Center-servizi-gratuiti",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02800/Milano-Welcome-Center-temi-trattati",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-04104/Milano-Welcome-Center-obiettivo",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03701/Cose-lidoneita-abitativa",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03702/A-cosa-serve-lidoneita-abitativa",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03703/Chi-rilascia-lidoneita-abitativa",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03705/Cosa-fare-per-presentare-la-domanda-di-idoneita-abitativa",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01575/Iscrizione-online-nidi-e-sezioni-primavera",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03762/Requisiti-iscrizione-sezioni-primavera-Milano",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03769/Iscrizione-Nidi-e-Sezioni-Primavera-non-residenti-a-Milano",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-04081/Presentazione-domanda-iscrizione-Sezione-Primavera-pratica-di-residenza-in-corso",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-04082/Presentazione-domanda-iscrizione-Scuola-dellInfanzia-pratica-di-residenza-in-corso",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-04043/Iscrizione-online-Scuola-dellInfanzia",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01245/Requisiti-iscrizione-scuola-infanzia-Milano",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01417/Iscrizione-scuola-infanzia-non-residenti-a-Milano",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03978/Poli-Start-supporto-famiglie-straniere",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza-per-persone-straniere-provenienti-dall-estero",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://www.comune.milano.it/servizi/anagrafe/richiesta-di-residenza-per-persone-straniere-provenienti-dall-estero/modulistica-richiesta-di-residenza-per-persone-straniere-provenienti-dall-estero",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://www.comune.milano.it/servizi/anagrafe/attestazione-di-soggiorno-per-cittadini-ue-non-italiani-e-britannici",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://www.comune.milano.it/servizi/anagrafe/carta-d-identita",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://www.comune.milano.it/servizi/tributi/tari-dichiarazione-di-occupazione-di-appartamenti-e-immobili",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://www.comune.milano.it/servizi/tributi/tari-dichiarazione-di-cessazione-di-occupazione-di-appartamenti-e-immobili",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://www.comune.milano.it/servizi/welfare/milano-welcome-center",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://www.comune.milano.it/servizi/scuola/nidi-d-infanzia-e-sezioni-primavera",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://www.comune.milano.it/servizi/scuola/scuole-primarie-e-secondarie-iscrizione",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://studyandwork.yesmilano.it/en/study/how-to/first-steps",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://studyandwork.yesmilano.it/en/study/how-to/get-italian-tax-code-codice-fiscale",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://studyandwork.yesmilano.it/en/study/how-to/residence-permit-students",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://studyandwork.yesmilano.it/en/study/how-to/take-residence-milano-students",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://studyandwork.yesmilano.it/en/study/how-to/get-temporary-residence-milano",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://studyandwork.yesmilano.it/en/study/how-to/national-health-service-students-step-step",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://studyandwork.yesmilano.it/en/study/how-to/id-card",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://studyandwork.yesmilano.it/en/work/getting-started-guide/tax-code",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://studyandwork.yesmilano.it/en/work/getting-started-guide/residence-permit",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://studyandwork.yesmilano.it/en/work/getting-started-guide/registering-resident-milano",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://studyandwork.yesmilano.it/en/work/getting-started-guide/italian-healthcare",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://studyandwork.yesmilano.it/en/work/getting-started-guide/identity-card",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://studyandwork.yesmilano.it/en/work/getting-started-guide/digital-identity-spid",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  },
+  {
+   "url": "https://studyandwork.yesmilano.it/en/work/getting-started-guide/family-reunification",
+   "tentativi": [
+    {
+     "ua": "dichiarato",
+     "status": 403
+    },
+    {
+     "ua": "browser",
+     "status": 200
+    }
+   ]
+  }
+ ],
+ "errori": []
+}

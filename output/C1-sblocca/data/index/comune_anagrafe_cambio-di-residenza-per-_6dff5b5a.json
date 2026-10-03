@@ -1,0 +1,41 @@
+{
+ "id": "comune:anagrafe/cambio-di-residenza-per-persone-straniere-provenienti-dall-estero",
+ "tipo": "pagina_comune",
+ "titolo": "Cambio di residenza per persone straniere provenienti dall’estero",
+ "testo": "Cambio di residenza per persone straniere provenienti dall’estero\nRichiedi\nIl servizio è rivolto a persone straniere che provengono dall'estero.\nScarica la modulistica e i documenti che ti serviranno da inserire nella domanda online e poi procedi con la richiesta.\nUltimo aggiornamento: 27/07/2026\nHai bisogno di aiuto?\nVai agli approfondimenti\nEffetti giuridici delle iscrizioni anagrafiche\nGli effetti giuridici delle iscrizioni anagrafiche hanno inizio dalla data di presentazione della dichiarazione.\nTuttavia, se gli accertamenti danno esiti negativi, il procedimento si interrompe. Il Comune invia una comunicazione al richiedente, che potrà replicare presentando memorie o documenti utili all'istruttoria.\nIn caso di false dichiarazioni viene informata l’autorità giudiziaria. Si ricorda che chi dichiara il falso a un pubblico ufficiale decade dai benefici e incorre in sanzioni penali.\nRiferimenti normativi\n- DPR n. 223/1989, Regolamento Anagrafico\n- DPR n. 445/2000, articoli 75 e 76\n- DL n.5 del 9 febbraio 2012\n- DL 28.03.2014, n. 47, “Misure urgenti per emergenza abitativa, per il mercato delle costruzioni e per Expo 2015\", pubblicato sulla G.U. in data 28.03.2014 ed entrato in vigore il 29.03.2014, all'articolo 5 “Lotta all'occupazione abusiva”\nAttestazioni di soggiorno per cittadini stranieri appartenenti all'Unione Europea\n- Direttiva Unione Europea 2004/38/CE\n- D.Lgs 30/2007 (il D. Lgs. n. 30/2007 si applica anche ai cittadini appartenenti ai seguenti Stati: Islanda, Liechteinstein, Norvegia, Svizzera, San Marino, Principato di Monaco, Principato di Andorra, Città del Vaticano)\nAttestazioni di soggiorno per cittadini britannici\n- Circolare del Ministero dell’Interno n. 3/2020\nIscrizione anagrafica dei cittadini stranieri appartenenti all'UE\n- Convenzione dell’Aja, 1961\n- D.P.R. 445/2000, articoli 75 e 76\n- Direttiva 2004/38/CE\n- D.Lgs. n. 30/2007 (il D. Lgs. n. 30/2007 si applica anche ai cittadini appartenenti ai seguenti Stati: Islanda, Liechtenstein, Norvegia, Svizzera, San Marino, Principato di Monaco, Principato di Andorra, Città del Vaticano)\n- D.L. n.5 del 9 febbraio 2012\n- D.L. 28.03.2014, n. 47 “Misure urgenti per emergenza abitativa, per il mercato delle costruzioni e per Expo 2015”, pubblicato sulla G.U. in data 28.03.2014 ed entrato in vigore il 29.03.2014, articolo 5 “Lotta all'occupazione abusiva”\nIscrizione anagrafica dei cittadini stranieri extra UE\nConvenzione dell'Aja, 1961\n- D.L. 28.03.2014, n. 47 “Misure urgenti per emergenza abitativa, per il mercato delle costruzioni e per Expo 2015”, pubblicato sulla G.U. in data 28.03.2014 ed entrato in vigore il 29.03.2014, articolo 5 “Lotta all'occupazione abusiva”\nRichiesta della cittadinanza italiana\n- Legge n. 91 del 5/2/1992, nota come Legge Martelli\n- Legge n. 379 del 14/2/2000\n- Decreto Ministeriale o Decreto del Presidente della Repubblica indicazioni della Prefettura di Milano del 27 maggio 2013\nRinnovo dichiarazione dimora abituale per cittadini extracomunitari\n- Art. 7, comma 3, D.P.R. 30 maggio 1989, n. 223 come sostituito dall'articolo 15, comma 2, D.P.R. 31 agosto 1999, n. 394\nServizi correlati\nCambio di residenza\nRichiedi\nAttestazione di soggiorno per cittadini UE non italiani e britannici\nScarica il modulo\nResidenzaMi - residenza anagrafica per persone senza dimora",
+ "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza-per-persone-straniere-provenienti-dall-estero",
+ "lingua": "it",
+ "aggiornato_il": "2026-07-27",
+ "aggiornato_il_fonte": "pagina ('Ultimo aggiornamento')",
+ "recuperato_il": "2026-10-03T13:09:34+02:00",
+ "link": [
+  {
+   "testo": "Richiedi",
+   "url": "https://formshd4.comune.milano.it/rwe2/module_preview.jsp?MODULE_TAG=MOD_DDR_ESTERO"
+  },
+  {
+   "testo": "modulistica e i documenti",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/richiesta-di-residenza-per-persone-straniere-provenienti-dall-estero/modulistica-richiesta-di-residenza-per-persone-straniere-provenienti-dall-estero"
+  },
+  {
+   "testo": "Cambio di residenza",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/cambio-di-residenza"
+  },
+  {
+   "testo": "Richiedi",
+   "url": "https://www.anagrafenazionale.interno.it/servizi-al-cittadino/"
+  },
+  {
+   "testo": "Attestazione di soggiorno per cittadini UE non italiani e britannici",
+   "url": "https://www.comune.milano.it/servizi/anagrafe/attestazione-di-soggiorno-per-cittadini-ue-non-italiani-e-britannici"
+  },
+  {
+   "testo": "Scarica il modulo",
+   "url": "https://www.comune.milano.it/documents/20118/42160/Attestazioni+di+soggiorno+per+stranieri.zip/9e625af3-9d27-2633-5b0d-c574c458b5d1?t=1743091608250"
+  },
+  {
+   "testo": "ResidenzaMi - residenza anagrafica per persone senza dimora",
+   "url": "https://www.comune.milano.it/servizi/welfare/residenzami-residenza-anagrafica-per-persone-senza-dimora"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+  "_nota": "Fonti non presenti nell'indice locale delle FAQ. Testi citati letteralmente dalle pagine scaricate il 3/10/2026 (Normattiva e Prefettura rispondono a un client dichiarato). L'Allegato A e' un PDF su www.comune.milano.it, che il WAF blocca ai client automatici: qui c'e' solo una nota di lettura fatta da browser il 3/10/2026, non il testo integrale.",
+  "fonti": [
+    {
+      "id": "dpr394-art45",
+      "tipo": "norma",
+      "titolo": "DPR 31 agosto 1999, n. 394, art. 45 - Iscrizione scolastica",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:1999-08-31;394~art45",
+      "aggiornato_il": "2026-10-01",
+      "aggiornato_il_nota": "Normattiva: 'Testo in vigore dal: 1-10-2026'",
+      "recuperato_il": "2026-10-03",
+      "ente": "Scuola (Ministero dell'Istruzione e del Merito)",
+      "testo": "1. I minori stranieri presenti sul territorio nazionale hanno diritto all'istruzione indipendentemente dalla regolarità della posizione in ordine al loro soggiorno, nelle forme e nei modi previsti per i cittadini italiani. Essi sono soggetti all'obbligo scolastico secondo le disposizioni vigenti in materia. L'iscrizione dei minori stranieri nelle scuole italiane di ogni ordine e grado avviene nei modi e alle condizioni previsti per i minori italiani. Essa può essere richiesta in qualunque periodo dell'anno scolastico. I minori stranieri privi di documentazione anagrafica ovvero in possesso di documentazione irregolare o incompleta sono iscritti con riserva."
+    },
+    {
+      "id": "prefettura-ricongiungimento",
+      "tipo": "fonte_esterna",
+      "titolo": "Prefettura - Immigrazione: ricongiungimenti familiari (nulla osta)",
+      "url": "https://prefettura.interno.gov.it/it/prefetture/monza-e-brianza/immigrazione-ricongiungimenti-familiari",
+      "aggiornato_il": "",
+      "aggiornato_il_nota": "La pagina non riporta una data di aggiornamento leggibile",
+      "recuperato_il": "2026-10-03",
+      "ente": "Prefettura (Sportello Unico per l'Immigrazione)",
+      "testo": "La materia viene trattata dalla Prefettura di Milano. L'istanza di Nulla Osta si effettua mediante procedura telematica dopo aver generato i moduli informatici attraverso il portale del Ministero dell'Interno: https://portaleservizi.dlci.interno.it attraverso le credenziali SPID. A tal fine, è possibile avvalersi dell'assistenza delle Associazioni nazionali rappresentative dei datori di lavoro, delle Organizzazioni sindacali, e delle Associazioni autorizzate ad accedere al Sistema e quindi a presentare le domande. Al momento dell'inserimento della domanda dovranno essere allegati tutti i documenti utili per lo svolgimento dell'istruttoria."
+    },
+    {
+      "id": "allegato-a-extraue",
+      "tipo": "pagina_comune",
+      "titolo": "Allegato A - Elenco documenti per persone provenienti da Paesi extraUE (PDF, 1 pagina)",
+      "url": "https://www.comune.milano.it/documents/20118/42443/Elenco+documenti+per+persone+provenienti+da+Paesi+extraUE.pdf/f59656a6-d8aa-7960-fc88-60daf732aeb3?version=1.0&t=1743091608057&download=true",
+      "aggiornato_il": "",
+      "aggiornato_il_nota": "Il PDF non riporta una data; letto da browser il 3/10/2026",
+      "recuperato_il": "2026-10-03",
+      "ente": "Anagrafe",
+      "testo": "NOTA DI LETTURA (non testo integrale). Il PDF elenca i documenti per 4 casi di cittadini extra UE che chiedono la residenza arrivando dall'estero. I documenti obbligatori sono marcati con un asterisco (*); quelli con due asterischi (**) servono a registrare il rapporto di parentela. Il codice fiscale compare in tutti e 4 i casi ma SENZA asterisco: non e' marcato come obbligatorio. Il caso 2 riguarda il permesso di soggiorno in rinnovo e non cita la regola dei 60 giorni (che sta in KA-00370). KA-00328 (ricongiungimento) non elenca il codice fiscale, mentre l'Allegato A caso 4 lo elenca senza asterisco: e' un disallineamento minore tra fonti."
+    }
+  ]
+}

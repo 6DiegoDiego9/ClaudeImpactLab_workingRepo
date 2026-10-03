@@ -1,0 +1,25 @@
+{
+  "_descrizione": "Canali umani da offrire sempre (tutela del Manifesto IA del Comune: accesso a un operatore umano). Dati presi dalle FAQ indicate, recuperate il 3/10/2026.",
+  "recuperato_il": "2026-10-03",
+  "canali": [
+    {
+      "id": "welcome_center",
+      "nome": "Milano Welcome Center",
+      "indirizzo": "via Sammartini 75 (M1 Rovereto)",
+      "orari": "lunedi', martedi', giovedi' e venerdi' 9:00-17:00; mercoledi' 9:00-13:00",
+      "accesso": "con o senza appuntamento; non e' necessario avere documenti",
+      "email": "MilanoWelcomeCenter@comune.milano.it",
+      "cosa_fa": "orientamento e accompagnamento per persone straniere (permessi, ricongiungimento, accesso ai servizi)",
+      "fonte": {"id": "KA-02803", "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02803/Milano-Welcome-Center-dove-trovare-informazioni", "aggiornato_il": "2026-03-13"},
+      "pagina": {"url": "https://www.comune.milano.it/servizi/welfare/milano-welcome-center", "aggiornato_il": "2026-06-16"},
+      "depliant_tagalog": "https://www.comune.milano.it/documents/20118/223367/TAGA_MWC_DIGITAL_2025.pdf/0135d07b-e379-b4c1-3f0d-bf5efc7bc835?version=1.0&t=1754385804091&download=true"
+    },
+    {
+      "id": "contact_center",
+      "nome": "Contact Center del Comune",
+      "telefono": "020202",
+      "web": "sezione 'Hai ancora bisogno di aiuto?' nelle pagine dei servizi",
+      "fonte": {"id": "KA-00489", "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00489/Residenza-per-stranieri-dallestero-procedura", "aggiornato_il": "2025-10-02"}
+    }
+  ]
+}

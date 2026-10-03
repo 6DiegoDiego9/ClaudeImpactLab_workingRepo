@@ -1,0 +1,524 @@
+{
+  "catturato_il": "2026-10-03T13:12:37+02:00",
+  "nota": "Esecuzione del loop con client finto (nessuna chiamata a Claude).",
+  "risultato": {
+    "final_text": "{\"risposta\": \"Chiedi la residenza online con il servizio MOD_DDR_ESTERO entro 20 giorni.\", \"fonti\": [\"KA-00489\", \"KA-00534\"]}",
+    "parsed": {
+      "risposta": "Chiedi la residenza online con il servizio MOD_DDR_ESTERO entro 20 giorni.",
+      "fonti": [
+        "KA-00489",
+        "KA-00534"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Arrivo dal Brasile, come prendo la residenza?"
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "Cerco nelle fonti ufficiali."
+          },
+          {
+            "type": "tool_use",
+            "id": "toolu_01",
+            "name": "cerca_fonti_comune",
+            "input": {
+              "query": "iscrizione anagrafica dall'estero",
+              "tipo": "faq"
+            }
+          },
+          {
+            "type": "tool_use",
+            "id": "toolu_02",
+            "name": "sedi_anagrafiche",
+            "input": {}
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_01",
+            "content": "[{\"id\": \"KA-03938\", \"tipo\": \"faq\", \"titolo\": \"Sono una cittadina/un cittadino straniera/o che ha richiesto la residenza. Quanto tempo ci vuole per ottenere l'iscrizione anagrafica?\", \"estratto\": \"Per verificare lo stato della pratica è necessario inviare una richiesta dalla sezione \\\"Hai ancora bisogno di aiuto?\\\".\", \"url\": \"https://servizicrm.comune.milano.it/centro-supporto/KA-03938/Sollecito-prima-iscrizione-cittadini-stranieri\", \"aggiornato_il\": \"2025-11-24\", \"recuperato_il\": \"2026-10-03T13:03:30+02:00\", \"punteggio\": 10.008}, {\"id\": \"KA-03937\", \"tipo\": \"faq\", \"titolo\": \"Sono una cittadina/un cittadino straniero. Ho effettuato il cambio di residenza sul portale del Comune di Milano, ma non risulto ancora residente. Come posso sapere a che punto è la mia pratica?\", \"estratto\": \"Per verificare lo stato della pratica è necessario inviare una richiesta dalla sezione \\\"Hai ancora bisogno di aiuto?\\\".\", \"url\": \"https://servizicrm.comune.milano.it/centro-supporto/KA-03937/Sollecito-iscrizione-anagrafica-stranieri\", \"aggiornato_il\": \"2025-11-25\", \"recuperato_il\": \"2026-10-03T13:03:25+02:00\", \"punteggio\": 9.64}, {\"id\": \"KA-03582\", \"tipo\": \"faq\", \"titolo\": \"Sono un familiare appartenente all’U.E. di una cittadina/cittadino U. E. lavoratore e residente in Italia, quali documenti presentare per l’iscrizione anagrafica?\", \"estratto\": \"Per presentare l'iscrizione anagrafica è necessaria la seguente documentazione:\", \"url\": \"https://servizicrm.comune.milano.it/centro-supporto/KA-03582/Cambio-di-residenza-documenti-cittadini-UE\", \"aggiornato_il\": \"2025-10-30\", \"recuperato_il\": \"2026-10-03T13:05:32+02:00\", \"punteggio\": 7.4}, {\"id\": \"KA-00373\", \"tipo\": \"faq\", \"titolo\": \"Posso fare domanda per l'attestazione di soggiorno (o di iscrizione anagrafica)?\", \"estratto\": \"L'attestazione è rilasciata ai cittadini dell'Unione Europea o provenienti da: - Città del Vaticano - Islanda - Liechtenstein - Norvegia - San Marino - Svizzera - Principato di Andorra - Principato di Monaco\", \"url\": \"https://servizicrm.comune.milano.it/centro-supporto/KA-00373/Chi-puo-richiedere-attestazione-di-soggiorno\", \"aggiornato_il\": \"2025-07-01\", \"recuperato_il\": \"2026-10-03T13:04:18+02:00\", \"punteggio\": 6.714}, {\"id\": \"KA-00325\", \"tipo\": \"faq\", \"titolo\": \"Come controllo lo stato della richiesta del cambio di residenza?\", \"estratto\": \"Accedere alla sezione \\\"le mie informazioni\\\" e da qui selezionare \\\" i miei dati e i miei familiari\\\" ; nel box \\\"dati anagrafici e stato civile\\\" è riportato l'indirizzo di residenza presente nei sistemi anagrafici.\", \"url\": \"https://servizicrm.comune.milano.it/centro-supporto/KA-00325/Verifica-stato-pratica-di-residenza\", \"aggiornato_il\": \"2026-08-13\", \"recuperato_il\": \"2026-10-03T13:01:45+02:00\", \"punteggio\": 6.268}]"
+          },
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_02",
+            "content": "{\"sedi\": [{\"municipio\": \"Municipio 1\", \"indirizzo\": \"(sede via Larga 12) INGRESSO PROVVISORIO da Via Pecorari 3\", \"telefono\": \"Infoline 020202\", \"orari\": \"Orario su appuntamento: dal lun.al ven. dalle 08:30 alle 15:30 Orario prolungato (su appuntamento): giovedì fino alle 19:00; sabato dalle 8:30 alle 11:30\", \"note\": \"Tutti i servizi di sportello sono accessibili esclusivamente su appuntamento prenotando online. I ticket relativi alle urgenze sono erogati fino a mezz'ora precedente la chiusura della sede.\", \"nil\": \"DUOMO\", \"lat\": 45.46184599990516, \"lon\": 9.192323000293767}, {\"municipio\": \"Municipio 2\", \"indirizzo\": \"via Padova 118\", \"telefono\": \"Infoline 020202\", \"orari\": \"Orario su appuntamento: dal lunedi al venerdi dalle 8:30 alle 15:30\", \"note\": \"Tutti i servizi di sportello sono accessibili esclusivamente su appuntamento prenotando online. La prenotazione è accessibile sia con un'utenza SPID che senza necessità di registrazione. I ticket relativi ad urgenze sono erogati fino alla mezz’ora precedente la chiusura sede.\", \"nil\": \"PADOVA - TURRO - CRESCENZAGO\", \"lat\": 45.49658899981122, \"lon\": 9.230720000401659}, {\"municipio\": \"Municipio 3\", \"indirizzo\": \"via Sansovino 9\", \"telefono\": \"Infoline 020202\", \"orari\": \"Orario su appuntamento: dal lunedi al venerdi dalle 8:30 alle 15:30\", \"note\": \"Tutti i servizi di sportello sono accessibili esclusivamente su appuntamento prenotando online. La prenotazione è accessibile sia con un'utenza SPID che senza necessità di registrazione. Tessere elettorali senza appuntamento\", \"nil\": \"BUENOS AIRES - PORTA VENEZIA - PORTA MONFORTE\", \"lat\": 45.47922500031219, \"lon\": 9.218573999819345}, {\"municipio\": \"Municipio 4\", \"indirizzo\": \"via Oglio 18\", \"telefono\": \"Infoline 020202\", \"orari\": \"Orario su appuntamento: dal lunedi al venerdi dalle 8:30 alle 15:30\", \"note\": \"Tutti i servizi di sportello sono accessibili esclusivamente su appuntamento prenotando online. La prenotazione è accessibile sia con un'utenza SPID che senza necessità di registrazione. Tessere elettorali senza appuntamento\", \"nil\": \"LODI - CORVETTO\", \"lat\": 45.44018999998373, \"lon\": 9.218008000104913}, {\"municipio\": \"Municipio 5\", \"indirizzo\": \"viale Tibaldi 41\", \"telefono\": \"Infoline 020202\", \"orari\": \"Orario su appuntamento: dal lunedi al venerdi dalle 8:30 alle 15:30\", \"note\": \"Tutti i servizi di sportello sono accessibili esclusivamente su appuntamento prenotando online. La prenotazione è accessibile sia con un'utenza SPID che senza necessità di registrazione. I ticket relativi ad urgenze sono erogati fino alla mezz’ora precedente la chiusura sede.\", \"nil\": \"PORTA TICINESE - CONCA DEL NAVIGLIO\", \"lat\": 45.444604000168425, \"lon\": 9.183193999677986}, {\"municipio\": \"Municipio 6\", \"indirizzo\": \"via San Paolino 18\", \"telefono\": \"Infoline 020202\", \"orari\": \"Orario su appuntamento: dal lunedi al venerdi dalle 8:30 alle 15:30\", \"note\": \"Tutti i servizi di sportello sono accessibili esclusivamente su appuntamento prenotando online. La prenotazione è accessibile sia con un'utenza SPID che senza necessità di registrazione. I ticket relativi ad urgenze sono erogati fino alla mezz’ora precedente la chiusura sede.\", \"nil\": \"BARONA\", \"lat\": 45.43112314924546, \"lon\": 9.163039566846756}, {\"municipio\": \"Municipio 6\", \"indirizzo\": \"viale Legioni Romane 54\", \"telefono\": \"Infoline 020202\", \"orari\": \"Orario su appuntamento: dal lunedi al venerdi dalle 8:30 alle 15:30\", \"note\": \"Tutti i servizi di sportello sono accessibili esclusivamente su appuntamento prenotando online. La prenotazione è accessibile sia con un'utenza SPID che senza necessità di registrazione. I ticket relativi ad urgenze sono erogati fino alla mezz’ora precedente la chiusura sede.\", \"nil\": \"FORZE ARMATE\", \"lat\": 45.459548999872624, \"lon\": 9.127471000445809}, {\"municipio\": \"Municipio 7\", \"indirizzo\": \"piazza Stovani 3\", \"telefono\": \"Infoline 020202\", \"orari\": \"Orario su appuntamento: dal lunedi al venerdi dalle 8:30 alle 15:30.\", \"note\": \"Tutti i servizi di sportello sono accessibili esclusivamente su appuntamento prenotando online. La prenotazione è accessibile sia con un'utenza SPID che senza necessità di registrazione. I ticket relativi ad urgenze sono erogati fino alla mezz’ora precedente la chiusura sede.\", \"nil\": \"BAGGIO - Q.RE DEGLI OLMI - Q.RE VALSESIA\", \"lat\": 45.460589999893024, \"lon\": 9.09251800010174}, {\"municipio\": \"Municipio 8\", \"indirizzo\": \"via Quarenghi 21\", \"telefono\": \"Infoline 020202\", \"orari\": \"Orario su appuntamento: dal lunedi al venerdi dalle 8:30 alle 15:30\", \"note\": \"Tutti i servizi di sportello sono accessibili esclusivamente su appuntamento prenotando online. La prenotazione è accessibile sia con un'utenza SPID che senza necessità di registrazione. Tessere elettorali senza appuntamento\", \"nil\": \"Q.RE GALLARATESE - Q.RE SAN LEONARDO - LAMPUGNANO\", \"lat\": 45.49625100024309, \"lon\": 9.115161999656863}, {\"municipio\": \"Municipio 8\", \"indirizzo\": \"piazzale Accursio 5\", \"telefono\": \"Infoline 020202\", \"orari\": \"Orario su appuntamento: dal lunedi al venerdi dalle 8:30 alle 15:30\", \"note\": \"Tutti i servizi di sportello sono accessibili esclusivamente su appuntamento prenotando online. La prenotazione è accessibile sia con un'utenza SPID che senza necessità di registrazione. I ticket relativi ad urgenze sono erogati fino alla mezz’ora precedente la chiusura sede.\", \"nil\": \"VILLAPIZZONE - CAGNOLA - BOLDINASCO\", \"lat\": 45.491438999825235, \"lon\": 9.146148000180409}, {\"municipio\": \"Municipio 9\", \"indirizzo\": \"Largo De Benedetti 1\", \"telefono\": \"Infoline 020202\", \"orari\": \"Orario su appuntamento: dal lunedi al venerdi dalle 8:30 alle 15:30\", \"note\": \"Tutti i servizi di sportello sono accessibili esclusivamente su appuntamento prenotando online. La prenotazione è accessibile sia con un'utenza SPID che senza necessità di registrazione.  I ticket relativi ad urgenze sono erogati fino alla mezz’ora precedente la chiusura sede.\", \"nil\": \"ISOLA\", \"lat\": 45.48612300008762, \"lon\": 9.193904000159531}, {\"municipio\": \"Municipio 9\", \"indirizzo\": \"via Baldinucci 76\", \"telefono\": \"Infoline 020202\", \"orari\": \"Orario su appuntamento: dal lunedi al venerdi dalle 8:30 alle 15:30\", \"note\": \"Tutti i servizi di sportello sono accessibili esclusivamente su appuntamento prenotando online. La prenotazione è accessibile sia con un'utenza SPID che senza necessità di registrazione.  I ticket relativi ad urgenze sono erogati fino alla mezz’ora precedente la chiusura sede.\", \"nil\": \"BOVISA\", \"lat\": 45.503404000128675, \"lon\": 9.168775999841996}, {\"municipio\": \"\", \"indirizzo\": \"Via Passerini 5\", \"telefono\": \"\", \"orari\": \"solo il lunedì dalle 8:30 alle 12:30 e dalle 14:30 alle 15:30 - lunedì 5 gennaio 2026: CHIUSO\", \"note\": \"\", \"nil\": \"NIGUARDA - CA' GRANDA - PRATO CENTENARO - Q.RE FULVIO TESTI\", \"lat\": 45.51542898156959, \"lon\": 9.193187430227072}], \"fonte\": \"https://dati.comune.milano.it/dataset/ds549-sedi-dei-servizi-anagrafici\", \"resource_id\": \"48b24517-765e-4f6f-8b30-9094a212eb85\", \"recuperato_il\": \"2026-10-03T13:12:37+02:00\", \"da_cache\": false, \"avviso\": null}"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "tool_use",
+            "id": "toolu_03",
+            "name": "leggi_faq",
+            "input": {
+              "ka": "KA-99999"
+            }
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_03",
+            "content": "Errore nel tool leggi_faq: LookupError: FAQ KA-99999 non presente nell'indice locale.",
+            "is_error": true
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"risposta\": \"Chiedi la residenza online con il servizio MOD_DDR_ESTERO entro 20 giorni.\", \"fonti\": [\"KA-00489\", \"KA-00534\"]}"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "tipo": "error",
+        "nome": "fallbacks",
+        "input": null,
+        "output_sintesi": "Fallback sui rifiuti non accettato (400): riprovo senza. fallbacks: parametro non supportato (simulato)",
+        "ms": null
+      },
+      {
+        "tipo": "assistant_text",
+        "nome": null,
+        "input": null,
+        "output_sintesi": "Cerco nelle fonti ufficiali.",
+        "ms": 4032
+      },
+      {
+        "tipo": "tool_call",
+        "nome": "cerca_fonti_comune",
+        "input": {
+          "query": "iscrizione anagrafica dall'estero",
+          "tipo": "faq"
+        },
+        "output_sintesi": null,
+        "ms": null
+      },
+      {
+        "tipo": "tool_result",
+        "nome": "cerca_fonti_comune",
+        "input": {
+          "query": "iscrizione anagrafica dall'estero",
+          "tipo": "faq"
+        },
+        "output_sintesi": "[{\"id\": \"KA-03938\", \"tipo\": \"faq\", \"titolo\": \"Sono una cittadina/un cittadino straniera/o che ha richiesto la residenza. Quanto tempo ci vuole per ottenere l'iscrizione anagrafica?\", \"estratto\": \"Per verificare lo stato della pratica è necessario inviare una richiesta dalla sezione \\\"Hai ancora bis…",
+        "ms": 10
+      },
+      {
+        "tipo": "tool_call",
+        "nome": "sedi_anagrafiche",
+        "input": {},
+        "output_sintesi": null,
+        "ms": null
+      },
+      {
+        "tipo": "tool_result",
+        "nome": "sedi_anagrafiche",
+        "input": {},
+        "output_sintesi": "{\"sedi\": [{\"municipio\": \"Municipio 1\", \"indirizzo\": \"(sede via Larga 12) INGRESSO PROVVISORIO da Via Pecorari 3\", \"telefono\": \"Infoline 020202\", \"orari\": \"Orario su appuntamento: dal lun.al ven. dalle 08:30 alle 15:30 Orario prolungato (su appuntamento): giovedì fino alle 19:00; sabato dalle 8:30 a…",
+        "ms": 532
+      },
+      {
+        "tipo": "tool_call",
+        "nome": "leggi_faq",
+        "input": {
+          "ka": "KA-99999"
+        },
+        "output_sintesi": null,
+        "ms": null
+      },
+      {
+        "tipo": "tool_result",
+        "nome": "leggi_faq",
+        "input": {
+          "ka": "KA-99999"
+        },
+        "output_sintesi": "[ERRORE] Errore nel tool leggi_faq: LookupError: FAQ KA-99999 non presente nell'indice locale.",
+        "ms": 11
+      },
+      {
+        "tipo": "assistant_text",
+        "nome": null,
+        "input": null,
+        "output_sintesi": "{\"risposta\": \"Chiedi la residenza online con il servizio MOD_DDR_ESTERO entro 20 giorni.\", \"fonti\": [\"KA-00489\", \"KA-00534\"]}",
+        "ms": 0
+      }
+    ],
+    "usage": {
+      "input_tokens": 3000,
+      "output_tokens": 300,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2400
+    },
+    "model": "claude-opus-5-5",
+    "stop_reason": "end_turn",
+    "errore": null
+  },
+  "chiamate_api": [
+    {
+      "endpoint": "beta",
+      "betas": [
+        "server-side-fallback-2026-07-01"
+      ],
+      "fallbacks": "default"
+    },
+    {
+      "endpoint": "messages",
+      "model": "claude-opus-5-5",
+      "max_tokens": 16000,
+      "output_config": {
+        "effort": "high",
+        "format": {
+          "type": "json_schema",
+          "schema": {
+            "type": "object",
+            "properties": {
+              "risposta": {
+                "type": "string"
+              },
+              "fonti": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "risposta",
+              "fonti"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "system": "Sei un assistente dello sportello.",
+      "tools": [
+        {
+          "name": "cerca_fonti_comune",
+          "strict": true,
+          "description": "Cerca nelle fonti ufficiali salvate (FAQ del Centro Supporto del Comune di Milano, pagine di servizio di comune.milano.it, guide YesMilano in inglese). Scrivi la query IN ITALIANO con parole da sportello (es. 'iscrizione anagrafica dall'estero', 'dichiarazione TARI nuova occupazione', 'carta d'identita cittadino extra UE'). Ogni risultato ha id, url e data di aggiornamento della fonte: citali sempre.",
+          "input_schema": {
+            "type": "object",
+            "properties": {
+              "query": {
+                "type": "string",
+                "description": "Domanda riformulata in italiano"
+              },
+              "tipo": {
+                "type": "string",
+                "enum": [
+                  "tutti",
+                  "faq",
+                  "pagina_comune",
+                  "guida_yesmilano"
+                ],
+                "description": "Filtra per tipo di fonte; 'tutti' per cercare ovunque"
+              }
+            },
+            "required": [
+              "query",
+              "tipo"
+            ],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "leggi_faq",
+          "strict": true,
+          "description": "Legge il testo completo di una FAQ ufficiale del Comune dato il codice KA (es. 'KA-00489').",
+          "input_schema": {
+            "type": "object",
+            "properties": {
+              "ka": {
+                "type": "string",
+                "description": "Codice FAQ, es. KA-00489"
+              }
+            },
+            "required": [
+              "ka"
+            ],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "leggi_documento",
+          "strict": true,
+          "description": "Legge il testo completo di un documento dell'indice locale dato il suo id (restituito da cerca_fonti_comune).",
+          "input_schema": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "sedi_anagrafiche",
+          "strict": true,
+          "description": "Elenco delle sedi anagrafiche del Comune (open data ds549): indirizzo, orari, note di accesso.",
+          "input_schema": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": false
+          }
+        }
+      ],
+      "cache_control": {
+        "type": "ephemeral"
+      },
+      "n_messaggi": 1,
+      "ultimo_ruolo": "user"
+    },
+    {
+      "endpoint": "messages",
+      "model": "claude-opus-5-5",
+      "max_tokens": 16000,
+      "output_config": {
+        "effort": "high",
+        "format": {
+          "type": "json_schema",
+          "schema": {
+            "type": "object",
+            "properties": {
+              "risposta": {
+                "type": "string"
+              },
+              "fonti": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "risposta",
+              "fonti"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "system": "Sei un assistente dello sportello.",
+      "tools": [
+        {
+          "name": "cerca_fonti_comune",
+          "strict": true,
+          "description": "Cerca nelle fonti ufficiali salvate (FAQ del Centro Supporto del Comune di Milano, pagine di servizio di comune.milano.it, guide YesMilano in inglese). Scrivi la query IN ITALIANO con parole da sportello (es. 'iscrizione anagrafica dall'estero', 'dichiarazione TARI nuova occupazione', 'carta d'identita cittadino extra UE'). Ogni risultato ha id, url e data di aggiornamento della fonte: citali sempre.",
+          "input_schema": {
+            "type": "object",
+            "properties": {
+              "query": {
+                "type": "string",
+                "description": "Domanda riformulata in italiano"
+              },
+              "tipo": {
+                "type": "string",
+                "enum": [
+                  "tutti",
+                  "faq",
+                  "pagina_comune",
+                  "guida_yesmilano"
+                ],
+                "description": "Filtra per tipo di fonte; 'tutti' per cercare ovunque"
+              }
+            },
+            "required": [
+              "query",
+              "tipo"
+            ],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "leggi_faq",
+          "strict": true,
+          "description": "Legge il testo completo di una FAQ ufficiale del Comune dato il codice KA (es. 'KA-00489').",
+          "input_schema": {
+            "type": "object",
+            "properties": {
+              "ka": {
+                "type": "string",
+                "description": "Codice FAQ, es. KA-00489"
+              }
+            },
+            "required": [
+              "ka"
+            ],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "leggi_documento",
+          "strict": true,
+          "description": "Legge il testo completo di un documento dell'indice locale dato il suo id (restituito da cerca_fonti_comune).",
+          "input_schema": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "sedi_anagrafiche",
+          "strict": true,
+          "description": "Elenco delle sedi anagrafiche del Comune (open data ds549): indirizzo, orari, note di accesso.",
+          "input_schema": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": false
+          }
+        }
+      ],
+      "cache_control": {
+        "type": "ephemeral"
+      },
+      "n_messaggi": 3,
+      "ultimo_ruolo": "user"
+    },
+    {
+      "endpoint": "messages",
+      "model": "claude-opus-5-5",
+      "max_tokens": 16000,
+      "output_config": {
+        "effort": "high",
+        "format": {
+          "type": "json_schema",
+          "schema": {
+            "type": "object",
+            "properties": {
+              "risposta": {
+                "type": "string"
+              },
+              "fonti": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "risposta",
+              "fonti"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "system": "Sei un assistente dello sportello.",
+      "tools": [
+        {
+          "name": "cerca_fonti_comune",
+          "strict": true,
+          "description": "Cerca nelle fonti ufficiali salvate (FAQ del Centro Supporto del Comune di Milano, pagine di servizio di comune.milano.it, guide YesMilano in inglese). Scrivi la query IN ITALIANO con parole da sportello (es. 'iscrizione anagrafica dall'estero', 'dichiarazione TARI nuova occupazione', 'carta d'identita cittadino extra UE'). Ogni risultato ha id, url e data di aggiornamento della fonte: citali sempre.",
+          "input_schema": {
+            "type": "object",
+            "properties": {
+              "query": {
+                "type": "string",
+                "description": "Domanda riformulata in italiano"
+              },
+              "tipo": {
+                "type": "string",
+                "enum": [
+                  "tutti",
+                  "faq",
+                  "pagina_comune",
+                  "guida_yesmilano"
+                ],
+                "description": "Filtra per tipo di fonte; 'tutti' per cercare ovunque"
+              }
+            },
+            "required": [
+              "query",
+              "tipo"
+            ],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "leggi_faq",
+          "strict": true,
+          "description": "Legge il testo completo di una FAQ ufficiale del Comune dato il codice KA (es. 'KA-00489').",
+          "input_schema": {
+            "type": "object",
+            "properties": {
+              "ka": {
+                "type": "string",
+                "description": "Codice FAQ, es. KA-00489"
+              }
+            },
+            "required": [
+              "ka"
+            ],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "leggi_documento",
+          "strict": true,
+          "description": "Legge il testo completo di un documento dell'indice locale dato il suo id (restituito da cerca_fonti_comune).",
+          "input_schema": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "sedi_anagrafiche",
+          "strict": true,
+          "description": "Elenco delle sedi anagrafiche del Comune (open data ds549): indirizzo, orari, note di accesso.",
+          "input_schema": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": false
+          }
+        }
+      ],
+      "cache_control": {
+        "type": "ephemeral"
+      },
+      "n_messaggi": 5,
+      "ultimo_ruolo": "user"
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "catturato_il": "2026-10-03T13:12:19+02:00",
+  "endpoint": "https://www.comune.milano.it/o/crmsearch-service/knowledgeArticles",
+  "parametri": "top, searchType=semantic, formatInput=true, category=, textSearch",
+  "esito_ua_dichiarato": "bloccato: https://www.comune.milano.it/o/crmsearch-service/knowledgeArticles: HTTP 403 (bloccato dal WAF); nessuna copia in cache.",
+  "nota": "Cattura una tantum con UA da browser (il WAF blocca lo UA dichiarato). Serve a confrontare la ricerca del Comune nelle varie lingue.",
+  "risultati": {
+    "residenza_it": {
+      "domanda": "residenza a Milano per chi arriva dall'estero",
+      "lingua": "it",
+      "tema": "residenza",
+      "ka_attesi": [
+        "KA-00330",
+        "KA-00489"
+      ],
+      "trovato_atteso": true,
+      "posizione_atteso": 1,
+      "risultati": [
+        {
+          "ka": "KA-00330",
+          "domanda": "Come chiedere/cambiare residenza?",
+          "estratto_risposta": "Le cittadine e i cittadini italiani, Aire o stranieri ma già residenti in Italia, devono presentare la richiesta all'Ufficio Anagrafe entro 20 giorni dalla data di trasferimento la nuova residenza tramite il servizio online . Le cittadine e i cittadini stranieri provenienti dall'estero devono presentare domanda tramite il servizio dedicato Qualora la richiesta venga presentata previo appuntamento allo sportello, è necessaria la presenza di tutte le persone maggiorenni del nucleo familiare interessato alla pratica. Nel caso in cui una persona maggiorenne non possa essere presente, dovrà…",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00330/Richiestacambio-residenza-come-procedere",
+          "categoria": "/servizi/anagrafe/cambio-di-residenza",
+          "recuperato_il": "2026-10-03T13:11:58+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-00860",
+          "domanda": "Come funziona la priorità nell’assegnazione dei posti per Estate Vacanza?",
+          "estratto_risposta": "I residenti del Comune di Milano hanno priorità sui non residenti a Milano.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00860/Estate-Vacanza-priorita-assegnazione-posti",
+          "categoria": "/servizi/scuola/estate-vacanza",
+          "recuperato_il": "2026-10-03T13:11:58+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-00662",
+          "domanda": "Come sposto la residenza all'estero se sono una cittadina straniera/un cittadino straniero?",
+          "estratto_risposta": "I cittadini stranieri che devono spostare la residenza all'estero devono inviare una PEC a servizidemografici@pec.comune.milano.it indicando nell'oggetto del messaggio la sigla STR. È necessario inviare in allegato: - la scansione della documentazione richiesta e sottoscritta - la copia del documento di identità del richiedente.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00662/Spostamento-residenza-allestero-per-stranieri",
+          "categoria": "/servizi/anagrafe/trasferimento-di-residenza-all-estero-per-persone-straniere",
+          "recuperato_il": "2026-10-03T13:11:58+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-03252",
+          "domanda": "Chi può accedere al servizio ResidenzaMi?",
+          "estratto_risposta": "Possono accedere al servizio ResidenzaMi solo le persone che si trovano in queste condizioni: - Persone senza fissa dimora : chi non abbia in alcun comune quella dimora abituale che è elemento necessario per l’accertamento della residenza (girovaghi, artisti delle imprese spettacoli viaggianti, commercianti e artigiani ambulanti, ecc.); orbene, per tali persone si è adottato il criterio dell’iscrizione nel Comune di domicilio” A questi vengono equiparati: 1. Senza tetto/senza casa : persone che vivono in strada, soggiornanti di volta in volta in luoghi diversi, in sistemazioni di fortuna…",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03252/ResidenzaMi-a-chi-si-rivolge",
+          "categoria": "/servizi/welfare/residenzami-residenza-anagrafica-per-persone-senza-dimora",
+          "recuperato_il": "2026-10-03T13:11:58+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-00597",
+          "domanda": "Come cambio residenza se sono una cittadina straniera/un cittadino straniero proveniente da altro comune o da altro indirizzo a Milano?",
+          "estratto_risposta": "Comunicare all'Ufficio Anagrafe entro 20 giorni dalla data di trasferimento tramite il servizio online Qualora la richiesta venga presentata previo appuntamento allo sportello, è necessaria la presenza di tutte le persone maggiorenni del nucleo familiare interessato alla pratica. Nel caso in cui una persona maggiorenne non possa essere presente, dovrà delegare con procura speciale la persona che si presenta. Inoltre, se la richiesta comporta l'aggregazione nello stesso stato di famiglia di una persona già residente al medesimo indirizzo, è richiesto l'assenso dell'aggregante. I moduli per la…",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00597/Cambio-residenza-per-stranieri-gia-in-Italia",
+          "categoria": "/servizi/anagrafe/cambio-di-residenza",
+          "recuperato_il": "2026-10-03T13:11:58+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        }
+      ]
+    },
+    "residenza_en": {
+      "domanda": "how do I register my residence in Milan coming from abroad",
+      "lingua": "en",
+      "tema": "residenza",
+      "ka_attesi": [
+        "KA-00330",
+        "KA-00489"
+      ],
+      "trovato_atteso": true,
+      "posizione_atteso": 4,
+      "risultati": [
+        {
+          "ka": "KA-00662",
+          "domanda": "Come sposto la residenza all'estero se sono una cittadina straniera/un cittadino straniero?",
+          "estratto_risposta": "I cittadini stranieri che devono spostare la residenza all'estero devono inviare una PEC a servizidemografici@pec.comune.milano.it indicando nell'oggetto del messaggio la sigla STR. È necessario inviare in allegato: - la scansione della documentazione richiesta e sottoscritta - la copia del documento di identità del richiedente.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00662/Spostamento-residenza-allestero-per-stranieri",
+          "categoria": "/servizi/anagrafe/trasferimento-di-residenza-all-estero-per-persone-straniere",
+          "recuperato_il": "2026-10-03T13:12:01+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-00595",
+          "domanda": "Come si fa domanda per il domicilio temporaneo per studenti e lavoratori distaccati?",
+          "estratto_risposta": "Inviare una mail a DSC.AnagrafeVariazioni@comune.milano.it allegando: - la dichiarazione firmata dove vanno indicati i dati anagrafici - l’indirizzo di Milano in cui ci si vuole iscrivere - il Comune di residenza - il documento di identità L'iscrizione dura 1 anno. La residenza nell'altro comune rimane sempre attiva. Non è possibile fare domanda se si è già residenti a Milano.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00595/Domicilio-temporaneo-per-studenti-e-lavoratori",
+          "categoria": "/servizi/anagrafe/cambio-di-residenza",
+          "recuperato_il": "2026-10-03T13:12:01+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-00597",
+          "domanda": "Come cambio residenza se sono una cittadina straniera/un cittadino straniero proveniente da altro comune o da altro indirizzo a Milano?",
+          "estratto_risposta": "Comunicare all'Ufficio Anagrafe entro 20 giorni dalla data di trasferimento tramite il servizio online Qualora la richiesta venga presentata previo appuntamento allo sportello, è necessaria la presenza di tutte le persone maggiorenni del nucleo familiare interessato alla pratica. Nel caso in cui una persona maggiorenne non possa essere presente, dovrà delegare con procura speciale la persona che si presenta. Inoltre, se la richiesta comporta l'aggregazione nello stesso stato di famiglia di una persona già residente al medesimo indirizzo, è richiesto l'assenso dell'aggregante. I moduli per la…",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00597/Cambio-residenza-per-stranieri-gia-in-Italia",
+          "categoria": "/servizi/anagrafe/cambio-di-residenza",
+          "recuperato_il": "2026-10-03T13:12:01+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-00330",
+          "domanda": "Come chiedere/cambiare residenza?",
+          "estratto_risposta": "Le cittadine e i cittadini italiani, Aire o stranieri ma già residenti in Italia, devono presentare la richiesta all'Ufficio Anagrafe entro 20 giorni dalla data di trasferimento la nuova residenza tramite il servizio online . Le cittadine e i cittadini stranieri provenienti dall'estero devono presentare domanda tramite il servizio dedicato Qualora la richiesta venga presentata previo appuntamento allo sportello, è necessaria la presenza di tutte le persone maggiorenni del nucleo familiare interessato alla pratica. Nel caso in cui una persona maggiorenne non possa essere presente, dovrà…",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00330/Richiestacambio-residenza-come-procedere",
+          "categoria": "/servizi/anagrafe/cambio-di-residenza",
+          "recuperato_il": "2026-10-03T13:12:01+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-00331",
+          "domanda": "Come si ottiene l'attestazione di soggiorno per persone straniere appartenenti a un Paese dell'Unione Europea?",
+          "estratto_risposta": "È necessario inviare i documenti al Comune tramite: PEC: protocollo@postacert.comune.milano.it Posta: Protocollo Generale in Via Larga, 12, 20122 Milano Oppure presentarsi allo sportello in Via Larga, 12 (ingresso da via Pecorari 3) senza appuntamento dal lunedì al venerdì dalle 8:30 alle 12 e dalle 14 alle 15:30. L’attestazione verrà rilasciata entro 30 giorni dalla richiesta.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00331/Richiesta-attestazione-soggiorno-per-stranieri",
+          "categoria": "/servizi/anagrafe/attestazione-di-soggiorno-per-cittadini-ue-non-italiani-e-britannici",
+          "recuperato_il": "2026-10-03T13:12:01+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        }
+      ]
+    },
+    "residenza_tl": {
+      "domanda": "paninirahan sa Milan",
+      "lingua": "tl",
+      "tema": "residenza",
+      "ka_attesi": [
+        "KA-00330",
+        "KA-00489"
+      ],
+      "trovato_atteso": false,
+      "posizione_atteso": null,
+      "risultati": [
+        {
+          "ka": "KA-02514",
+          "domanda": "Gli studenti internazionali possono accedere ai servizi educativi del Comune di Milano?",
+          "estratto_risposta": "Gli studenti stranieri hanno diritto all'istruzione nelle scuole italiane, indipendentemente dalla loro situazione di soggiorno. Il Comune di Milano offre servizi dedicati agli studenti internazionali tramite \"Study in Milan\" e altre iniziative. Possono avere Orientamento e supporto tramite servizi come il CODIS (Contrasto alla dispersione scolastica) dove viene offerto orientamento e supporto agli studenti, inclusi quelli con disabilità.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02514/Accesso-studenti-internazionali-a-servizi-educativi",
+          "categoria": "/servizi/giovani/study-in-milan",
+          "recuperato_il": "2026-10-03T13:12:04+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        }
+      ]
+    },
+    "residenza_ar": {
+      "domanda": "كيف أسجل إقامتي في ميلانو قادماً من الخارج",
+      "lingua": "ar",
+      "tema": "residenza",
+      "ka_attesi": [
+        "KA-00330",
+        "KA-00489"
+      ],
+      "trovato_atteso": false,
+      "posizione_atteso": null,
+      "risultati": [
+        {
+          "ka": "KA-03249",
+          "domanda": "Cos’è ResidenzaMi?",
+          "estratto_risposta": "ResidenzaMi è un servizio gratuito che offre la residenza anagrafica alle persone effettivamente senza alcuna dimora presenti sul territorio del Comune di Milano e che abbiano rapporti consolidati con lo stesso, consentendo loro di accedere ai servizi di welfare, attivare diritti di cittadinanza e ricevere corrispondenza personale.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03249/ResidenzaMi-definizione",
+          "categoria": "/servizi/welfare/residenzami-residenza-anagrafica-per-persone-senza-dimora",
+          "recuperato_il": "2026-10-03T13:12:08+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-03252",
+          "domanda": "Chi può accedere al servizio ResidenzaMi?",
+          "estratto_risposta": "Possono accedere al servizio ResidenzaMi solo le persone che si trovano in queste condizioni: - Persone senza fissa dimora : chi non abbia in alcun comune quella dimora abituale che è elemento necessario per l’accertamento della residenza (girovaghi, artisti delle imprese spettacoli viaggianti, commercianti e artigiani ambulanti, ecc.); orbene, per tali persone si è adottato il criterio dell’iscrizione nel Comune di domicilio” A questi vengono equiparati: 1. Senza tetto/senza casa : persone che vivono in strada, soggiornanti di volta in volta in luoghi diversi, in sistemazioni di fortuna…",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03252/ResidenzaMi-a-chi-si-rivolge",
+          "categoria": "/servizi/welfare/residenzami-residenza-anagrafica-per-persone-senza-dimora",
+          "recuperato_il": "2026-10-03T13:12:08+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-00331",
+          "domanda": "Come si ottiene l'attestazione di soggiorno per persone straniere appartenenti a un Paese dell'Unione Europea?",
+          "estratto_risposta": "È necessario inviare i documenti al Comune tramite: PEC: protocollo@postacert.comune.milano.it Posta: Protocollo Generale in Via Larga, 12, 20122 Milano Oppure presentarsi allo sportello in Via Larga, 12 (ingresso da via Pecorari 3) senza appuntamento dal lunedì al venerdì dalle 8:30 alle 12 e dalle 14 alle 15:30. L’attestazione verrà rilasciata entro 30 giorni dalla richiesta.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00331/Richiesta-attestazione-soggiorno-per-stranieri",
+          "categoria": "/servizi/anagrafe/attestazione-di-soggiorno-per-cittadini-ue-non-italiani-e-britannici",
+          "recuperato_il": "2026-10-03T13:12:08+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-00595",
+          "domanda": "Come si fa domanda per il domicilio temporaneo per studenti e lavoratori distaccati?",
+          "estratto_risposta": "Inviare una mail a DSC.AnagrafeVariazioni@comune.milano.it allegando: - la dichiarazione firmata dove vanno indicati i dati anagrafici - l’indirizzo di Milano in cui ci si vuole iscrivere - il Comune di residenza - il documento di identità L'iscrizione dura 1 anno. La residenza nell'altro comune rimane sempre attiva. Non è possibile fare domanda se si è già residenti a Milano.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00595/Domicilio-temporaneo-per-studenti-e-lavoratori",
+          "categoria": "/servizi/anagrafe/cambio-di-residenza",
+          "recuperato_il": "2026-10-03T13:12:08+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-02525",
+          "domanda": "Che cos’è l’Agenzia Milano Abitare e quale ruolo ha nell’affitto accessibile?",
+          "estratto_risposta": "Milano Abitare è l’agenzia per l’affitto accessibile del Comune di Milano, gestita con Spazio Aperto Servizi e Libellula. Offre orientamento, assistenza e intermediazione gratuite.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02525/Milano-Abitare-affitto-accessibile",
+          "categoria": "/servizi/casa/milano-abitare",
+          "recuperato_il": "2026-10-03T13:12:08+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        }
+      ]
+    },
+    "tari_it": {
+      "domanda": "entro quando presentare la dichiarazione TARI per nuova occupazione",
+      "lingua": "it",
+      "tema": "tari",
+      "ka_attesi": [
+        "KA-02121"
+      ],
+      "trovato_atteso": true,
+      "posizione_atteso": 1,
+      "risultati": [
+        {
+          "ka": "KA-02121",
+          "domanda": "Entro quando devo presentare la dichiarazione per occupazione Tari per acquisto/affitto (locazione)?",
+          "estratto_risposta": "Entro 90 giorni dall'inizio del possesso o detenzione dell'immobile.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02121/Termine-dichiarazione-Tari-per-nuova-occupazione",
+          "categoria": "/servizi/tributi/tari-dichiarazione-di-occupazione-di-appartamenti-e-immobili",
+          "recuperato_il": "2026-10-03T13:12:11+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-02125",
+          "domanda": "Non ho presentato la dichiarazione Tari entro il termine dei 90 giorni dall'inizio occupazione/detenzione: cosa devo fare?",
+          "estratto_risposta": "È possibile regolarizzare la propria posizione tramite dichiarazione tardiva che consente una riduzione delle sanzioni. La dichiarazione tardiva di nuova occupazione si presenta con le stesse modalità della dichiarazione di occupazione ordinaria attraverso il servizio online Le altre modalità possibili sono: - invio del modulo via email all'indirizzo tassarifiuti@comune.milano.it oppure via PEC a tassarifiuti@pec.comune.milano.it indicando nell’oggetto del messaggio: TARI Dichiarazione tardiva (occupazione, variazione o cessazione) - anno del tributo - codice fiscale del soggetto -…",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02125/Mancata-presentazione-dichiarazione-Tari",
+          "categoria": "/servizi/tributi/tari-dichiarazione-tardiva",
+          "recuperato_il": "2026-10-03T13:12:11+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-02047",
+          "domanda": "Ho presentato la dichiarazione di nuova occupazione come persona giuridica, ma non ho ricevuto il bollettino (avviso di pagamento) Tari",
+          "estratto_risposta": "Controllare sul Fascicolo del Cittadino e sulla casella di posta elettronica (anche la cartella spam), se l'avviso non è presente e la dichiarazione è stata presentata nei termini previsti, conservare le ricevute di invio e aspettare: la pratica è in lavorazione. Per presentare la dichiarazione è possibile scaricare il modulo online. Per ricevere ulteriore assistenza consultare la sezione \"Hai ancora bisogno di aiuto?\".",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02047/Mancato-bollettino-Tari-per-nuova-occupazione",
+          "categoria": "/servizi/tributi/tari-dichiarazione-di-nuova-occupazione-per-le-utenze-non-domestiche",
+          "recuperato_il": "2026-10-03T13:12:11+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-02046",
+          "domanda": "Ho presentato la dichiarazione di nuova occupazione come persona fisica, ma non ho ricevuto il bollettino (avviso di pagamento) Tari",
+          "estratto_risposta": "Controllare sul Fascicolo del Cittadino e sulla casella di posta elettronica (anche la cartella spam), se l'avviso non è presente e la dichiarazione è stata presentata nei termini previsti, conservare le ricevute di invio e aspettare: la pratica è in lavorazione. Si possono visualizzare gli immobili in tassa TARI accendendo al fascicolo del cittadino alla sezione Le mie informazioni Immobili Dichiarati TARI Per presentare la dichiarazione, utilizzare il servizio online cliccando nella Home sul tasto \"Nuova dichiarazione di occupazione TARI\". Per ricevere ulteriore assistenza consultare la…",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02046/Avviso-Tari-non-ricevuto-con-dichiarazione-presentata-persona-fisica",
+          "categoria": "/servizi/tributi/tari-dichiarazione-di-occupazione-di-appartamenti-e-immobili",
+          "recuperato_il": "2026-10-03T13:12:11+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-00489",
+          "domanda": "Come chiedo/cambio la residenza se sono una cittadina straniera/un cittadino straniero proveniente dall'estero?",
+          "estratto_risposta": "Comunicare all'Ufficio Anagrafe entro 20 giorni dalla data di trasferimento tramite il servizio dedicato Inoltre, è necessario dichiarare la nuova situazione abitativa ai fini Tari compilando online la dichiarazione di nuova occupazione Per maggiori informazioni rivolgersi al Contact Center tramite la pagina del servizio dedicato \"Hai ancora bisogno di aiuto?\".",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00489/Residenza-per-stranieri-dallestero-procedura",
+          "categoria": "/servizi/anagrafe/cambio-di-residenza-per-persone-straniere-provenienti-dall-estero",
+          "recuperato_il": "2026-10-03T13:12:11+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        }
+      ]
+    },
+    "tari_en": {
+      "domanda": "when do I declare the waste tax",
+      "lingua": "en",
+      "tema": "tari",
+      "ka_attesi": [
+        "KA-02121"
+      ],
+      "trovato_atteso": true,
+      "posizione_atteso": 2,
+      "risultati": [
+        {
+          "ka": "KA-01985",
+          "domanda": "Come posso richiedere la detassazione per il conferimento dei rifiuti a operatori privati?",
+          "estratto_risposta": "La richiesta dovrà riguardare un periodo di almeno due anni e dovrà essere inviata entro il 30 giugno di ogni anno, secondo la seguente procedura da svolgersi online: - inviare la presentazione della richiesta di conferire integralmente o parzialmente i propri rifiuti urbani al di fuori del servizio pubblico (Fase 1) - inviare la documentazione (Fase 2) che dimostri il corretto recupero del rifiuto urbano presso il soggetto terzo abilitato e scelto dal contribuente. In alte rnativa, è necessario scaricare il modulo , compilarlo e inviarlo insieme agli allegati richiesti tramite PEC…",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01985/Detassazione-rifiuti-richiesta-e-scadenze",
+          "categoria": "/servizi/tributi/tari-detassazione-per-conferimento-dei-rifiuti-a-operatori-privati",
+          "recuperato_il": "2026-10-03T13:12:14+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-02121",
+          "domanda": "Entro quando devo presentare la dichiarazione per occupazione Tari per acquisto/affitto (locazione)?",
+          "estratto_risposta": "Entro 90 giorni dall'inizio del possesso o detenzione dell'immobile.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02121/Termine-dichiarazione-Tari-per-nuova-occupazione",
+          "categoria": "/servizi/tributi/tari-dichiarazione-di-occupazione-di-appartamenti-e-immobili",
+          "recuperato_il": "2026-10-03T13:12:14+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-02060",
+          "domanda": "Come posso richiedere la detassazione per i produttori di rifiuti speciali?",
+          "estratto_risposta": "La documentazione per la detassazione deve essere inviata entro il 31 marzo dell’anno successivo all'inizio dell’attività o dell’anno in cui avviene la variazione delle superfici produttive destinate ai rifiuti speciali, secondo la seguente procedura da svolgersi online: - inviare la presentazione della richiesta (Fase 1) - comunicare i quantitativi di rifiuti prodotti nell’anno (Fase 2), distinti per codici EER, allegando la documentazione attestante il recupero e lo smaltimento presso imprese a ciò abilitate. In alternativa è necessario scaricare e compilare il modulo , quindi inviarlo con…",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02060/Detassazione-rifiuti-speciali-come-richiederla",
+          "categoria": "/servizi/tributi/tari-detassazione-per-i-produttori-di-rifiuti-speciali",
+          "recuperato_il": "2026-10-03T13:12:14+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-02150",
+          "domanda": "Quando devo presentare la dichiarazione di cessazione per la Tari per utenze domestiche?",
+          "estratto_risposta": "La dichiarazione di cessazione deve essere presentata entro il bimestre in cui si verifica la cessazione dell'uso dell'immobile. Se non viene presentata, si continuerà a ricevere l’avviso di pagamento della Tari per l'immobile non occupato e si dovrà documentare il rilascio dei locali. In caso di cessazione entro il bimestre di effettivo rilascio dei locali si suggerisce di utilizzare il servizio on line In caso di cessazione tardiva è necessario presentare il modulo di cessazione compilato e completo di documento di identità del dichiarante, allegando uno dei seguenti documenti: -…",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02150/Quando-presentare-cessazione-TARI-utenze-domestiche",
+          "categoria": "/servizi/tributi/tari-dichiarazione-di-cessazione-di-occupazione-di-appartamenti-e-immobili",
+          "recuperato_il": "2026-10-03T13:12:14+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-01935",
+          "domanda": "Quando devo presentare la dichiarazione di cessazione per la Tari di utenze non domestiche?",
+          "estratto_risposta": "La dichiarazione di cessazione deve essere presentata entro il bimestre in cui si verifica la cessazione dell'uso dell'immobile. Se non viene presentata, si continuerà a ricevere l’avviso di pagamento della Tari per l'immobile non occupato e si dovrà documentare il rilascio dei locali. In caso di cessazione entro il bimestre di effettivo rilascio dei locali si suggerisce di utilizzare il servizio on line In caso di cessazione tardiva è necessario presentare il modulo di cessazione compilato e completo di documento di identità del legale rappresentante, allegando uno dei seguenti documenti: -…",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-01935/Quando-presentare-cessazione-TARI-utenze-non-domestiche",
+          "categoria": "/servizi/tributi/tari-dichiarazione-di-cessazione-per-le-utenze-non-domestiche",
+          "recuperato_il": "2026-10-03T13:12:14+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        }
+      ]
+    },
+    "tari_ar": {
+      "domanda": "متى يجب أن أقدم إقرار ضريبة النفايات",
+      "lingua": "ar",
+      "tema": "tari",
+      "ka_attesi": [
+        "KA-02121"
+      ],
+      "trovato_atteso": false,
+      "posizione_atteso": null,
+      "risultati": [
+        {
+          "ka": "KA-03249",
+          "domanda": "Cos’è ResidenzaMi?",
+          "estratto_risposta": "ResidenzaMi è un servizio gratuito che offre la residenza anagrafica alle persone effettivamente senza alcuna dimora presenti sul territorio del Comune di Milano e che abbiano rapporti consolidati con lo stesso, consentendo loro di accedere ai servizi di welfare, attivare diritti di cittadinanza e ricevere corrispondenza personale.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03249/ResidenzaMi-definizione",
+          "categoria": "/servizi/welfare/residenzami-residenza-anagrafica-per-persone-senza-dimora",
+          "recuperato_il": "2026-10-03T13:12:19+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-03252",
+          "domanda": "Chi può accedere al servizio ResidenzaMi?",
+          "estratto_risposta": "Possono accedere al servizio ResidenzaMi solo le persone che si trovano in queste condizioni: - Persone senza fissa dimora : chi non abbia in alcun comune quella dimora abituale che è elemento necessario per l’accertamento della residenza (girovaghi, artisti delle imprese spettacoli viaggianti, commercianti e artigiani ambulanti, ecc.); orbene, per tali persone si è adottato il criterio dell’iscrizione nel Comune di domicilio” A questi vengono equiparati: 1. Senza tetto/senza casa : persone che vivono in strada, soggiornanti di volta in volta in luoghi diversi, in sistemazioni di fortuna…",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-03252/ResidenzaMi-a-chi-si-rivolge",
+          "categoria": "/servizi/welfare/residenzami-residenza-anagrafica-per-persone-senza-dimora",
+          "recuperato_il": "2026-10-03T13:12:19+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-00331",
+          "domanda": "Come si ottiene l'attestazione di soggiorno per persone straniere appartenenti a un Paese dell'Unione Europea?",
+          "estratto_risposta": "È necessario inviare i documenti al Comune tramite: PEC: protocollo@postacert.comune.milano.it Posta: Protocollo Generale in Via Larga, 12, 20122 Milano Oppure presentarsi allo sportello in Via Larga, 12 (ingresso da via Pecorari 3) senza appuntamento dal lunedì al venerdì dalle 8:30 alle 12 e dalle 14 alle 15:30. L’attestazione verrà rilasciata entro 30 giorni dalla richiesta.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00331/Richiesta-attestazione-soggiorno-per-stranieri",
+          "categoria": "/servizi/anagrafe/attestazione-di-soggiorno-per-cittadini-ue-non-italiani-e-britannici",
+          "recuperato_il": "2026-10-03T13:12:19+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-00595",
+          "domanda": "Come si fa domanda per il domicilio temporaneo per studenti e lavoratori distaccati?",
+          "estratto_risposta": "Inviare una mail a DSC.AnagrafeVariazioni@comune.milano.it allegando: - la dichiarazione firmata dove vanno indicati i dati anagrafici - l’indirizzo di Milano in cui ci si vuole iscrivere - il Comune di residenza - il documento di identità L'iscrizione dura 1 anno. La residenza nell'altro comune rimane sempre attiva. Non è possibile fare domanda se si è già residenti a Milano.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-00595/Domicilio-temporaneo-per-studenti-e-lavoratori",
+          "categoria": "/servizi/anagrafe/cambio-di-residenza",
+          "recuperato_il": "2026-10-03T13:12:19+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        },
+        {
+          "ka": "KA-02525",
+          "domanda": "Che cos’è l’Agenzia Milano Abitare e quale ruolo ha nell’affitto accessibile?",
+          "estratto_risposta": "Milano Abitare è l’agenzia per l’affitto accessibile del Comune di Milano, gestita con Spazio Aperto Servizi e Libellula. Offre orientamento, assistenza e intermediazione gratuite.",
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02525/Milano-Abitare-affitto-accessibile",
+          "categoria": "/servizi/casa/milano-abitare",
+          "recuperato_il": "2026-10-03T13:12:19+02:00",
+          "da_cache": false,
+          "fonte": "live_comune"
+        }
+      ]
+    }
+  }
+}
